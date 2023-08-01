@@ -777,6 +777,7 @@ namespace Client.MirObjects
                         break;
                     }
 
+                    // 人物行走
                     var i = 0;
                     if (CurrentAction == MirAction.MountRunning) i = 3;
                     else if (CurrentAction == MirAction.Running) 

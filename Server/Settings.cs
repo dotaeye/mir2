@@ -187,6 +187,11 @@ namespace Server
 
         public static string CreatureBlackStoneName = "BlackCreatureStone";
 
+
+        // 新增设定
+
+        public static int StartingMapIndex = 1;
+
         //Fishing Settings
         public static int FishingAttempts = 30;
         public static int FishingSuccessStart = 10;

@@ -115,6 +115,7 @@ namespace Server.MirDatabase
             Gender = p.Gender;
             Heroes = new HeroInfo[MaximumHeroCount];
 
+            CurrentMapIndex = Settings.StartingMapIndex;
             CreationIP = c.IPAddress;
             CreationDate = Envir.Now;
         }

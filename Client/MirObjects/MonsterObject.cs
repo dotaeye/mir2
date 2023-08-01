@@ -363,6 +363,7 @@ namespace Client.MirObjects
                         Movement = CurrentLocation;
                         break;
                     }
+                    // 不同行为对应不同的移动速度，移动速度影响的是移动的单元格子数量
                     int i = CurrentAction == MirAction.Running ? 2 : 1;
 
                     if (CurrentAction == MirAction.Jump) i = -JumpDistance;
@@ -370,15 +371,19 @@ namespace Client.MirObjects
 
                     Movement = Functions.PointMove(CurrentLocation, Direction, CurrentAction == MirAction.Pushed ? 0 : -i);
 
+                    // 当前移动需要的帧数总和
                     int count = Frame.Count;
+                    // 当前播放帧数的Index
                     int index = FrameIndex;
 
+                    // 特殊行为单独设定？
                     if (CurrentAction == MirAction.DashR || CurrentAction == MirAction.DashL)
                     {
                         count = 3;
                         index %= 3;
                     }
 
+                    // 计算
                     switch (Direction)
                     {
                         case MirDirection.Up:

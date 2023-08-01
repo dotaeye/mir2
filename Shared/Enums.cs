@@ -720,56 +720,55 @@ public enum Monster : ushort
 
 public enum MirAction : byte
 {
-    Standing,
-    Walking,
-    Running,
-    Pushed,
-    DashL,
-    DashR,
-    DashFail,
-    Stance,
-    Stance2,
-    Attack1,
-    Attack2,
-    Attack3,
-    Attack4,
-    Attack5,
-    AttackRange1,
-    AttackRange2,
-    AttackRange3,
-    Special,
-    Struck,
-    Harvest,
-    Spell,
-    Die,
-    Dead,
-    Skeleton,
-    Show,
-    Hide,
-    Stoned,
-    Appear,
-    Revive,
-    SitDown,
-    Mine,
-    Sneek,
-    DashAttack,
-    Lunge,
+    Standing,       // 站立
+    Walking,        // 行走
+    Running,        // 奔跑
+    Pushed,         // 被推动
+    DashL,          // 左冲刺
+    DashR,          // 右冲刺
+    DashFail,       // 冲刺失败
+    Stance,         // 姿势1
+    Stance2,        // 姿势2
+    Attack1,        // 攻击1
+    Attack2,        // 攻击2
+    Attack3,        // 攻击3
+    Attack4,        // 攻击4
+    Attack5,        // 攻击5
+    AttackRange1,   // 远程攻击1
+    AttackRange2,   // 远程攻击2
+    AttackRange3,   // 远程攻击3
+    Special,        // 特殊动作
+    Struck,         // 受到攻击
+    Harvest,        // 收获
+    Spell,          // 施法
+    Die,            // 死亡
+    Dead,           // 死亡状态
+    Skeleton,       // 骷髅状态
+    Show,           // 显示
+    Hide,           // 隐藏
+    Stoned,         // 石化
+    Appear,         // 出现
+    Revive,         // 复活
+    SitDown,        // 坐下
+    Mine,           // 挖矿
+    Sneek,          // 潜行
+    DashAttack,     // 冲刺攻击
+    Lunge,          // 冲刺跳跃
 
-    WalkingBow,
-    RunningBow,
-    Jump,
+    WalkingBow,     // 持弓行走
+    RunningBow,     // 持弓奔跑
+    Jump,           // 跳跃
 
-    MountStanding,
-    MountWalking,
-    MountRunning,
-    MountStruck,
-    MountAttack,
+    MountStanding,  // 骑行站立
+    MountWalking,   // 骑行行走
+    MountRunning,   // 骑行奔跑
+    MountStruck,    // 骑行受到攻击
+    MountAttack,    // 骑行攻击
 
-    FishingCast,
-    FishingWait,
-    FishingReel
+    FishingCast,    // 钓鱼投掷
+    FishingWait,    // 钓鱼等待
+    FishingReel     // 钓鱼收线
 }
-
 public enum CellAttribute : byte
 {
     Walk = 0,
@@ -1113,148 +1112,148 @@ public enum Spell : byte
 {
     None = 0,
 
-    //Warrior
-    Fencing = 1,
-    Slaying = 2,
-    Thrusting = 3,
-    HalfMoon = 4,
-    ShoulderDash = 5,
-    TwinDrakeBlade = 6,
-    Entrapment = 7,
-    FlamingSword = 8,
-    LionRoar = 9,
-    CrossHalfMoon = 10,
-    BladeAvalanche = 11,
-    ProtectionField = 12,
-    Rage = 13,
-    CounterAttack = 14,
-    SlashingBurst = 15,
-    Fury = 16,
-    ImmortalSkin = 17,
+    // 战士（Warrior）
+    Fencing = 1,                // 剑术
+    Slaying = 2,                // 屠杀
+    Thrusting = 3,              // 刺杀
+    HalfMoon = 4,               // 半月斩
+    ShoulderDash = 5,           // 冲肩
+    TwinDrakeBlade = 6,         // 双龙斩
+    Entrapment = 7,             // 陷阱
+    FlamingSword = 8,           // 火焰剑
+    LionRoar = 9,               // 狮子吼
+    CrossHalfMoon = 10,         // 交叉半月斩
+    BladeAvalanche = 11,        // 剑刃风暴
+    ProtectionField = 12,       // 保护盾
+    Rage = 13,                  // 愤怒
+    CounterAttack = 14,         // 反击
+    SlashingBurst = 15,         // 爆裂斩
+    Fury = 16,                  // 狂怒
+    ImmortalSkin = 17,          // 不死之皮
 
-    //Wizard
-    FireBall = 31,
-    Repulsion = 32,
-    ElectricShock = 33,
-    GreatFireBall = 34,
-    HellFire = 35,
-    ThunderBolt = 36,
-    Teleport = 37,
-    FireBang = 38,
-    FireWall = 39,
-    Lightning = 40,
-    FrostCrunch = 41,
-    ThunderStorm = 42,
-    MagicShield = 43,
-    TurnUndead = 44,
-    Vampirism = 45,
-    IceStorm = 46,
-    FlameDisruptor = 47,
-    Mirroring = 48,
-    FlameField = 49,
-    Blizzard = 50,
-    MagicBooster = 51,
-    MeteorStrike = 52,
-    IceThrust = 53,
-    FastMove = 54,
-    StormEscape = 55,
+    // 法师（Wizard）
+    FireBall = 31,              // 火球术
+    Repulsion = 32,             // 推击术
+    ElectricShock = 33,         // 电击术
+    GreatFireBall = 34,         // 大火球术
+    HellFire = 35,              // 地狱火
+    ThunderBolt = 36,           // 雷电术
+    Teleport = 37,              // 传送术
+    FireBang = 38,              // 火墙术
+    FireWall = 39,              // 火墙术
+    Lightning = 40,             // 闪电术
+    FrostCrunch = 41,           // 冰冻术
+    ThunderStorm = 42,          // 雷暴术
+    MagicShield = 43,           // 魔法盾
+    TurnUndead = 44,            // 圣言术
+    Vampirism = 45,             // 吸血术
+    IceStorm = 46,              // 冰风暴
+    FlameDisruptor = 47,        // 火龙术
+    Mirroring = 48,             // 分身术
+    FlameField = 49,            // 火墙术
+    Blizzard = 50,              // 暴风雪
+    MagicBooster = 51,          // 魔法狂暴
+    MeteorStrike = 52,          // 流星术
+    IceThrust = 53,             // 冰刺术
+    FastMove = 54,              // 飞行术
+    StormEscape = 55,           // 逃离术
 
-    //Taoist
-    Healing = 61,
-    SpiritSword = 62,
-    Poisoning = 63,
-    SoulFireBall = 64,
-    SummonSkeleton = 65,
-    Hiding = 67,
-    MassHiding = 68,
-    SoulShield = 69,
-    Revelation = 70,
-    BlessedArmour = 71,
-    EnergyRepulsor = 72,
-    TrapHexagon = 73,
-    Purification = 74,
-    MassHealing = 75,
-    Hallucination = 76,
-    UltimateEnhancer = 77,
-    SummonShinsu = 78,
-    Reincarnation = 79,
-    SummonHolyDeva = 80,
-    Curse = 81,
-    Plague = 82,
-    PoisonCloud = 83,
-    EnergyShield = 84,
-    PetEnhancer = 85,
-    HealingCircle = 86,
+    // 道士（Taoist）
+    Healing = 61,               // 治愈术
+    SpiritSword = 62,           // 精神力战剑
+    Poisoning = 63,             // 施毒术
+    SoulFireBall = 64,          // 魂火球术
+    SummonSkeleton = 65,        // 召唤骷髅
+    Hiding = 67,                // 隐身术
+    MassHiding = 68,            // 聚集隐身术
+    SoulShield = 69,            // 魂体盾
+    Revelation = 70,            // 驱鬼术
+    BlessedArmour = 71,         // 神圣战甲术
+    EnergyRepulsor = 72,        // 能量控制术
+    TrapHexagon = 73,           // 地狱火雨
+    Purification = 74,          // 净化术
+    MassHealing = 75,           // 群体治愈术
+    Hallucination = 76,         // 幻影术
+    UltimateEnhancer = 77,      // 强化战甲术
+    SummonShinsu = 78,          // 召唤神兽
+    Reincarnation = 79,         // 转生术
+    SummonHolyDeva = 80,        // 召唤神兽
+    Curse = 81,                 // 咒缚术
+    Plague = 82,                // 瘟疫术
+    PoisonCloud = 83,           // 毒云术
+    EnergyShield = 84,          // 能量盾
+    PetEnhancer = 85,           // 宠物强化术
+    HealingCircle = 86,         // 回魔术
 
-    //Assassin
-    FatalSword = 91,
-    DoubleSlash = 92,
-    Haste = 93,
-    FlashDash = 94,
-    LightBody = 95,
-    HeavenlySword = 96,
-    FireBurst = 97,
-    Trap = 98,
-    PoisonSword = 99,
-    MoonLight = 100,
-    MPEater = 101,
-    SwiftFeet = 102,
-    DarkBody = 103,
-    Hemorrhage = 104,
-    CrescentSlash = 105,
-    MoonMist = 106,
-    CatTongue = 107,
+    // 刺客（Assassin）
+    FatalSword = 91,            // 致命剑
+    DoubleSlash = 92,           // 双重击
+    Haste = 93,                 // 疾光电影
+    FlashDash = 94,             // 迅影冲刺
+    LightBody = 95,             // 轻如鸿毛
+    HeavenlySword = 96,         // 空灵刺
+    FireBurst = 97,             // 火龙弹
+    Trap = 98,                  // 陷阱术
+    PoisonSword = 99,           // 毒龙斩
+    MoonLight = 100,            // 月影斩
+    MPEater = 101,              // 魔灵吸收
+    SwiftFeet = 102,            // 致命幸运
+    DarkBody = 103,             // 诅咒之刃
+    Hemorrhage = 104,           // 出血
+    CrescentSlash = 105,        // 三月斩
+    MoonMist = 106,             // 月光术
+    CatTongue = 107,            // 猫之语
 
-    //Archer
-    Focus = 121,
-    StraightShot = 122,
-    DoubleShot = 123,
-    ExplosiveTrap = 124,
-    DelayedExplosion = 125,
-    Meditation = 126,
-    BackStep = 127,
-    ElementalShot = 128,
-    Concentration = 129,
-    Stonetrap = 130,
-    ElementalBarrier = 131,
-    SummonVampire = 132,
-    VampireShot = 133,
-    SummonToad = 134,
-    PoisonShot = 135,
-    CrippleShot = 136,
-    SummonSnakes = 137,
-    NapalmShot = 138,
-    OneWithNature = 139,
-    BindingShot = 140,
-    MentalState = 141,
+    // 弓箭手（Archer）
+    Focus = 121,                // 集中术
+    StraightShot = 122,         // 直线射击
+    DoubleShot = 123,           // 双重射击
+    ExplosiveTrap = 124,        // 爆裂陷阱
+    DelayedExplosion = 125,     // 迟钝术
+    Meditation = 126,           // 冥想
+    BackStep = 127,             // 回身跳跃
+    ElementalShot = 128,        // 元素射击
+    Concentration = 129,        // 精确射击
+    Stonetrap = 130,            // 石化陷阱
+    ElementalBarrier = 131,     // 元素护盾
+    SummonVampire = 132,        // 召唤吸血鬼
+    VampireShot = 133,          // 吸血箭
+    SummonToad = 134,           // 召唤巨蟾
+    PoisonShot = 135,           // 毒箭
+    CrippleShot = 136,          // 缴械射击
+    SummonSnakes = 137,         // 召唤神蛇
+    NapalmShot = 138,           // 凝固术
+    OneWithNature = 139,        // 自然之力
+    BindingShot = 140,          // 束缚术
+    MentalState = 141,          // 心灵集中
 
-    //Custom
-    Blink = 151,
-    Portal = 152,
-    BattleCry = 153,
-    FireBounce = 154,
-    MeteorShower = 155,
+    // 自定义技能
+    Blink = 151,                // 闪烁
+    Portal = 152,               // 传送门
+    BattleCry = 153,            // 战争怒吼
+    FireBounce = 154,           // 火焰弹跳
+    MeteorShower = 155,         // 流星雨
 
-    //Map Events
-    DigOutZombie = 200,
-    Rubble = 201,
-    MapLightning = 202,
-    MapLava = 203,
-    MapQuake1 = 204,
-    MapQuake2 = 205,
-    DigOutArmadillo = 206,
-    GeneralMeowMeowThunder = 207,
-    StoneGolemQuake = 208,
-    EarthGolemPile = 209,
-    TreeQueenRoot = 210,
-    TreeQueenMassRoots = 211,
-    TreeQueenGroundRoots = 212,
-    TucsonGeneralRock = 213,
-    FlyingStatueIceTornado = 214,
-    DarkOmaKingNuke = 215,
-    HornedSorcererDustTornado = 216,
-    HornedCommanderRockFall = 217,
-    HornedCommanderRockSpike = 218
+    // 地图事件
+    DigOutZombie = 200,         // 掘出僵尸
+    Rubble = 201,               // 瓦砾
+    MapLightning = 202,         // 地图闪电
+    MapLava = 203,              // 地图熔岩
+    MapQuake1 = 204,            // 地图地震1
+    MapQuake2 = 205,            // 地图地震2
+    DigOutArmadillo = 206,      // 掘出犰狳
+    GeneralMeowMeowThunder = 207,// 通用喵喵雷电
+    StoneGolemQuake = 208,      // 石像魔地震
+    EarthGolemPile = 209,       // 土像魔堆积
+    TreeQueenRoot = 210,        // 树女王根系
+    TreeQueenMassRoots = 211,   // 树女王群体根系
+    TreeQueenGroundRoots = 212, // 树女王地面根系
+    TucsonGeneralRock = 213,    // 土城总石块
+    FlyingStatueIceTornado = 214,// 飞行雕像冰龙卷
+    DarkOmaKingNuke = 215,      // 黑暗欧玛大爆炸
+    HornedSorcererDustTornado = 216,// 角斗士尘土龙卷
+    HornedCommanderRockFall = 217,// 角指挥官落石
+    HornedCommanderRockSpike = 218 // 角指挥官石刺
 }
 
 public enum SpellEffect : byte
