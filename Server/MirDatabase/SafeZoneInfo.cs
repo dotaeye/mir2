@@ -1,4 +1,5 @@
 using System.Drawing;
+using Newtonsoft.Json;
 ﻿namespace Server.MirDatabase
 {
     public class SafeZoneInfo
@@ -7,6 +8,7 @@ using System.Drawing;
         public ushort Size;
         public bool StartPoint;
 
+        [JsonIgnore]
         public MapInfo Info;
 
         public SafeZoneInfo() { }

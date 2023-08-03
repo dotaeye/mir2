@@ -1,4 +1,5 @@
 ﻿using System.Text.RegularExpressions;
+using Newtonsoft.Json;
 
 public class ItemInfo
 {
@@ -769,6 +770,8 @@ public class GameShopItem
 {
     public int ItemIndex;
     public int GIndex;
+
+    [JsonIgnore]
     public ItemInfo Info;
     public uint GoldPrice = 0;
     public uint CreditPrice = 0;

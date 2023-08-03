@@ -1,4 +1,5 @@
-﻿using Server.MirEnvir;
+﻿using Newtonsoft.Json;
+using Server.MirEnvir;
 using Server.MirObjects;
 using Server.MirObjects.Monsters;
 
@@ -19,6 +20,7 @@ namespace Server.MirDatabase
         public int AttackerID;
         public byte NPCRate = 0;
 
+        [JsonIgnore]
         public ConquestInfo Info;
 
         public bool NeedSave = false;

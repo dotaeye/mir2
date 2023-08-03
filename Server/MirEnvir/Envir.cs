@@ -1279,43 +1279,24 @@ namespace Server.MirEnvir
                     LoadVersion = reader.ReadInt32();
                     LoadCustomVersion = reader.ReadInt32();
 
-                    if (LoadVersion < MinVersion)
-                    {
-                        MessageQueue.Enqueue($"Cannot load a database version {LoadVersion}. Mininum supported is {MinVersion}.");
-                        return false;
-                    }
-                    else if (LoadVersion > Version)
-                    {
-                        MessageQueue.Enqueue($"Cannot load a database version {LoadVersion}. Maximum supported is {Version}.");
-                        return false;
-
-                    }
+                    // 当前版本是107
+                    MessageQueue.Enqueue($"当前数据库版本号 {LoadVersion}.最小支持 {MinVersion}.");
 
                     MapIndex = reader.ReadInt32();
                     ItemIndex = reader.ReadInt32();
                     MonsterIndex = reader.ReadInt32();
-
                     NPCIndex = reader.ReadInt32();
                     QuestIndex = reader.ReadInt32();
-
-                    if (LoadVersion >= 63)
-                    {
-                        GameshopIndex = reader.ReadInt32();
-                    }
-
-                    if (LoadVersion >= 66)
-                    {
-                        ConquestIndex = reader.ReadInt32();
-                    }
-
-                    if (LoadVersion >= 68)
-                        RespawnIndex = reader.ReadInt32();
-
+                    GameshopIndex = reader.ReadInt32();
+                    ConquestIndex = reader.ReadInt32();
+                    RespawnIndex = reader.ReadInt32();
 
                     var count = reader.ReadInt32();
                     MapInfoList.Clear();
                     for (var i = 0; i < count; i++)
                         MapInfoList.Add(new MapInfo(reader));
+
+                    MessageQueue.Enqueue($"地图信息加载完毕.");
 
                     count = reader.ReadInt32();
                     ItemInfoList.Clear();
@@ -1343,6 +1324,7 @@ namespace Server.MirEnvir
                         QuestInfoList.Add(new QuestInfo(reader));
 
                     DragonInfo = new DragonInfo(reader);
+
                     count = reader.ReadInt32();
                     for (var i = 0; i < count; i++)
                     {
@@ -1352,35 +1334,26 @@ namespace Server.MirEnvir
                     }
 
                     FillMagicInfoList();
-                    if (LoadVersion <= 70)
-                        UpdateMagicInfo();
 
-                    if (LoadVersion >= 63)
+                    count = reader.ReadInt32();
+                    GameShopList.Clear();
+                    for (var i = 0; i < count; i++)
                     {
-                        count = reader.ReadInt32();
-                        GameShopList.Clear();
-                        for (var i = 0; i < count; i++)
+                        var item = new GameShopItem(reader, LoadVersion, LoadCustomVersion);
+                        if (Main.BindGameShop(item))
                         {
-                            var item = new GameShopItem(reader, LoadVersion, LoadCustomVersion);
-                            if (Main.BindGameShop(item))
-                            {
-                                GameShopList.Add(item);
-                            }
+                            GameShopList.Add(item);
                         }
                     }
 
-                    if (LoadVersion >= 66)
+                    ConquestInfoList.Clear();
+                    count = reader.ReadInt32();
+                    for (var i = 0; i < count; i++)
                     {
-                        ConquestInfoList.Clear();
-                        count = reader.ReadInt32();
-                        for (var i = 0; i < count; i++)
-                        {
-                            ConquestInfoList.Add(new ConquestInfo(reader));
-                        }
+                        ConquestInfoList.Add(new ConquestInfo(reader));
                     }
 
-                    if (LoadVersion > 67)
-                        RespawnTick = new RespawnTimer(reader);
+                    RespawnTick = new RespawnTimer(reader);
 
                 }
 
@@ -1633,6 +1606,7 @@ namespace Server.MirEnvir
                     DisabledCharNames.Add(lines[i].ToUpper());
                 }
             }
+            MessageQueue.Enqueue($"{DisabledCharNames.Count} 个禁用的角色名初始化完成.");
         }
 
         public void LoadLineMessages()
@@ -1655,6 +1629,7 @@ namespace Server.MirEnvir
                     LineMessages.Add(lines[i]);
                 }
             }
+            MessageQueue.Enqueue($"{LineMessages.Count} 条LineMessages加载成功.帮助？");
         }
 
         private bool BindCharacter(AuctionInfo auction)
@@ -1752,10 +1727,10 @@ namespace Server.MirEnvir
             {
                 BuffInfoList.Add(buff);
             }
-
-            MessageQueue.Enqueue($"{BuffInfoList.Count} Buffs Loaded.");
+            MessageQueue.Enqueue($"{BuffInfoList.Count} 个Buff模板加载成功.");
 
             RecipeInfoList.Clear();
+
             foreach (var recipe in Directory.GetFiles(Settings.RecipePath, "*.txt")
                 .Select(path => Path.GetFileNameWithoutExtension(path))
                 .ToArray())
@@ -1763,13 +1738,13 @@ namespace Server.MirEnvir
                 RecipeInfoList.Add(new RecipeInfo(recipe));
             }
 
-            MessageQueue.Enqueue($"{RecipeInfoList.Count} Recipes Loaded.");
+            MessageQueue.Enqueue($"{RecipeInfoList.Count} 个配方加载成功.");
 
             for (var i = 0; i < MapInfoList.Count; i++)
             {
                 MapInfoList[i].CreateMap();
             }
-            MessageQueue.Enqueue($"{MapInfoList.Count} Maps Loaded.");
+            MessageQueue.Enqueue($"{MapInfoList.Count} 地图初始化，NPC创建成功.");
 
             for (var i = 0; i < ItemInfoList.Count; i++)
             {
@@ -1778,6 +1753,8 @@ namespace Server.MirEnvir
                     StartItems.Add(ItemInfoList[i]);
                 }
             }
+
+            MessageQueue.Enqueue($"{StartItems.Count} 个出生物品创建成功.");
 
             ReloadDrops();
 
@@ -1792,14 +1769,14 @@ namespace Server.MirEnvir
                     if (DragonSystem.Load()) DragonSystem.Info.LoadDrops();
                 }
 
-                MessageQueue.Enqueue("Dragon Loaded.");
+                MessageQueue.Enqueue("龙的信息加载成功.");
             }
 
             DefaultNPC = NPCScript.GetOrAdd((uint)Random.Next(1000000, 1999999), Settings.DefaultNPCFilename, NPCScriptType.AutoPlayer);
             MonsterNPC = NPCScript.GetOrAdd((uint)Random.Next(2000000, 2999999), Settings.MonsterNPCFilename, NPCScriptType.AutoMonster);
             RobotNPC = NPCScript.GetOrAdd((uint)Random.Next(3000000, 3999999), Settings.RobotNPCFilename, NPCScriptType.Robot);
 
-            MessageQueue.Enqueue("Envir Started.");
+            MessageQueue.Enqueue("环境加载完成.");
         }
         private void StartNetwork()
         {
@@ -1822,7 +1799,7 @@ namespace Server.MirEnvir
                 _StatusPort.BeginAcceptTcpClient(StatusConnection, null);
             }
 
-            MessageQueue.Enqueue("Network Started.");
+            MessageQueue.Enqueue("网关服务器启动成功.");
         }
 
         private void StopEnvir()
@@ -2398,7 +2375,7 @@ namespace Server.MirEnvir
                     c.Enqueue(new ServerPackets.NewCharacter { Result = 5 });
                     return;
                 }
-
+                // 这里新建了角色，这里没有发现初始化地图之类的呀，
                 var info = new CharacterInfo(p, c) { Index = ++NextCharacterID, AccountInfo = c.Account };
 
                 c.Account.Characters.Add(info);
@@ -2456,15 +2433,15 @@ namespace Server.MirEnvir
             }
 
             return true;
-        }    
+        }
 
         public bool AccountExists(string accountID)
         {
-                for (var i = 0; i < AccountList.Count; i++)
-                    if (string.Compare(AccountList[i].AccountID, accountID, StringComparison.OrdinalIgnoreCase) == 0)
-                        return true;
+            for (var i = 0; i < AccountList.Count; i++)
+                if (string.Compare(AccountList[i].AccountID, accountID, StringComparison.OrdinalIgnoreCase) == 0)
+                    return true;
 
-                return false;
+            return false;
         }
         public bool CharacterExists(string name)
         {
@@ -2477,11 +2454,11 @@ namespace Server.MirEnvir
 
         public AccountInfo GetAccount(string accountID)
         {
-                for (var i = 0; i < AccountList.Count; i++)
-                    if (string.Compare(AccountList[i].AccountID, accountID, StringComparison.OrdinalIgnoreCase) == 0)
-                        return AccountList[i];
+            for (var i = 0; i < AccountList.Count; i++)
+                if (string.Compare(AccountList[i].AccountID, accountID, StringComparison.OrdinalIgnoreCase) == 0)
+                    return AccountList[i];
 
-                return null;
+            return null;
         }
         public AccountInfo GetAccountByCharacter(string name)
         {
@@ -2548,19 +2525,19 @@ namespace Server.MirEnvir
 
         public void CreateAccountInfo()
         {
-            AccountList.Add(new AccountInfo {Index = ++NextAccountID});
+            AccountList.Add(new AccountInfo { Index = ++NextAccountID });
         }
         public void CreateMapInfo()
         {
-            MapInfoList.Add(new MapInfo {Index = ++MapIndex});
+            MapInfoList.Add(new MapInfo { Index = ++MapIndex });
         }
         public void CreateItemInfo(ItemType type = ItemType.Nothing)
         {
-            ItemInfoList.Add(new ItemInfo { Index = ++ItemIndex, Type = type, RandomStatsId = 255});
+            ItemInfoList.Add(new ItemInfo { Index = ++ItemIndex, Type = type, RandomStatsId = 255 });
         }
         public void CreateMonsterInfo()
         {
-            MonsterInfoList.Add(new MonsterInfo {Index = ++MonsterIndex});
+            MonsterInfoList.Add(new MonsterInfo { Index = ++MonsterIndex });
         }
         public void CreateNPCInfo()
         {
@@ -2609,18 +2586,18 @@ namespace Server.MirEnvir
             {
                 GameshopIndex = 0;
             }
-                
+
             //Desync all objects\
         }
 
         public UserItem CreateFreshItem(ItemInfo info)
         {
             var item = new UserItem(info)
-                {
-                    UniqueID = ++NextUserItemID,
-                    CurrentDura = info.Durability,
-                    MaxDura = info.Durability
-                };
+            {
+                UniqueID = ++NextUserItemID,
+                CurrentDura = info.Durability,
+                MaxDura = info.Durability
+            };
 
             UpdateItemExpiry(item);
 
@@ -2635,11 +2612,11 @@ namespace Server.MirEnvir
             if (info == null) return null;
 
             var item = new UserItem(info)
-                {
-                    UniqueID = ++NextUserItemID,
-                    MaxDura = info.Durability,
-                    CurrentDura = (ushort) Math.Min(info.Durability, Random.Next(info.Durability) + 1000)
-                };
+            {
+                UniqueID = ++NextUserItemID,
+                MaxDura = info.Durability,
+                CurrentDura = (ushort)Math.Min(info.Durability, Random.Next(info.Durability) + 1000)
+            };
 
             UpgradeItem(item);
 
@@ -2720,27 +2697,27 @@ namespace Server.MirEnvir
                 item.CurrentDura = (ushort)Math.Min(ushort.MaxValue, item.CurrentDura + dura * 1000);
             }
 
-            if (stat.MaxAcChance > 0 && Random.Next(stat.MaxAcChance) == 0) item.AddedStats[Stat.MaxAC] = (byte)(RandomomRange(stat.MaxAcMaxStat-1, stat.MaxAcStatChance)+1);
-            if (stat.MaxMacChance > 0 && Random.Next(stat.MaxMacChance) == 0) item.AddedStats[Stat.MaxMAC] = (byte)(RandomomRange(stat.MaxMacMaxStat-1, stat.MaxMacStatChance)+1);
-            if (stat.MaxDcChance > 0 && Random.Next(stat.MaxDcChance) == 0) item.AddedStats[Stat.MaxDC] = (byte)(RandomomRange(stat.MaxDcMaxStat-1, stat.MaxDcStatChance)+1);
-            if (stat.MaxMcChance > 0 && Random.Next(stat.MaxMcChance) == 0) item.AddedStats[Stat.MaxMC] = (byte)(RandomomRange(stat.MaxMcMaxStat-1, stat.MaxMcStatChance)+1);
-            if (stat.MaxScChance > 0 && Random.Next(stat.MaxScChance) == 0) item.AddedStats[Stat.MaxSC] = (byte)(RandomomRange(stat.MaxScMaxStat-1, stat.MaxScStatChance)+1);
-            if (stat.AccuracyChance > 0 && Random.Next(stat.AccuracyChance) == 0) item.AddedStats[Stat.Accuracy] = (byte)(RandomomRange(stat.AccuracyMaxStat-1, stat.AccuracyStatChance)+1);
-            if (stat.AgilityChance > 0 && Random.Next(stat.AgilityChance) == 0) item.AddedStats[Stat.Agility] = (byte)(RandomomRange(stat.AgilityMaxStat-1, stat.AgilityStatChance)+1);
-            if (stat.HpChance > 0 && Random.Next(stat.HpChance) == 0) item.AddedStats[Stat.HP] = (byte)(RandomomRange(stat.HpMaxStat-1, stat.HpStatChance)+1);
-            if (stat.MpChance > 0 && Random.Next(stat.MpChance) == 0) item.AddedStats[Stat.MP] = (byte)(RandomomRange(stat.MpMaxStat-1, stat.MpStatChance)+1);
-            if (stat.StrongChance > 0 && Random.Next(stat.StrongChance) == 0) item.AddedStats[Stat.Strong] = (byte)(RandomomRange(stat.StrongMaxStat-1, stat.StrongStatChance)+1);
-            if (stat.MagicResistChance > 0 && Random.Next(stat.MagicResistChance) == 0) item.AddedStats[Stat.MagicResist] = (byte)(RandomomRange(stat.MagicResistMaxStat-1, stat.MagicResistStatChance)+1);
-            if (stat.PoisonResistChance > 0 && Random.Next(stat.PoisonResistChance) == 0) item.AddedStats[Stat.PoisonResist] = (byte)(RandomomRange(stat.PoisonResistMaxStat-1, stat.PoisonResistStatChance)+1);
-            if (stat.HpRecovChance > 0 && Random.Next(stat.HpRecovChance) == 0) item.AddedStats[Stat.HealthRecovery] = (byte)(RandomomRange(stat.HpRecovMaxStat-1, stat.HpRecovStatChance)+1);
-            if (stat.MpRecovChance > 0 && Random.Next(stat.MpRecovChance) == 0) item.AddedStats[Stat.SpellRecovery] = (byte)(RandomomRange(stat.MpRecovMaxStat-1, stat.MpRecovStatChance)+1);
-            if (stat.PoisonRecovChance > 0 && Random.Next(stat.PoisonRecovChance) == 0) item.AddedStats[Stat.PoisonRecovery] = (byte)(RandomomRange(stat.PoisonRecovMaxStat-1, stat.PoisonRecovStatChance)+1);
-            if (stat.CriticalRateChance > 0 && Random.Next(stat.CriticalRateChance) == 0) item.AddedStats[Stat.CriticalRate] = (byte)(RandomomRange(stat.CriticalRateMaxStat-1, stat.CriticalRateStatChance)+1);
-            if (stat.CriticalDamageChance > 0 && Random.Next(stat.CriticalDamageChance) == 0) item.AddedStats[Stat.CriticalDamage] = (byte)(RandomomRange(stat.CriticalDamageMaxStat-1, stat.CriticalDamageStatChance)+1);
-            if (stat.FreezeChance > 0 && Random.Next(stat.FreezeChance) == 0) item.AddedStats[Stat.Freezing] = (byte)(RandomomRange(stat.FreezeMaxStat-1, stat.FreezeStatChance)+1);
-            if (stat.PoisonAttackChance > 0 && Random.Next(stat.PoisonAttackChance) == 0) item.AddedStats[Stat.PoisonAttack] = (byte)(RandomomRange(stat.PoisonAttackMaxStat-1, stat.PoisonAttackStatChance)+1);
-            if (stat.AttackSpeedChance > 0 && Random.Next(stat.AttackSpeedChance) == 0) item.AddedStats[Stat.AttackSpeed] = (sbyte)(RandomomRange(stat.AttackSpeedMaxStat-1, stat.AttackSpeedStatChance)+1);
-            if (stat.LuckChance > 0 && Random.Next(stat.LuckChance) == 0) item.AddedStats[Stat.Luck] = (sbyte)(RandomomRange(stat.LuckMaxStat-1, stat.LuckStatChance)+1);
+            if (stat.MaxAcChance > 0 && Random.Next(stat.MaxAcChance) == 0) item.AddedStats[Stat.MaxAC] = (byte)(RandomomRange(stat.MaxAcMaxStat - 1, stat.MaxAcStatChance) + 1);
+            if (stat.MaxMacChance > 0 && Random.Next(stat.MaxMacChance) == 0) item.AddedStats[Stat.MaxMAC] = (byte)(RandomomRange(stat.MaxMacMaxStat - 1, stat.MaxMacStatChance) + 1);
+            if (stat.MaxDcChance > 0 && Random.Next(stat.MaxDcChance) == 0) item.AddedStats[Stat.MaxDC] = (byte)(RandomomRange(stat.MaxDcMaxStat - 1, stat.MaxDcStatChance) + 1);
+            if (stat.MaxMcChance > 0 && Random.Next(stat.MaxMcChance) == 0) item.AddedStats[Stat.MaxMC] = (byte)(RandomomRange(stat.MaxMcMaxStat - 1, stat.MaxMcStatChance) + 1);
+            if (stat.MaxScChance > 0 && Random.Next(stat.MaxScChance) == 0) item.AddedStats[Stat.MaxSC] = (byte)(RandomomRange(stat.MaxScMaxStat - 1, stat.MaxScStatChance) + 1);
+            if (stat.AccuracyChance > 0 && Random.Next(stat.AccuracyChance) == 0) item.AddedStats[Stat.Accuracy] = (byte)(RandomomRange(stat.AccuracyMaxStat - 1, stat.AccuracyStatChance) + 1);
+            if (stat.AgilityChance > 0 && Random.Next(stat.AgilityChance) == 0) item.AddedStats[Stat.Agility] = (byte)(RandomomRange(stat.AgilityMaxStat - 1, stat.AgilityStatChance) + 1);
+            if (stat.HpChance > 0 && Random.Next(stat.HpChance) == 0) item.AddedStats[Stat.HP] = (byte)(RandomomRange(stat.HpMaxStat - 1, stat.HpStatChance) + 1);
+            if (stat.MpChance > 0 && Random.Next(stat.MpChance) == 0) item.AddedStats[Stat.MP] = (byte)(RandomomRange(stat.MpMaxStat - 1, stat.MpStatChance) + 1);
+            if (stat.StrongChance > 0 && Random.Next(stat.StrongChance) == 0) item.AddedStats[Stat.Strong] = (byte)(RandomomRange(stat.StrongMaxStat - 1, stat.StrongStatChance) + 1);
+            if (stat.MagicResistChance > 0 && Random.Next(stat.MagicResistChance) == 0) item.AddedStats[Stat.MagicResist] = (byte)(RandomomRange(stat.MagicResistMaxStat - 1, stat.MagicResistStatChance) + 1);
+            if (stat.PoisonResistChance > 0 && Random.Next(stat.PoisonResistChance) == 0) item.AddedStats[Stat.PoisonResist] = (byte)(RandomomRange(stat.PoisonResistMaxStat - 1, stat.PoisonResistStatChance) + 1);
+            if (stat.HpRecovChance > 0 && Random.Next(stat.HpRecovChance) == 0) item.AddedStats[Stat.HealthRecovery] = (byte)(RandomomRange(stat.HpRecovMaxStat - 1, stat.HpRecovStatChance) + 1);
+            if (stat.MpRecovChance > 0 && Random.Next(stat.MpRecovChance) == 0) item.AddedStats[Stat.SpellRecovery] = (byte)(RandomomRange(stat.MpRecovMaxStat - 1, stat.MpRecovStatChance) + 1);
+            if (stat.PoisonRecovChance > 0 && Random.Next(stat.PoisonRecovChance) == 0) item.AddedStats[Stat.PoisonRecovery] = (byte)(RandomomRange(stat.PoisonRecovMaxStat - 1, stat.PoisonRecovStatChance) + 1);
+            if (stat.CriticalRateChance > 0 && Random.Next(stat.CriticalRateChance) == 0) item.AddedStats[Stat.CriticalRate] = (byte)(RandomomRange(stat.CriticalRateMaxStat - 1, stat.CriticalRateStatChance) + 1);
+            if (stat.CriticalDamageChance > 0 && Random.Next(stat.CriticalDamageChance) == 0) item.AddedStats[Stat.CriticalDamage] = (byte)(RandomomRange(stat.CriticalDamageMaxStat - 1, stat.CriticalDamageStatChance) + 1);
+            if (stat.FreezeChance > 0 && Random.Next(stat.FreezeChance) == 0) item.AddedStats[Stat.Freezing] = (byte)(RandomomRange(stat.FreezeMaxStat - 1, stat.FreezeStatChance) + 1);
+            if (stat.PoisonAttackChance > 0 && Random.Next(stat.PoisonAttackChance) == 0) item.AddedStats[Stat.PoisonAttack] = (byte)(RandomomRange(stat.PoisonAttackMaxStat - 1, stat.PoisonAttackStatChance) + 1);
+            if (stat.AttackSpeedChance > 0 && Random.Next(stat.AttackSpeedChance) == 0) item.AddedStats[Stat.AttackSpeed] = (sbyte)(RandomomRange(stat.AttackSpeedMaxStat - 1, stat.AttackSpeedStatChance) + 1);
+            if (stat.LuckChance > 0 && Random.Next(stat.LuckChance) == 0) item.AddedStats[Stat.Luck] = (sbyte)(RandomomRange(stat.LuckMaxStat - 1, stat.LuckStatChance) + 1);
             if (stat.CurseChance > 0 && Random.Next(100) <= stat.CurseChance) item.Cursed = true;
 
             if (stat.SlotChance > 0 && Random.Next(stat.SlotChance) == 0)
@@ -2787,7 +2764,7 @@ namespace Server.MirEnvir
         }
 
         public bool BindSlotItems(UserItem item)
-        {           
+        {
             for (var i = 0; i < item.Slots.Length; i++)
             {
                 if (item.Slots[i] == null) continue;
@@ -3181,7 +3158,7 @@ namespace Server.MirEnvir
                     owner.RentedItemsToRemove.Add(rentalInformation);
                 }
             }
-            
+
             rentedItem.RentalInformation.BindingFlags = BindMode.None;
             rentedItem.RentalInformation.RentalLocked = true;
             rentedItem.RentalInformation.ExpiryDate = rentedItem.RentalInformation.ExpiryDate.AddDays(1);
@@ -3221,7 +3198,7 @@ namespace Server.MirEnvir
                     if (info.CompletedQuests[i] != quest.Index) continue;
 
                     info.CompletedQuests.RemoveAt(i);
-                } 
+                }
             }
 
             info.Player?.GetCompletedQuests();
@@ -3479,7 +3456,7 @@ namespace Server.MirEnvir
             var NewRank = new RankCharacterInfo() { Name = info.Name, Class = info.Class, Experience = info.Experience, level = info.Level, PlayerId = info.Index, info = info, LastUpdated = Now };
             var NewRankIndex = InsertRank(Ranking, NewRank);
             if (NewRankIndex == 0) return false;
-            for (var i = NewRankIndex; i < Ranking.Count; i++ )
+            for (var i = NewRankIndex; i < Ranking.Count; i++)
             {
                 SetNewRank(Ranking[i], i + 1, type);
             }
@@ -3492,7 +3469,7 @@ namespace Server.MirEnvir
             var startindex = info.Rank[type];
             if (startindex > 0) //if there's a previously known rank then the user can only have gone down in the ranking (or stayed the same)
             {
-                for (var i = startindex-1; i < Ranking.Count; i++)
+                for (var i = startindex - 1; i < Ranking.Count; i++)
                 {
                     if (Ranking[i].Name == info.Name)
                         return i;
@@ -3506,13 +3483,13 @@ namespace Server.MirEnvir
         {
             var CurrentRank = FindRank(Ranking, info, type);
             if (CurrentRank == -1) return false;//not in ranking list atm
-            
+
             var NewRank = CurrentRank;
             //next find our updated rank
-            for (var i = CurrentRank-1; i >= 0; i-- )
+            for (var i = CurrentRank - 1; i >= 0; i--)
             {
                 if (Ranking[i].level > info.Level || Ranking[i].level == info.Level && Ranking[i].Experience > info.Experience) break;
-                    NewRank =i;
+                NewRank = i;
             }
 
             Ranking[CurrentRank].level = info.Level;
@@ -3523,13 +3500,13 @@ namespace Server.MirEnvir
             {//if we gained any ranks
                 Ranking.Insert(NewRank, Ranking[CurrentRank]);
                 Ranking.RemoveAt(CurrentRank + 1);
-                for (var i = NewRank + 1; i < Math.Min(Ranking.Count, CurrentRank +1); i++)
+                for (var i = NewRank + 1; i < Math.Min(Ranking.Count, CurrentRank + 1); i++)
                 {
                     SetNewRank(Ranking[i], i + 1, type);
                 }
             }
-            info.Rank[type] = NewRank+1;
-            
+            info.Rank[type] = NewRank + 1;
+
             return true;
         }
 
@@ -3610,6 +3587,8 @@ namespace Server.MirEnvir
 
         public void ReloadDrops()
         {
+            int loadMonsterCount = 0;
+            List<string> NoDropMonsterNames = new List<string>();
             for (var i = 0; i < MonsterInfoList.Count; i++)
             {
                 string path = Path.Combine(Settings.DropPath, MonsterInfoList[i].Name + ".txt");
@@ -3622,9 +3601,23 @@ namespace Server.MirEnvir
                 MonsterInfoList[i].Drops.Clear();
 
                 DropInfo.Load(MonsterInfoList[i].Drops, MonsterInfoList[i].Name, path, 0, true);
+                if (MonsterInfoList[i].Drops.Count > 0)
+                {
+                    loadMonsterCount++;
+                }
+                else
+                {
+                    NoDropMonsterNames.Add(MonsterInfoList[i].Name);
+                }
             }
+            MessageQueue.Enqueue($"怪物总数{MonsterInfoList.Count} 实际有掉落怪物总数{loadMonsterCount}.");
+
+            File.WriteAllText("./NoDropMonster.txt", string.Join("\r\n", NoDropMonsterNames));
+
+            MessageQueue.Enqueue($"无掉落怪物的名称日志已保存在NoDropMonster.txt文件中.");
 
             FishingDrops.Clear();
+
             for (int i = 0; i < 19; i++)
             {
                 var path = Path.Combine(Settings.DropPath, Settings.FishingDropFilename + ".txt");
@@ -3635,14 +3628,17 @@ namespace Server.MirEnvir
 
             AwakeningDrops.Clear();
             DropInfo.Load(AwakeningDrops, "Awakening", Path.Combine(Settings.DropPath, Settings.AwakeningDropFilename + ".txt"));
+            MessageQueue.Enqueue($"{AwakeningDrops.Count} 个Awakening掉落文件加载成功.");
 
             StrongboxDrops.Clear();
             DropInfo.Load(StrongboxDrops, "StrongBox", Path.Combine(Settings.DropPath, Settings.StrongboxDropFilename + ".txt"));
 
+            MessageQueue.Enqueue($"{StrongboxDrops.Count} 个StrongBox掉落文件加载成功.");
+
             BlackstoneDrops.Clear();
             DropInfo.Load(BlackstoneDrops, "Blackstone", Path.Combine(Settings.DropPath, Settings.BlackstoneDropFilename + ".txt"));
+            MessageQueue.Enqueue($"{BlackstoneDrops.Count} 个Blackstone掉落文件加载成功.");
 
-            MessageQueue.Enqueue("Drops Loaded.");
         }
 
         private WorldMapIcon ValidateWorldMap()

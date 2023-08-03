@@ -24,6 +24,7 @@
             }
             catch(Exception ex)
             {
+                MessageBox.Show(ex.ToString());
                 Logger.GetLogger().Error(ex);
             }
         }

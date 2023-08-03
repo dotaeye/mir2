@@ -32,11 +32,11 @@ namespace Server.Library.Utils
                     _listener.Prefixes.Add(s);
                 }
                 _listener.Start();
-                MessageQueue.Instance.Enqueue("HttpService started.");
+                MessageQueue.Instance.Enqueue("Http服务器启动成功.");
             }
             catch (Exception err)
             {
-                MessageQueue.Instance.Enqueue("HttpService start failed! Error:" + err);
+                MessageQueue.Instance.Enqueue("Http服务器启动失败! 错误信息:" + err);
                 return;
             }
 

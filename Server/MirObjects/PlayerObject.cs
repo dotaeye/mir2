@@ -1026,6 +1026,7 @@ namespace Server.MirObjects
         }
         public void StartGame()
         {
+            // 这里获取地图
             Map temp = Envir.GetMap(CurrentMapIndex);
 
             if (temp != null && temp.Info.NoReconnect)

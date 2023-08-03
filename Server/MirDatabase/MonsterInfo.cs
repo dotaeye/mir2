@@ -1,4 +1,5 @@
 ﻿using System.Text.RegularExpressions;
+using Newtonsoft.Json;
 using Server.MirEnvir;
 
 namespace Server.MirDatabase
@@ -263,12 +264,18 @@ namespace Server.MirDatabase
         }
 
         public int Chance;
+        [JsonIgnore]
         public ItemInfo Item;
         public uint Gold;
         public GroupDropInfo GroupedDrop;
 
         public byte Type;
         public bool QuestRequired;
+
+        public string ItemName
+        {
+            get { return Item == null ? string.Empty : Item.Name; }
+        }   
 
         public static DropInfo FromLine(string s)
         {

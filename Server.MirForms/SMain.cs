@@ -2,6 +2,7 @@
 using Server.MirDatabase;
 using Server.MirForms.Systems;
 using Server.Database;
+using Server.Utils;
 
 namespace Server
 {
@@ -361,13 +362,13 @@ namespace Server
 
         private void SMain_Load(object sender, EventArgs e)
         {
-            var loaded = EditEnvir.LoadDB();
+            //var loaded = EditEnvir.LoadDB();
 
-            if (loaded)
-            {
-                Envir.Start();
-            }
-
+            //if (loaded)
+            //{
+            //    Envir.Start();
+            //}
+            Envir.Start();
             AutoResize();
         }
 
@@ -451,6 +452,41 @@ namespace Server
         private void clearBlockedIPsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Envir.IPBlocks.Clear();
+        }
+
+        private void 地图数据ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            JsonHelper.WriteListToJsonFiles(Envir.MapInfoList, "Maps");
+        }
+
+        private void 怪物数据ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            JsonHelper.WriteListToJsonFiles(Envir.MonsterInfoList, "Monsters");
+        }
+
+        private void 物品数据ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            JsonHelper.WriteListToJsonFiles(Envir.ItemInfoList, "Items");
+        }
+
+        private void 任务数据ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            JsonHelper.WriteListToJsonFiles(Envir.QuestInfoList, "Tasks");
+        }
+
+        private void nPC数据ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            JsonHelper.WriteListToJsonFiles(Envir.NPCInfoList, "Npcs");
+        }
+
+        private void 商城数据ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            JsonHelper.WriteListToJsonFiles(Envir.GameShopList, "GameShops");
+        }
+
+        private void 征服数据ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            JsonHelper.WriteListToJsonFiles(Envir.ConquestList, "Conquests");
         }
     }
 }

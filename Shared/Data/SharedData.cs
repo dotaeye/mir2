@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using Newtonsoft.Json;
+using System.Drawing;
 
 public class SelectInfo
 {
@@ -74,8 +75,10 @@ public class RankCharacterInfo
 
 public class QuestItemReward
 {
+    [JsonIgnore]
     public ItemInfo Item;
     public ushort Count = 1;
+    public string ItemName { get { return Item.Name; } }
 
     public QuestItemReward() { }
 

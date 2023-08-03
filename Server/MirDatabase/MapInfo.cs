@@ -1,4 +1,5 @@
 using System.Drawing;
+using Newtonsoft.Json;
 using Server.MirEnvir;
 
 namespace Server.MirDatabase
@@ -31,7 +32,10 @@ namespace Server.MirDatabase
         public List<SafeZoneInfo> SafeZones = new List<SafeZoneInfo>();
         public List<MovementInfo> Movements = new List<MovementInfo>();
         public List<RespawnInfo> Respawns = new List<RespawnInfo>();
+
+        [JsonIgnore]
         public List<NPCInfo> NPCs = new List<NPCInfo>();
+
         public List<MineZone> MineZones = new List<MineZone>();
         public List<Point> ActiveCoords = new List<Point>();
 
@@ -184,7 +188,7 @@ namespace Server.MirDatabase
 
         public override string ToString()
         {
-            return string.Format("{0}: {1}", Index, Title);
+            return string.Format("{0}: {1}: {2}", Index, Title, FileName);
         }
 
         public void CreateNPCInfo()
