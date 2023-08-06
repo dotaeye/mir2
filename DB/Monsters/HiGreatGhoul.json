@@ -1,0 +1,54 @@
+{
+  "Index": 135,
+  "Name": "HiGreatGhoul",
+  "Image": 74,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 50,
+  "Light": 5,
+  "AttackSpeed": 2800,
+  "MoveSpeed": 1500,
+  "Experience": 1200,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 1,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": true,
+      "ItemName": "RedDagger"
+    },
+    {
+      "Chance": 5,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": true,
+      "ItemName": "HeartOfDead"
+    }
+  ],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 3,
+      "MaxAC": 3,
+      "MinMAC": 3,
+      "MaxMAC": 3,
+      "MinDC": 12,
+      "MaxDC": 28,
+      "Accuracy": 15,
+      "Agility": 15,
+      "HP": 500
+    },
+    "Count": 582
+  },
+  "GameName": "HiGreatGhoul"
+}

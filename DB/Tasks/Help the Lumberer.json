@@ -1,0 +1,44 @@
+{
+  "Index": 91,
+  "NpcIndex": 0,
+  "Name": "Help the Lumberer",
+  "Group": "TaoVillage",
+  "FileName": "91",
+  "GotoMessage": "Return the LumberAxe to Sigmund in TaoVillage 166:339",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Traveler.. Alittle help please. I was in {TreePath/Yellow}.",
+    "Chopping {Wood/LightSteelBlue} when i was starteld and dropped ",
+    "my {Axe/LightSteelBlue}"
+  ],
+  "TaskDescription": [
+    "Locate and Kill {BloodyLureSpider/Crimson} and retrieve ",
+    "the {WornAxe/LightSteelBlue}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 22,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 1,
+      "Message": "",
+      "ItemName": "WornAxe"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 7000,
+  "ExpReward": 7000,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 0
+}

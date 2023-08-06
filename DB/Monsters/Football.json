@@ -1,0 +1,29 @@
+{
+  "Index": 501,
+  "Name": "Football",
+  "Image": 149,
+  "AI": 68,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 0,
+  "Light": 0,
+  "AttackSpeed": 2500,
+  "MoveSpeed": 1800,
+  "Experience": 0,
+  "DropPath": "",
+  "Drops": [],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": false,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "HP": 1
+    },
+    "Count": 1
+  },
+  "GameName": "Football"
+}

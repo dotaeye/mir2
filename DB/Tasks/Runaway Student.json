@@ -1,0 +1,36 @@
+{
+  "Index": 93,
+  "NpcIndex": 0,
+  "Name": "Runaway Student",
+  "Group": "TaoVillage",
+  "FileName": "93",
+  "GotoMessage": "Search for the missing Student in TreePath",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Student's like to take risk's.. but there's one ",
+    "missing."
+  ],
+  "TaskDescription": [
+    "Search for the Missing Student. "
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 22,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 7000,
+  "ExpReward": 3860,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 133
+}

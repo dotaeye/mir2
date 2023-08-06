@@ -1,0 +1,37 @@
+{
+  "Index": 329,
+  "Name": "ValeBat2",
+  "Image": 203,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 50,
+  "Light": 0,
+  "AttackSpeed": 1600,
+  "MoveSpeed": 2000,
+  "Experience": 7300,
+  "DropPath": "",
+  "Drops": [],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 13,
+      "MaxAC": 13,
+      "MinMAC": 40,
+      "MaxMAC": 40,
+      "MinDC": 15,
+      "MaxDC": 35,
+      "Accuracy": 20,
+      "Agility": 16,
+      "HP": 1400
+    },
+    "Count": 1592
+  },
+  "GameName": "ValeBat"
+}

@@ -1,0 +1,44 @@
+{
+  "Index": 45,
+  "NpcIndex": 202,
+  "Name": "Red Snake's Teeth",
+  "Group": "PrajnaIsland",
+  "FileName": "45",
+  "GotoMessage": "Hunt RedSnakes and Return to Robert in SerpentValley",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "{RedSnake/Crimson} bite? Please tell {Robert/LimeGreen} that the Teeth",
+    "of the {RedSnake/Crimson} is the main ingredient for the ",
+    "cure. You don't have much time. Go and kill some ",
+    "{RedSnake's/Crimson} for the Teeth."
+  ],
+  "TaskDescription": [
+    "Collect {RedSnakeTeeth/LightSteelBlue} for the Cure"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 13,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 44,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 1,
+      "Message": "",
+      "ItemName": "RedSnakeTeeth"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 300,
+  "ExpReward": 1200,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 135
+}

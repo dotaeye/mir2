@@ -1,0 +1,43 @@
+{
+  "Index": 48,
+  "NpcIndex": 20,
+  "Name": "Deliver Supplies to the Border",
+  "Group": "BichonProvince",
+  "FileName": "48",
+  "GotoMessage": "Deliver the Relics to Ruben in BorderVillage",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "The {Border village/Yellow} is in trouble! More guards are",
+    "getting injured with frequent attacks from ",
+    "monsters. {Ruben/LimeGreen} asked for {Relics/LightSteelBlue} for the injured."
+  ],
+  "TaskDescription": [
+    "Collect 10 {Relics/LightSteelBlue} by hunting {CaveMaggots/Crimson}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 14,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 10,
+      "Message": "",
+      "ItemName": "Relics"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 1700,
+  "ExpReward": 1700,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 8
+}

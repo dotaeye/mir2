@@ -1,0 +1,574 @@
+{
+  "Index": 158,
+  "Name": "Tongs",
+  "Image": 39,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 31,
+  "Light": 0,
+  "AttackSpeed": 1800,
+  "MoveSpeed": 1500,
+  "Experience": 340,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 160,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "PrinceDagger"
+    },
+    {
+      "Chance": 160,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MartialSword"
+    },
+    {
+      "Chance": 160,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "HookedSpear"
+    },
+    {
+      "Chance": 160,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "KrissSword"
+    },
+    {
+      "Chance": 160,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "IronBlades"
+    },
+    {
+      "Chance": 160,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "LongBow"
+    },
+    {
+      "Chance": 500,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "PowerAxe"
+    },
+    {
+      "Chance": 1000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "PurifierSword"
+    },
+    {
+      "Chance": 800,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "LightLeatherArmour(F)"
+    },
+    {
+      "Chance": 800,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "LightLeatherArmour(M)"
+    },
+    {
+      "Chance": 800,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "RelicArmour(F)"
+    },
+    {
+      "Chance": 800,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "RelicArmour(M)"
+    },
+    {
+      "Chance": 800,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SoulArmour(F)"
+    },
+    {
+      "Chance": 800,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SoulArmour(M)"
+    },
+    {
+      "Chance": 800,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MagicRobe(F)"
+    },
+    {
+      "Chance": 800,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MagicRobe(M)"
+    },
+    {
+      "Chance": 800,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "HeavyArmour(F)"
+    },
+    {
+      "Chance": 800,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "HeavyArmour(M)"
+    },
+    {
+      "Chance": 200,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "LanternNecklace"
+    },
+    {
+      "Chance": 200,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "TigerNecklace"
+    },
+    {
+      "Chance": 600,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "PlatinumNecklace"
+    },
+    {
+      "Chance": 1500,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "BlueJadeNecklace"
+    },
+    {
+      "Chance": 1500,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "ConvexLens"
+    },
+    {
+      "Chance": 1500,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "BambooPipe"
+    },
+    {
+      "Chance": 400,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "GoldBracelet"
+    },
+    {
+      "Chance": 900,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "DeathGauntlet"
+    },
+    {
+      "Chance": 500,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MonkBracelet"
+    },
+    {
+      "Chance": 500,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "EbonyBracelet"
+    },
+    {
+      "Chance": 20000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SteelGlove"
+    },
+    {
+      "Chance": 160,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MagicBracelet"
+    },
+    {
+      "Chance": 160,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "StrainBracelet"
+    },
+    {
+      "Chance": 160,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "HardGlove"
+    },
+    {
+      "Chance": 600,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "CharmRing"
+    },
+    {
+      "Chance": 6000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "CoralRing"
+    },
+    {
+      "Chance": 6000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "ExpelRing"
+    },
+    {
+      "Chance": 600,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MoralRing"
+    },
+    {
+      "Chance": 500,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "IronRing"
+    },
+    {
+      "Chance": 160,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "BlackRing"
+    },
+    {
+      "Chance": 200,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "GoldRing"
+    },
+    {
+      "Chance": 160,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "PearlRing"
+    },
+    {
+      "Chance": 160,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SerpentEyeRing"
+    },
+    {
+      "Chance": 500,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SkeletonRing"
+    },
+    {
+      "Chance": 2000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SCStone(L)"
+    },
+    {
+      "Chance": 2000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MCStone(L)"
+    },
+    {
+      "Chance": 2000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "DCStone(L)"
+    },
+    {
+      "Chance": 2000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MagicStone(L)"
+    },
+    {
+      "Chance": 2000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "HealthStone(L)"
+    },
+    {
+      "Chance": 1500,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SCStone(M)"
+    },
+    {
+      "Chance": 2000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "PowerStone(L)"
+    },
+    {
+      "Chance": 1500,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "DCStone(M)"
+    },
+    {
+      "Chance": 1500,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "PowerStone(M)"
+    },
+    {
+      "Chance": 1500,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MagicStone(M)"
+    },
+    {
+      "Chance": 1500,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "HealthStone(M)"
+    },
+    {
+      "Chance": 1500,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MCStone(M)"
+    },
+    {
+      "Chance": 20,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(HP)DrugMedium"
+    },
+    {
+      "Chance": 20,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(MP)DrugMedium"
+    },
+    {
+      "Chance": 100,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion"
+    },
+    {
+      "Chance": 200,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion"
+    },
+    {
+      "Chance": 400,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion"
+    },
+    {
+      "Chance": 600,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion(M)"
+    },
+    {
+      "Chance": 1000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "OldGinseng"
+    },
+    {
+      "Chance": 2000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "StormDrug(S)"
+    },
+    {
+      "Chance": 15,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "BugShell"
+    },
+    {
+      "Chance": 1400,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "EnergyRepulsor"
+    },
+    {
+      "Chance": 2000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "FrostCrunch"
+    },
+    {
+      "Chance": 15,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": true,
+      "ItemName": "CharleySword"
+    },
+    {
+      "Chance": 10,
+      "Gold": 450,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": ""
+    }
+  ],
+  "CanTame": true,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 5,
+      "MaxAC": 5,
+      "MinMAC": 7,
+      "MaxMAC": 7,
+      "MinDC": 15,
+      "MaxDC": 25,
+      "Accuracy": 13,
+      "Agility": 15,
+      "HP": 240
+    },
+    "Count": 332
+  },
+  "GameName": "Tongs"
+}

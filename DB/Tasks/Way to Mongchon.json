@@ -1,0 +1,55 @@
+{
+  "Index": 42,
+  "NpcIndex": 131,
+  "Name": "Way to Mongchon",
+  "Group": "BichonProvince",
+  "FileName": "42",
+  "GotoMessage": "Return to Bull in BichonWal 374:296",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Hello young Mirian, I'm planning going to",
+    "{MongchonProvince/Yellow} frequently, but i haven't left",
+    "this town because of the snake on the way. ",
+    "Do you think you can eliminate some of those ",
+    "snakes?"
+  ],
+  "TaskDescription": [
+    "Eliminate 15 {RedViper/Crimson} and {TigerViper's/Crimson}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 13,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 15,
+      "Message": "",
+      "MonsterName": "RedViper"
+    },
+    {
+      "Count": 15,
+      "Message": "",
+      "MonsterName": "TigerViper"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 300,
+  "ExpReward": 1200,
+  "CreditReward": 0,
+  "FixedRewards": [
+    {
+      "Count": 1,
+      "ItemName": "SolidBronzeAxe"
+    }
+  ],
+  "SelectRewards": [],
+  "FinishNpcIndex": 131
+}

@@ -1,0 +1,40 @@
+{
+  "Index": 77,
+  "NpcIndex": 0,
+  "Name": "Call from the Dead",
+  "Group": "SerpentValley",
+  "FileName": "77",
+  "GotoMessage": "",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Please return to {Robin/LimeGreen} Warehouse Keeper in ",
+    "{MongchonProvince/Yellow} "
+  ],
+  "TaskDescription": [],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 20,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [
+    {
+      "Count": 1,
+      "Message": "",
+      "ItemName": "OldRobe"
+    }
+  ],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 4200,
+  "ExpReward": 3794,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 170
+}

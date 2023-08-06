@@ -1,0 +1,57 @@
+{
+  "Index": 116,
+  "NpcIndex": 162,
+  "Name": "Report to the Manager",
+  "Group": "MongchonProvince",
+  "FileName": "116",
+  "GotoMessage": "Speak to SubjugationManager in BichonWall",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Please report to my Commanding Officer in ",
+    "{BichonProvince/Yellow}."
+  ],
+  "TaskDescription": [
+    "Report to {SubjugationManager/LimeGreen} "
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 26,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 115,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 13000,
+  "ExpReward": 6688,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [
+    {
+      "Count": 1,
+      "ItemName": "SolidGreatAxe"
+    },
+    {
+      "Count": 1,
+      "ItemName": "SolidBronzeStaff"
+    },
+    {
+      "Count": 1,
+      "ItemName": "SolidSerpentSword"
+    },
+    {
+      "Count": 1,
+      "ItemName": "SolidTwinBlades"
+    },
+    {
+      "Count": 1,
+      "ItemName": "SolidSilverBow"
+    }
+  ],
+  "FinishNpcIndex": 162
+}

@@ -1,0 +1,66 @@
+{
+  "Index": 151,
+  "NpcIndex": 134,
+  "Name": "Holy Sword Quest",
+  "Group": "HolySword Quest",
+  "FileName": "151",
+  "GotoMessage": "Return to Master Thunderman",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Travel deep within {RedValley/Yellow} and Slay the",
+    "{RedMoonEvil/Crimson}."
+  ],
+  "TaskDescription": [
+    "Eliminate the {RedMoonEvil/Crimson}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 35,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 150,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [
+    {
+      "Count": 2,
+      "Message": "",
+      "ItemName": "EvilApeOil"
+    },
+    {
+      "Count": 2,
+      "Message": "",
+      "ItemName": "EvilApeHeart"
+    }
+  ],
+  "KillTasks": [
+    {
+      "Count": 1,
+      "Message": "",
+      "MonsterName": "RedMoonEvil"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 0,
+  "ExpReward": 0,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [
+    {
+      "Count": 1,
+      "ItemName": "RedMoonSword"
+    },
+    {
+      "Count": 1,
+      "ItemName": "RedMoonBlades"
+    },
+    {
+      "Count": 1,
+      "ItemName": "RedMoonBow"
+    }
+  ],
+  "FinishNpcIndex": 134
+}

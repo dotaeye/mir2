@@ -1,0 +1,1366 @@
+{
+  "Index": 215,
+  "Name": "Ancient_RedThunderZuma",
+  "Image": 67,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 54,
+  "Light": 0,
+  "AttackSpeed": 1700,
+  "MoveSpeed": 900,
+  "Experience": 30000,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 100,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "GoldBar"
+    },
+    {
+      "Chance": 550,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "DragonStaff"
+    },
+    {
+      "Chance": 550,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SoulSabre"
+    },
+    {
+      "Chance": 550,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "RoyalBlades"
+    },
+    {
+      "Chance": 550,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MaleficBow"
+    },
+    {
+      "Chance": 800,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SwordOfWarGod"
+    },
+    {
+      "Chance": 800,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "BladeOfSorcery"
+    },
+    {
+      "Chance": 225,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "LitheBow"
+    },
+    {
+      "Chance": 800,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "HeavenSword"
+    },
+    {
+      "Chance": 800,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "BowOfForce"
+    },
+    {
+      "Chance": 170,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "ZumaJudgementMace"
+    },
+    {
+      "Chance": 170,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "ZumaWarMageStaff"
+    },
+    {
+      "Chance": 170,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "ZumaSoulSpringWand"
+    },
+    {
+      "Chance": 170,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "ZumaBlades"
+    },
+    {
+      "Chance": 170,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "ZumaFiendBow"
+    },
+    {
+      "Chance": 800,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "BladesOfMagi"
+    },
+    {
+      "Chance": 225,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "FreezingBlades"
+    },
+    {
+      "Chance": 550,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "DragonSlayer"
+    },
+    {
+      "Chance": 225,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MagicScythe"
+    },
+    {
+      "Chance": 50,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "PurifierSword"
+    },
+    {
+      "Chance": 50,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "GreatAxe"
+    },
+    {
+      "Chance": 50,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MageStaff"
+    },
+    {
+      "Chance": 50,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SerpentSword"
+    },
+    {
+      "Chance": 50,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "DoubleBlades"
+    },
+    {
+      "Chance": 225,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "StoneBambooFan"
+    },
+    {
+      "Chance": 50,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "DragonSword"
+    },
+    {
+      "Chance": 50,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SilverBow"
+    },
+    {
+      "Chance": 280,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "JudgementMace"
+    },
+    {
+      "Chance": 280,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "WarMageStaff"
+    },
+    {
+      "Chance": 280,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SoulSpringWand"
+    },
+    {
+      "Chance": 280,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "BladesOfDarkness"
+    },
+    {
+      "Chance": 280,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "FiendBow"
+    },
+    {
+      "Chance": 225,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "WarSpiritBlade"
+    },
+    {
+      "Chance": 50,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "BloodStealerSword"
+    },
+    {
+      "Chance": 55,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "StuddedArmour(M)"
+    },
+    {
+      "Chance": 1000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "HeavenArmour(F)"
+    },
+    {
+      "Chance": 1000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "HeavenArmour(M)"
+    },
+    {
+      "Chance": 55,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "StuddedArmour(F)"
+    },
+    {
+      "Chance": 55,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "RoyalArmour(F)"
+    },
+    {
+      "Chance": 55,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "RoyalArmour(M)"
+    },
+    {
+      "Chance": 55,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "TitanArmour(M)"
+    },
+    {
+      "Chance": 55,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "DragonRobe(F)"
+    },
+    {
+      "Chance": 55,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "DragonRobe(M)"
+    },
+    {
+      "Chance": 55,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SteelArmour(F)"
+    },
+    {
+      "Chance": 55,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SteelArmour(M)"
+    },
+    {
+      "Chance": 55,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "TitanArmour(F)"
+    },
+    {
+      "Chance": 80,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "BlackIronHelmet"
+    },
+    {
+      "Chance": 5,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SkeletonHelmet"
+    },
+    {
+      "Chance": 5,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "ShamanHelmet"
+    },
+    {
+      "Chance": 80,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "HelmetOfHero"
+    },
+    {
+      "Chance": 70,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "GreatHelmet"
+    },
+    {
+      "Chance": 70,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "WisdomCoronet"
+    },
+    {
+      "Chance": 70,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "TaoCoronet"
+    },
+    {
+      "Chance": 40,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "PearlNecklace"
+    },
+    {
+      "Chance": 40,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "LifeNecklace"
+    },
+    {
+      "Chance": 40,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "ClawNecklace"
+    },
+    {
+      "Chance": 400,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SkillNecklace"
+    },
+    {
+      "Chance": 65,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "DemonicBells"
+    },
+    {
+      "Chance": 65,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "GreenBead"
+    },
+    {
+      "Chance": 100,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "GaleNecklace"
+    },
+    {
+      "Chance": 65,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SoulNecklace"
+    },
+    {
+      "Chance": 40,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "3rdEyeBracelet"
+    },
+    {
+      "Chance": 5,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "DeathGauntlet"
+    },
+    {
+      "Chance": 5,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "GoldBracelet"
+    },
+    {
+      "Chance": 5,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "BronzeGlove"
+    },
+    {
+      "Chance": 40,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SpellBracelet"
+    },
+    {
+      "Chance": 85,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "KnightBracelet"
+    },
+    {
+      "Chance": 85,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "DragonBracelet"
+    },
+    {
+      "Chance": 85,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SoulSpringBracelet"
+    },
+    {
+      "Chance": 35,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "BlackIronBracelet"
+    },
+    {
+      "Chance": 65,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SteelGlove"
+    },
+    {
+      "Chance": 4000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "RecoveryRing"
+    },
+    {
+      "Chance": 40000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "RevivalRing"
+    },
+    {
+      "Chance": 4000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "FlameRing"
+    },
+    {
+      "Chance": 40000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "ProtectionRing"
+    },
+    {
+      "Chance": 95,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "TitanRing"
+    },
+    {
+      "Chance": 40000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "ParalysisRing"
+    },
+    {
+      "Chance": 4000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "ClearRing"
+    },
+    {
+      "Chance": 10,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "GaleRing"
+    },
+    {
+      "Chance": 40000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "ProtectionRing"
+    },
+    {
+      "Chance": 95,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "PowerRing"
+    },
+    {
+      "Chance": 95,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "VioletRing"
+    },
+    {
+      "Chance": 35,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "RubyRing"
+    },
+    {
+      "Chance": 35,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "DragonRing"
+    },
+    {
+      "Chance": 10,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "GaleRing"
+    },
+    {
+      "Chance": 5,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "CoralRing"
+    },
+    {
+      "Chance": 5,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "ExpelRing"
+    },
+    {
+      "Chance": 5,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MoralRing"
+    },
+    {
+      "Chance": 5,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "CharmRing"
+    },
+    {
+      "Chance": 5,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "IronRing"
+    },
+    {
+      "Chance": 5,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SkeletonRing"
+    },
+    {
+      "Chance": 35,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "PlatinumRing"
+    },
+    {
+      "Chance": 5,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "AmuletOfRevival"
+    },
+    {
+      "Chance": 100,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "GoldBelt"
+    },
+    {
+      "Chance": 150,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "AdamantineBelt"
+    },
+    {
+      "Chance": 150,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "RedScaleBoots"
+    },
+    {
+      "Chance": 100,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "DragonBoots"
+    },
+    {
+      "Chance": 2,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion(M)"
+    },
+    {
+      "Chance": 2,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion(M)"
+    },
+    {
+      "Chance": 30,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "ImpactDrug(M)"
+    },
+    {
+      "Chance": 30,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MagicDrug(M)"
+    },
+    {
+      "Chance": 30,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "TaoistDrug(M)"
+    },
+    {
+      "Chance": 30,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "StormDrug(M)"
+    },
+    {
+      "Chance": 1,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(HP)DrugXL"
+    },
+    {
+      "Chance": 30,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MagicAid(M)"
+    },
+    {
+      "Chance": 1,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(MP)DrugXL"
+    },
+    {
+      "Chance": 2,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(HP)DrugXL"
+    },
+    {
+      "Chance": 2,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(MP)DrugXL"
+    },
+    {
+      "Chance": 2,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion(M)"
+    },
+    {
+      "Chance": 30,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "StaminaAid(M)"
+    },
+    {
+      "Chance": 2,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion(M)"
+    },
+    {
+      "Chance": 2,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion(M)"
+    },
+    {
+      "Chance": 1,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion(M)"
+    },
+    {
+      "Chance": 1,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion(M)"
+    },
+    {
+      "Chance": 2,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion(M)"
+    },
+    {
+      "Chance": 1,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion(M)"
+    },
+    {
+      "Chance": 1,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion(M)"
+    },
+    {
+      "Chance": 1,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion(M)"
+    },
+    {
+      "Chance": 1,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion(M)"
+    },
+    {
+      "Chance": 2,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(MP)DrugLarge"
+    },
+    {
+      "Chance": 2,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(HP)DrugLarge"
+    },
+    {
+      "Chance": 2,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(MP)DrugLarge"
+    },
+    {
+      "Chance": 2,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(HP)DrugLarge"
+    },
+    {
+      "Chance": 1,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(MP)DrugLarge"
+    },
+    {
+      "Chance": 1,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(HP)DrugLarge"
+    },
+    {
+      "Chance": 1,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(MP)DrugLarge"
+    },
+    {
+      "Chance": 1,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(HP)DrugLarge"
+    },
+    {
+      "Chance": 10,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "ZumaRelic"
+    },
+    {
+      "Chance": 5,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "BenedictionOil"
+    },
+    {
+      "Chance": 2,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "BenedictionOil"
+    },
+    {
+      "Chance": 350,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "BraveryOrb"
+    },
+    {
+      "Chance": 350,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MagicOrb"
+    },
+    {
+      "Chance": 350,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SoulOrb"
+    },
+    {
+      "Chance": 30,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "UltimateEnhancer"
+    },
+    {
+      "Chance": 30,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "EnergyRepulsor"
+    },
+    {
+      "Chance": 25,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SummonShinsu"
+    },
+    {
+      "Chance": 200,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SummonHolyDeva"
+    },
+    {
+      "Chance": 200,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "Curse"
+    },
+    {
+      "Chance": 200,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "Reincarnation"
+    },
+    {
+      "Chance": 400,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "PoisonCloud"
+    },
+    {
+      "Chance": 175,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "FlashDash"
+    },
+    {
+      "Chance": 50,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "PoisonSword"
+    },
+    {
+      "Chance": 50,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MoonLight"
+    },
+    {
+      "Chance": 50,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MPEater"
+    },
+    {
+      "Chance": 200,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "DarkBody"
+    },
+    {
+      "Chance": 400,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SwiftFeet"
+    },
+    {
+      "Chance": 600,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "EnergyShield"
+    },
+    {
+      "Chance": 50,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "Purification"
+    },
+    {
+      "Chance": 400,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "FireBurst"
+    },
+    {
+      "Chance": 600,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "Blizzard"
+    },
+    {
+      "Chance": 50,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "TwinDrakeBlade"
+    },
+    {
+      "Chance": 50,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "Entrapment"
+    },
+    {
+      "Chance": 25,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "FlamingSword"
+    },
+    {
+      "Chance": 50,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "LionRoar"
+    },
+    {
+      "Chance": 30,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "CrossHalfMoon"
+    },
+    {
+      "Chance": 50,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "BladeAvalanche"
+    },
+    {
+      "Chance": 50,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "Hallucination"
+    },
+    {
+      "Chance": 400,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "ProtectionField"
+    },
+    {
+      "Chance": 50,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "Vampirism"
+    },
+    {
+      "Chance": 25,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "IceStorm"
+    },
+    {
+      "Chance": 30,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "FlameDisruptor"
+    },
+    {
+      "Chance": 50,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "Mirroring"
+    },
+    {
+      "Chance": 200,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "FlameField"
+    },
+    {
+      "Chance": 400,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MeteorStrike"
+    },
+    {
+      "Chance": 400,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "Rage"
+    },
+    {
+      "Chance": 1,
+      "Gold": 15000,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": ""
+    }
+  ],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 19,
+      "MaxAC": 19,
+      "MinMAC": 21,
+      "MaxMAC": 21,
+      "MinDC": 21,
+      "MaxDC": 71,
+      "Accuracy": 15,
+      "Agility": 16,
+      "HP": 4000
+    },
+    "Count": 4203
+  },
+  "GameName": "Ancient_RedThunderZuma"
+}

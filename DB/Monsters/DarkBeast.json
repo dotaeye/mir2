@@ -1,0 +1,110 @@
+{
+  "Index": 424,
+  "Name": "DarkBeast",
+  "Image": 268,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 60,
+  "Light": 0,
+  "AttackSpeed": 1500,
+  "MoveSpeed": 1350,
+  "Experience": 6000,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 15,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(HP)DrugLarge"
+    },
+    {
+      "Chance": 15,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(MP)DrugLarge"
+    },
+    {
+      "Chance": 150,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(HP)DrugLarge"
+    },
+    {
+      "Chance": 150,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(MP)DrugLarge"
+    },
+    {
+      "Chance": 25,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion"
+    },
+    {
+      "Chance": 50,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion(M)"
+    },
+    {
+      "Chance": 30,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "BeastLeather"
+    },
+    {
+      "Chance": 40,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "LargeBone"
+    },
+    {
+      "Chance": 15,
+      "Gold": 2500,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": ""
+    }
+  ],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 18,
+      "MaxAC": 18,
+      "MinMAC": 29,
+      "MaxMAC": 29,
+      "MinDC": 19,
+      "MaxDC": 45,
+      "Accuracy": 19,
+      "Agility": 17,
+      "HP": 1200
+    },
+    "Count": 1394
+  },
+  "GameName": "DarkBeast"
+}

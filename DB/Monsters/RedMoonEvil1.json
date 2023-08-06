@@ -1,0 +1,46 @@
+{
+  "Index": 325,
+  "Name": "RedMoonEvil1",
+  "Image": 62,
+  "AI": 13,
+  "Effect": 0,
+  "ViewRange": 14,
+  "CoolEye": 0,
+  "Level": 60,
+  "Light": 0,
+  "AttackSpeed": 2000,
+  "MoveSpeed": 0,
+  "Experience": 900,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 1,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": true,
+      "ItemName": "RedMoonChip"
+    }
+  ],
+  "CanTame": false,
+  "CanPush": false,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 10,
+      "MaxAC": 10,
+      "MinMAC": 10,
+      "MaxMAC": 10,
+      "MinDC": 20,
+      "MaxDC": 60,
+      "Accuracy": 25,
+      "Agility": 25,
+      "HP": 500
+    },
+    "Count": 670
+  },
+  "GameName": "RedMoonEvil"
+}

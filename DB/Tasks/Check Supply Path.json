@@ -1,0 +1,36 @@
+{
+  "Index": 117,
+  "NpcIndex": 27,
+  "Name": "Check Supply Path",
+  "Group": "BichonProvince",
+  "FileName": "117",
+  "GotoMessage": "Speak with CaveGuide.",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Speak to {CaveGuide/LimeGreen} in {TaoVillage/Yellow}"
+  ],
+  "TaskDescription": [
+    "Head West of {TaoVillage/Yellow} and Speak ",
+    "with {CaveGuide/LimeGreen}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 27,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 7750,
+  "ExpReward": 4144,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 121
+}

@@ -1,0 +1,52 @@
+{
+  "Index": 64,
+  "NpcIndex": 69,
+  "Name": "Return the Necklace",
+  "Group": "BichonProvince",
+  "FileName": "64",
+  "GotoMessage": "Return the Necklace to Blacksmith Vincent in BichonWall",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "That body seems to be one {Vincent/LimeGreen} is looking ",
+    "for. The necklace matches the description ",
+    "{Vincent/LimeGreen} gave."
+  ],
+  "TaskDescription": [
+    "Return the {OldNecklace/LightSteelBlue} to {Vincent/LimeGreen}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 18,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 63,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [
+    {
+      "Count": 1,
+      "Message": "",
+      "ItemName": "OldNecklace"
+    }
+  ],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 935,
+  "ExpReward": 3616,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [
+    {
+      "Count": 1,
+      "ItemName": "ToughGlove"
+    },
+    {
+      "Count": 1,
+      "ItemName": "MagicBangle"
+    }
+  ],
+  "FinishNpcIndex": 50
+}

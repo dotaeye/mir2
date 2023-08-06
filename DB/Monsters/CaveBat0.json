@@ -1,0 +1,132 @@
+{
+  "Index": 82,
+  "Name": "CaveBat0",
+  "Image": 19,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 20,
+  "Light": 0,
+  "AttackSpeed": 2500,
+  "MoveSpeed": 1200,
+  "Experience": 34,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 1,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(HP)DrugSmall"
+    },
+    {
+      "Chance": 1,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(MP)DrugSmall"
+    },
+    {
+      "Chance": 5,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(HP)DrugSmall"
+    },
+    {
+      "Chance": 5,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(MP)DrugSmall"
+    },
+    {
+      "Chance": 1,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "TownTeleport"
+    },
+    {
+      "Chance": 1,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "TownTeleport"
+    },
+    {
+      "Chance": 1,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "TownTeleport"
+    },
+    {
+      "Chance": 2,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "TownTeleport"
+    },
+    {
+      "Chance": 2,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "TownTeleport"
+    },
+    {
+      "Chance": 5,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": true,
+      "ItemName": "BatTeeth"
+    },
+    {
+      "Chance": 6,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": true,
+      "ItemName": "BatWings"
+    },
+    {
+      "Chance": 5,
+      "Gold": 5000,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": ""
+    }
+  ],
+  "CanTame": true,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 2,
+      "MaxAC": 2,
+      "MinDC": 4,
+      "MaxDC": 6,
+      "Accuracy": 11,
+      "Agility": 25,
+      "HP": 25
+    },
+    "Count": 75
+  },
+  "GameName": "CaveBat"
+}

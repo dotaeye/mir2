@@ -1,0 +1,34 @@
+{
+  "Index": 28,
+  "Name": "BabySnowMan",
+  "Image": 10009,
+  "AI": 64,
+  "Effect": 9,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 15,
+  "Light": 0,
+  "AttackSpeed": 1200,
+  "MoveSpeed": 900,
+  "Experience": 0,
+  "DropPath": "",
+  "Drops": [],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 10,
+      "MaxAC": 15,
+      "MinMAC": 10,
+      "MaxMAC": 15,
+      "Agility": 15,
+      "HP": 1500
+    },
+    "Count": 1565
+  },
+  "GameName": "BabySnowMan"
+}

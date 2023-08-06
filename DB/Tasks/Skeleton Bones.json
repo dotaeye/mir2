@@ -1,0 +1,67 @@
+{
+  "Index": 46,
+  "NpcIndex": 0,
+  "Name": "Skeleton Bones",
+  "Group": "BichonProvince",
+  "FileName": "46",
+  "GotoMessage": "Return to MirGuide Peter in BichonWall",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "{OmaCave/Yellow} are located in the west part of ",
+    "{BichonProvince/Yellow}. This cave is filled with strong ",
+    "monsters. It's very dark and almost like a maze ",
+    "inside. Do you think you are ready to show your ",
+    "courage?"
+  ],
+  "TaskDescription": [
+    "Kill {Skeleton's/Crimson} in {OmaCave/Yellow} and Collect ",
+    "{SkeletonBone's/LightSteelBlue}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 14,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 15,
+      "Message": "",
+      "ItemName": "SkeletonBone"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 350,
+  "ExpReward": 1400,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [
+    {
+      "Count": 1,
+      "ItemName": "SharpSword"
+    },
+    {
+      "Count": 1,
+      "ItemName": "SharpTrident"
+    },
+    {
+      "Count": 1,
+      "ItemName": "SharpScimitar"
+    },
+    {
+      "Count": 1,
+      "ItemName": "SharpSabre"
+    },
+    {
+      "Count": 1,
+      "ItemName": "ToughBow"
+    }
+  ],
+  "FinishNpcIndex": 0
+}

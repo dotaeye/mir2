@@ -1,0 +1,37 @@
+{
+  "Index": 434,
+  "Name": "Manticore",
+  "Image": 373,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 0,
+  "Light": 0,
+  "AttackSpeed": 1800,
+  "MoveSpeed": 1500,
+  "Experience": 9400,
+  "DropPath": "",
+  "Drops": [],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 8,
+      "MaxAC": 8,
+      "MinMAC": 14,
+      "MaxMAC": 14,
+      "MinDC": 25,
+      "MaxDC": 45,
+      "Accuracy": 16,
+      "Agility": 14,
+      "HP": 1700
+    },
+    "Count": 1844
+  },
+  "GameName": "Manticore"
+}

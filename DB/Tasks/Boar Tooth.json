@@ -1,0 +1,42 @@
+{
+  "Index": 142,
+  "NpcIndex": 156,
+  "Name": "Boar Tooth",
+  "Group": "MongchonProvince",
+  "FileName": "142",
+  "GotoMessage": "Return to MudWall Board.",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "MudWall Bounty, Has been submitted."
+  ],
+  "TaskDescription": [
+    "Travel to {StoneTemple/Yellow} Eliminate {Boar's/Crimson} and ",
+    "collect {Boar Tooth's/LightSteelBlue}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 22,
+  "RequiredMaxLevel": 32,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 2,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 75,
+      "Message": "Collect the Boar's Tooth",
+      "ItemName": "BoarTooth"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 25000,
+  "ExpReward": 10000,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 156
+}

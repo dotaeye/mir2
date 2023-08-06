@@ -1,0 +1,206 @@
+{
+  "Index": 396,
+  "Name": "ManectricClub",
+  "Image": 222,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 10,
+  "CoolEye": 0,
+  "Level": 50,
+  "Light": 0,
+  "AttackSpeed": 1500,
+  "MoveSpeed": 1800,
+  "Experience": 8100,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 50000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SkillNecklace"
+    },
+    {
+      "Chance": 3000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "GoldBelt"
+    },
+    {
+      "Chance": 3500,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "AdamantineBelt"
+    },
+    {
+      "Chance": 1000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SteelBelt"
+    },
+    {
+      "Chance": 150,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "StormDrug(S)"
+    },
+    {
+      "Chance": 150,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "TaoistDrug(M)"
+    },
+    {
+      "Chance": 150,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MagicDrug(M)"
+    },
+    {
+      "Chance": 150,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "ImpactDrug(M)"
+    },
+    {
+      "Chance": 50,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion(M)"
+    },
+    {
+      "Chance": 60,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion"
+    },
+    {
+      "Chance": 20,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(MP)DrugLarge"
+    },
+    {
+      "Chance": 20,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(HP)DrugLarge"
+    },
+    {
+      "Chance": 10,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(MP)DrugLarge"
+    },
+    {
+      "Chance": 10,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(MP)DrugLarge"
+    },
+    {
+      "Chance": 10,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(HP)DrugLarge"
+    },
+    {
+      "Chance": 10,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(HP)DrugLarge"
+    },
+    {
+      "Chance": 30,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion"
+    },
+    {
+      "Chance": 100,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion(M)"
+    },
+    {
+      "Chance": 8500,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "Vampirism"
+    },
+    {
+      "Chance": 10000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "LionRoar"
+    },
+    {
+      "Chance": 10,
+      "Gold": 700,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": ""
+    }
+  ],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 12,
+      "MaxAC": 12,
+      "MinMAC": 14,
+      "MaxMAC": 14,
+      "MinDC": 20,
+      "MaxDC": 50,
+      "Accuracy": 16,
+      "Agility": 14,
+      "HP": 1700
+    },
+    "Count": 1852
+  },
+  "GameName": "ManectricClub"
+}

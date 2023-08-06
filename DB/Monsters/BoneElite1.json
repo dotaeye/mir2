@@ -1,0 +1,59 @@
+{
+  "Index": 95,
+  "Name": "BoneElite1",
+  "Image": 26,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 50,
+  "Light": 10,
+  "AttackSpeed": 2000,
+  "MoveSpeed": 600,
+  "Experience": 100,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 100,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MysteryHelmet"
+    },
+    {
+      "Chance": 100,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MysteryWheel"
+    },
+    {
+      "Chance": 100,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MysteryCircle"
+    }
+  ],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinMAC": 100,
+      "MaxMAC": 100,
+      "MaxDC": 60,
+      "Accuracy": 20,
+      "Agility": 17,
+      "HP": 800
+    },
+    "Count": 1097
+  },
+  "GameName": "BoneElite"
+}

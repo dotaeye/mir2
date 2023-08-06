@@ -1,0 +1,310 @@
+{
+  "Index": 237,
+  "Name": "VioletKekTal",
+  "Image": 85,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 28,
+  "Light": 0,
+  "AttackSpeed": 1800,
+  "MoveSpeed": 1200,
+  "Experience": 230,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 2000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MediumArmour(M)"
+    },
+    {
+      "Chance": 2000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MediumArmour(F)"
+    },
+    {
+      "Chance": 500,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "HeavyArmour(M)"
+    },
+    {
+      "Chance": 500,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "HeavyArmour(F)"
+    },
+    {
+      "Chance": 500,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MagicRobe(M)"
+    },
+    {
+      "Chance": 500,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MagicRobe(F)"
+    },
+    {
+      "Chance": 500,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SoulArmour(M)"
+    },
+    {
+      "Chance": 500,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SoulArmour(F)"
+    },
+    {
+      "Chance": 500,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "RelicArmour(M)"
+    },
+    {
+      "Chance": 500,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "RelicArmour(F)"
+    },
+    {
+      "Chance": 500,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "LightLeatherArmour(M)"
+    },
+    {
+      "Chance": 500,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "LightLeatherArmour(M)"
+    },
+    {
+      "Chance": 500,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SkeletonHelmet"
+    },
+    {
+      "Chance": 150,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "BrassHelmet"
+    },
+    {
+      "Chance": 300,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "ShamanHelmet"
+    },
+    {
+      "Chance": 100,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MagicHelmet"
+    },
+    {
+      "Chance": 1400,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "GaleRing"
+    },
+    {
+      "Chance": 10,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(HP)DrugMedium"
+    },
+    {
+      "Chance": 10,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(MP)DrugMedium"
+    },
+    {
+      "Chance": 20,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(HP)DrugMedium"
+    },
+    {
+      "Chance": 20,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(MP)DrugMedium"
+    },
+    {
+      "Chance": 25,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(HP)DrugLarge"
+    },
+    {
+      "Chance": 25,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(MP)DrugLarge"
+    },
+    {
+      "Chance": 50,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion"
+    },
+    {
+      "Chance": 50,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion"
+    },
+    {
+      "Chance": 100,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion"
+    },
+    {
+      "Chance": 1000,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "StormDrug(S)"
+    },
+    {
+      "Chance": 30,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "BugEye"
+    },
+    {
+      "Chance": 25,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "BugLeg"
+    },
+    {
+      "Chance": 45,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "Mandible"
+    },
+    {
+      "Chance": 8,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": true,
+      "ItemName": "GatheringGlove"
+    },
+    {
+      "Chance": 8,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": true,
+      "ItemName": "GreenHerb"
+    },
+    {
+      "Chance": 8,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": true,
+      "ItemName": "GatheringTool"
+    },
+    {
+      "Chance": 10,
+      "Gold": 2000,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": ""
+    }
+  ],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 2,
+      "MaxAC": 2,
+      "MinMAC": 4,
+      "MaxMAC": 4,
+      "MinDC": 14,
+      "MaxDC": 20,
+      "Accuracy": 13,
+      "Agility": 15,
+      "HP": 190
+    },
+    "Count": 264
+  },
+  "GameName": "VioletKekTal"
+}

@@ -1,0 +1,74 @@
+{
+  "Index": 83,
+  "Name": "CaveMaggot",
+  "Image": 20,
+  "AI": 7,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 21,
+  "Light": 0,
+  "AttackSpeed": 2500,
+  "MoveSpeed": 1000,
+  "Experience": 122,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 2,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MaggotPill"
+    },
+    {
+      "Chance": 10,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MaggotPill"
+    },
+    {
+      "Chance": 4,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": true,
+      "ItemName": "Relics"
+    },
+    {
+      "Chance": 10,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": true,
+      "ItemName": "OliviasRing"
+    },
+    {
+      "Chance": 5,
+      "Gold": 100,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": ""
+    }
+  ],
+  "CanTame": true,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinDC": 6,
+      "MaxDC": 8,
+      "Accuracy": 12,
+      "Agility": 12,
+      "HP": 80
+    },
+    "Count": 118
+  },
+  "GameName": "CaveMaggot"
+}

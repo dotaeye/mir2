@@ -1,0 +1,44 @@
+{
+  "Index": 123,
+  "NpcIndex": 0,
+  "Name": "Skeleton Hunt 2",
+  "Group": "PrajnaIsland",
+  "FileName": "123",
+  "GotoMessage": "Return to MirGuide Edward in PrajnaIsland",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "There are stonger monsters inside the tomb.",
+    "{BoneBlademan/Crimson} are faster then the other",
+    "monsters. Please eliminate these monsters."
+  ],
+  "TaskDescription": [
+    "Please return to the cave. And Eliminate 15 ",
+    "{BoneBlademan/Crimson}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 28,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 122,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 15,
+      "Message": "",
+      "MonsterName": "BoneBlademan"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 19000,
+  "ExpReward": 19000,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 0
+}

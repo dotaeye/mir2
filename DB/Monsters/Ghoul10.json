@@ -1,0 +1,34 @@
+{
+  "Index": 137,
+  "Name": "Ghoul10",
+  "Image": 74,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 50,
+  "Light": 0,
+  "AttackSpeed": 2000,
+  "MoveSpeed": 600,
+  "Experience": 115,
+  "DropPath": "",
+  "Drops": [],
+  "CanTame": false,
+  "CanPush": false,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 100,
+      "MaxAC": 100,
+      "MaxDC": 60,
+      "Accuracy": 20,
+      "Agility": 17,
+      "HP": 800
+    },
+    "Count": 1097
+  },
+  "GameName": "Ghoul"
+}

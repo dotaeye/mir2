@@ -1,0 +1,50 @@
+{
+  "Index": 26,
+  "NpcIndex": 0,
+  "Name": "Ingredients for the Antidote",
+  "Group": "BichonProvince",
+  "FileName": "26",
+  "GotoMessage": "Return to MirGuide Peter in BichonWall",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "There have been icreasing numbers of ",
+    "{SpittlingSpider's/Crimson} around the town. This monster ",
+    "is poisonous and the antidote can only be made ",
+    "from the {PoisonSack/LightSteelBlue}."
+  ],
+  "TaskDescription": [
+    "Please find {PoisonSack's/LightSteelBlue} by hunting ",
+    "{SpittingSpider's/Crimson}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 9,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 25,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 10,
+      "Message": "",
+      "ItemName": "PoisonSack"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 125,
+  "ExpReward": 500,
+  "CreditReward": 0,
+  "FixedRewards": [
+    {
+      "Count": 1,
+      "ItemName": "StrongLeatherBelt"
+    }
+  ],
+  "SelectRewards": [],
+  "FinishNpcIndex": 0
+}

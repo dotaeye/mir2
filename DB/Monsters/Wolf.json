@@ -1,0 +1,50 @@
+{
+  "Index": 35,
+  "Name": "Wolf",
+  "Image": 104,
+  "AI": 9,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 16,
+  "Light": 0,
+  "AttackSpeed": 2500,
+  "MoveSpeed": 1200,
+  "Experience": 48,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 5,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "Meat"
+    },
+    {
+      "Chance": 10,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "Meat"
+    }
+  ],
+  "CanTame": true,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinDC": 6,
+      "MaxDC": 8,
+      "Accuracy": 10,
+      "Agility": 13,
+      "HP": 48
+    },
+    "Count": 85
+  },
+  "GameName": "Wolf"
+}

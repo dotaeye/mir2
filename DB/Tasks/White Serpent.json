@@ -1,0 +1,45 @@
+{
+  "Index": 82,
+  "NpcIndex": 253,
+  "Name": "White Serpent",
+  "Group": "SerpentValley",
+  "FileName": "82",
+  "GotoMessage": "Return the Collector in SerpentValley",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Traveler... Traveler. I'm in dire need of your ",
+    "help... I've just received new's regarding a ",
+    "very rare creature in {SerpentDeadMines/Yellow} ",
+    "the {WhiteSerpent/Crimson} sound's interesting ",
+    "does it not? "
+  ],
+  "TaskDescription": [
+    "Eliminate {WhiteSerpent/Crimson} in {SerpentDeadMine/Yellow}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 21,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 1,
+      "Message": "",
+      "MonsterName": "WhiteSerpent"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 5900,
+  "ExpReward": 5900,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 253
+}

@@ -1,0 +1,70 @@
+{
+  "Index": 146,
+  "Name": "EliteStatue",
+  "Image": 65,
+  "AI": 15,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 50,
+  "Light": 0,
+  "AttackSpeed": 2000,
+  "MoveSpeed": 1000,
+  "Experience": 3600,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 30,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(HP)DrugLarge"
+    },
+    {
+      "Chance": 30,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(MP)DrugLarge"
+    },
+    {
+      "Chance": 100,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion"
+    },
+    {
+      "Chance": 5,
+      "Gold": 1750,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": ""
+    }
+  ],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 15,
+      "MaxAC": 15,
+      "MinMAC": 15,
+      "MaxMAC": 15,
+      "MinDC": 30,
+      "MaxDC": 50,
+      "Accuracy": 17,
+      "Agility": 15,
+      "HP": 1600
+    },
+    "Count": 1772
+  },
+  "GameName": "EliteStatue"
+}

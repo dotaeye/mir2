@@ -1,0 +1,43 @@
+{
+  "Index": 56,
+  "NpcIndex": 152,
+  "Name": "Bat Wings",
+  "Group": "BichonProvince",
+  "FileName": "56",
+  "GotoMessage": "Return to Butcher Sarah in BichonWall",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Have you ever tasted {Bat Wings/LightSteelBlue} before? It's a ",
+    "delicacy. I've been selling this a lot latley. Do You",
+    "think you can help me get some more wings?"
+  ],
+  "TaskDescription": [
+    "Collect 10 {BatWing's/LightSteelBlue} and return to {Sarah/LimeGreen}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 17,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 10,
+      "Message": "",
+      "ItemName": "BatWings"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 2500,
+  "ExpReward": 2500,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 152
+}

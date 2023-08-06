@@ -1,0 +1,37 @@
+{
+  "Index": 97,
+  "NpcIndex": 0,
+  "Name": "Danger (WoomyonWoods)",
+  "Group": "WoomyonWoods",
+  "FileName": "97",
+  "GotoMessage": "Travel to WoomyonWoods and Warn SubjugationLead.",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Traveler. Please Warn the {SubjugationLead/LimeGreen} in ",
+    "{WoomyonWoods/Yellow} about the pending threat."
+  ],
+  "TaskDescription": [
+    "Travel to {WoomyonWoods/Yellow} and warm them ",
+    "about the pending Threat."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 23,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 2563,
+  "ExpReward": 1380,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 75
+}

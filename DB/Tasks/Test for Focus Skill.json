@@ -1,0 +1,58 @@
+{
+  "Index": 20,
+  "NpcIndex": 14,
+  "Name": "Test for Focus Skill",
+  "Group": "BichonProvince",
+  "FileName": "20",
+  "GotoMessage": "Return to the Captain at 320:477",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "A Recommendation.. Thats a first.",
+    "We need all that is able to help with this war.",
+    "Whether they join the Guard or not.",
+    "Please can you assist me with something."
+  ],
+  "TaskDescription": [
+    "Eliminate 10 {Oma's/Crimson} and {RakingCat's/Crimson}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 4,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 19,
+  "RequiredClass": 16,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 10,
+      "Message": "",
+      "MonsterName": "Oma"
+    },
+    {
+      "Count": 10,
+      "Message": "",
+      "MonsterName": "RakingCat"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 45,
+  "ExpReward": 180,
+  "CreditReward": 0,
+  "FixedRewards": [
+    {
+      "Count": 1,
+      "ItemName": "OldLoafer"
+    },
+    {
+      "Count": 1,
+      "ItemName": "Focus"
+    }
+  ],
+  "SelectRewards": [],
+  "FinishNpcIndex": 14
+}

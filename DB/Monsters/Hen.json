@@ -1,0 +1,58 @@
+{
+  "Index": 29,
+  "Name": "Hen",
+  "Image": 3,
+  "AI": 1,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 5,
+  "Light": 0,
+  "AttackSpeed": 3000,
+  "MoveSpeed": 1400,
+  "Experience": 9,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 5,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "Chicken"
+    },
+    {
+      "Chance": 15,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "Chicken"
+    },
+    {
+      "Chance": 20,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "Feather"
+    }
+  ],
+  "CanTame": true,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinDC": 1,
+      "MaxDC": 1,
+      "Accuracy": 3,
+      "Agility": 10,
+      "HP": 5
+    },
+    "Count": 20
+  },
+  "GameName": "Hen"
+}

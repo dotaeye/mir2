@@ -1,0 +1,44 @@
+{
+  "Index": 133,
+  "NpcIndex": 219,
+  "Name": "Guards from Prajna",
+  "Group": "PrajnaIsland",
+  "FileName": "133",
+  "GotoMessage": "Return to the VillageChief in PrajnaIsland",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [],
+  "TaskDescription": [
+    "Eliminate 30 {LeftGuard/Crimson} and {RightGuard's/Crimson}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 36,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 132,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 30,
+      "Message": "",
+      "MonsterName": "LeftGuard"
+    },
+    {
+      "Count": 30,
+      "Message": "",
+      "MonsterName": "RightGuard"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 55000,
+  "ExpReward": 55000,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 219
+}

@@ -1,0 +1,54 @@
+{
+  "Index": 62,
+  "NpcIndex": 73,
+  "Name": "Exterminate",
+  "Group": "WoomyonWoods",
+  "FileName": "62",
+  "GotoMessage": "Return to MasterShok in WoomyonWoods",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "I want you to eliminate in the insects in ",
+    "{InsectCave/Yellow} I'm a very light sleeper and i cannot ",
+    "sleep with noise from all the insects. Please can ",
+    "you help me."
+  ],
+  "TaskDescription": [
+    "Eliminate 10 {KekTal/Crimson} and {VioletKekTal/Crimson}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 18,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 61,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 10,
+      "Message": "",
+      "MonsterName": "KekTal"
+    },
+    {
+      "Count": 10,
+      "Message": "",
+      "MonsterName": "VioletKekTal"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 750,
+  "ExpReward": 3000,
+  "CreditReward": 0,
+  "FixedRewards": [
+    {
+      "Count": 0,
+      "ItemName": "BronzeStrap"
+    }
+  ],
+  "SelectRewards": [],
+  "FinishNpcIndex": 73
+}

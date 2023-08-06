@@ -1,0 +1,29 @@
+{
+  "Index": 448,
+  "Name": "Chieftain_Warrior",
+  "Image": 3,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 0,
+  "Light": 0,
+  "AttackSpeed": 2500,
+  "MoveSpeed": 1800,
+  "Experience": 0,
+  "DropPath": "",
+  "Drops": [],
+  "CanTame": true,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "HP": 1
+    },
+    "Count": 1
+  },
+  "GameName": "Chieftain_Warrior"
+}

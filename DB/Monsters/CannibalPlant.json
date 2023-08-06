@@ -1,0 +1,84 @@
+{
+  "Index": 47,
+  "Name": "CannibalPlant",
+  "Image": 10,
+  "AI": 5,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 20,
+  "Light": 0,
+  "AttackSpeed": 2500,
+  "MoveSpeed": 1800,
+  "Experience": 36,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 4,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "CannibalLeaf"
+    },
+    {
+      "Chance": 5,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "CannibalFruit"
+    },
+    {
+      "Chance": 20,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "CannibalPoison"
+    },
+    {
+      "Chance": 3,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": true,
+      "ItemName": "CannibalStem"
+    },
+    {
+      "Chance": 3,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": true,
+      "ItemName": "CannibalSeed"
+    },
+    {
+      "Chance": 10,
+      "Gold": 100,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": ""
+    }
+  ],
+  "CanTame": false,
+  "CanPush": false,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 2,
+      "MaxAC": 2,
+      "MinDC": 6,
+      "MaxDC": 9,
+      "Accuracy": 12,
+      "Agility": 14,
+      "HP": 28
+    },
+    "Count": 73
+  },
+  "GameName": "CannibalPlant"
+}

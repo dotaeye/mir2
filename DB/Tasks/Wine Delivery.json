@@ -1,0 +1,47 @@
+{
+  "Index": 37,
+  "NpcIndex": 0,
+  "Name": "Wine Delivery",
+  "Group": "SerpentValley",
+  "FileName": "37",
+  "GotoMessage": "Return to MongchonScout with the Wine.",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Here's the {SnakeWine/LightSteelBlue} for {MongchonScout/LimeGreen} as ",
+    "promised. Please enjoy."
+  ],
+  "TaskDescription": [
+    "Deliver the {SnakeWine/LightSteelBlue} to {MongchonScout/LimeGreen}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 10,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 36,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [
+    {
+      "Count": 2,
+      "Message": "",
+      "ItemName": "SnakeWine"
+    }
+  ],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 300,
+  "ExpReward": 822,
+  "CreditReward": 0,
+  "FixedRewards": [
+    {
+      "Count": 0,
+      "ItemName": "BrokenSword"
+    }
+  ],
+  "SelectRewards": [],
+  "FinishNpcIndex": 58
+}

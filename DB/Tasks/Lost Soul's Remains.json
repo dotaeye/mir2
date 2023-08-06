@@ -1,0 +1,42 @@
+{
+  "Index": 106,
+  "NpcIndex": 179,
+  "Name": "Lost Soul's Remains",
+  "Group": "DeathValley",
+  "FileName": "106",
+  "GotoMessage": "Return to the LostSoul on S_1FofDungeon 202:204",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "The Necklace is my {LifeStone/LightSteelBlue}.. This is why I have ",
+    "returned. Please find my {LifeStone/LightSteelBlue}."
+  ],
+  "TaskDescription": [
+    "Hunt {GiantWorm's/Crimson} and return the {OldNecklace/LightSteelBlue}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 24,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 105,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 1,
+      "Message": "",
+      "ItemName": "OldNecklace"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 8000,
+  "ExpReward": 8000,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 179
+}

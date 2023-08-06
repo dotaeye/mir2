@@ -1,0 +1,38 @@
+{
+  "Index": 86,
+  "NpcIndex": 125,
+  "Name": "Uniform Order Status",
+  "Group": "TaoVillage",
+  "FileName": "86",
+  "GotoMessage": "Travel to BichonWall Drapery Shop and speak with Ann",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Traveler, Can you please assist me? I placed an ",
+    "order with {Ann/LimeGreen} in {BichonWall/Yellow} but this ",
+    "was ages ago.. Can you enquire about my order."
+  ],
+  "TaskDescription": [
+    "Please travel to {BichonWall/Yellow} and speak to {Ann/LimeGreen}",
+    "the Drapery Merchant."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 22,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 5250,
+  "ExpReward": 2895,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 54
+}

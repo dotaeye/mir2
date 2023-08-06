@@ -1,0 +1,49 @@
+{
+  "Index": 52,
+  "NpcIndex": 33,
+  "Name": "Ingredients for CanniTea",
+  "Group": "BichonProvince",
+  "FileName": "52",
+  "GotoMessage": "Return to the CraftsLady in BichonWall",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Did you want me to make you {CanniTea/LightSteelBlue}? Hmm.. ",
+    "I ran out of Ingredients. Do you think you can ",
+    "get me 10 {CannibalLeaf/LightSteelBlue} and 10 {CannibalSeed/LightSteelBlue}?"
+  ],
+  "TaskDescription": [
+    "Collect 10 {CannibalLeaf/LightSteelBlue} and {CannibalSeed's/LightSteelBlue} from ",
+    "{CannibalPlant's/Crimson}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 16,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 51,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 10,
+      "Message": "",
+      "ItemName": "CannibalLeaf"
+    },
+    {
+      "Count": 10,
+      "Message": "",
+      "ItemName": "CannibalSeed"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 0,
+  "ExpReward": 0,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 33
+}

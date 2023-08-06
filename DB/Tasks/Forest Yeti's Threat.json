@@ -1,0 +1,48 @@
+{
+  "Index": 22,
+  "NpcIndex": 0,
+  "Name": "Forest Yeti's Threat",
+  "Group": "BichonProvince",
+  "FileName": "22",
+  "GotoMessage": "Return to MirGuide Peter in BichonWall",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "I've been getting reports that {ForestYeti's/Crimson} are",
+    "attacking only the new Warrior's lately.",
+    "Do you think you can help?"
+  ],
+  "TaskDescription": [
+    "Eliminate 5 {ForestYeti's/Crimson}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 6,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 5,
+      "Message": "",
+      "MonsterName": "ForestYeti"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 50,
+  "ExpReward": 200,
+  "CreditReward": 0,
+  "FixedRewards": [
+    {
+      "Count": 1,
+      "ItemName": "PrecisionPendant"
+    }
+  ],
+  "SelectRewards": [],
+  "FinishNpcIndex": 0
+}

@@ -1,0 +1,43 @@
+{
+  "Index": 621,
+  "Name": "LeatherBoots",
+  "Type": 10,
+  "Grade": 1,
+  "RequiredType": 0,
+  "RequiredClass": 31,
+  "RequiredGender": 3,
+  "Set": 0,
+  "Shape": 0,
+  "Weight": 2,
+  "Light": 0,
+  "RequiredAmount": 14,
+  "Image": 561,
+  "Durability": 8000,
+  "Price": 4000,
+  "StackSize": 1,
+  "StartItem": false,
+  "Effect": 0,
+  "NeedIdentify": false,
+  "ShowGroupPickup": false,
+  "GlobalDropNotify": false,
+  "ClassBased": false,
+  "LevelBased": false,
+  "CanMine": false,
+  "CanFastRun": false,
+  "CanAwakening": false,
+  "Bind": 0,
+  "Unique": 0,
+  "RandomStatsId": 8,
+  "RandomStats": null,
+  "ToolTip": "",
+  "Slots": 0,
+  "Stats": {
+    "Values": {
+      "WearWeight": 4
+    },
+    "Count": 4
+  },
+  "IsConsumable": false,
+  "IsFishingRod": false,
+  "FriendlyName": "LeatherBoots"
+}

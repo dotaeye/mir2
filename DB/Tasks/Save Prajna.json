@@ -1,0 +1,48 @@
+{
+  "Index": 121,
+  "NpcIndex": 207,
+  "Name": "Save Prajna",
+  "Group": "PrajnaIsland",
+  "FileName": "121",
+  "GotoMessage": "Return to the Inspector in PrajnaIsland",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "We have been getting more attacks from the monsters lately. ",
+    "Do you think you can eliminate the threat? "
+  ],
+  "TaskDescription": [
+    "Travel the Island and Eliminate 15 {ToxicGhoul's/Crimson} ",
+    "and 10 {RoninGhoul's/Crimson}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 28,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 15,
+      "Message": "",
+      "MonsterName": "ToxicGhoul"
+    },
+    {
+      "Count": 10,
+      "Message": "",
+      "MonsterName": "RoninGhoul"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 18500,
+  "ExpReward": 18500,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 207
+}

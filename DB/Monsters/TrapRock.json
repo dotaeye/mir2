@@ -1,0 +1,37 @@
+{
+  "Index": 219,
+  "Name": "TrapRock",
+  "Image": 130,
+  "AI": 47,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 50,
+  "Light": 0,
+  "AttackSpeed": 1800,
+  "MoveSpeed": 1600,
+  "Experience": 1500,
+  "DropPath": "",
+  "Drops": [],
+  "CanTame": false,
+  "CanPush": false,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 15,
+      "MaxAC": 15,
+      "MinMAC": 5,
+      "MaxMAC": 5,
+      "MinDC": 16,
+      "MaxDC": 39,
+      "Accuracy": 17,
+      "Agility": 17,
+      "HP": 700
+    },
+    "Count": 829
+  },
+  "GameName": "TrapRock"
+}

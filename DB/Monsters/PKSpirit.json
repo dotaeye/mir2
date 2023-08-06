@@ -1,0 +1,64 @@
+{
+  "Index": 505,
+  "Name": "PKSpirit",
+  "Image": 226,
+  "AI": 38,
+  "Effect": 0,
+  "ViewRange": 10,
+  "CoolEye": 100,
+  "Level": 90,
+  "Light": 0,
+  "AttackSpeed": 1500,
+  "MoveSpeed": 900,
+  "Experience": 263,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 20,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(HP)DrugXL"
+    },
+    {
+      "Chance": 30,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(MP)DrugXL"
+    },
+    {
+      "Chance": 10,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "Medicine"
+    }
+  ],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": true,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 20,
+      "MaxAC": 20,
+      "MinMAC": 1,
+      "MaxMAC": 5,
+      "MinDC": 22,
+      "MaxDC": 55,
+      "MinMC": 5,
+      "MaxMC": 35,
+      "Accuracy": 15,
+      "Agility": 13,
+      "HP": 4500
+    },
+    "Count": 4691
+  },
+  "GameName": "PKSpirit"
+}

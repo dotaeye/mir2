@@ -1,0 +1,37 @@
+{
+  "Index": 439,
+  "Name": "Slave2",
+  "Image": 66,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 50,
+  "Light": 0,
+  "AttackSpeed": 1800,
+  "MoveSpeed": 1500,
+  "Experience": 14500,
+  "DropPath": "",
+  "Drops": [],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 10,
+      "MaxAC": 10,
+      "MinMAC": 15,
+      "MaxMAC": 15,
+      "MinDC": 20,
+      "MaxDC": 55,
+      "Accuracy": 16,
+      "Agility": 14,
+      "HP": 1700
+    },
+    "Count": 1855
+  },
+  "GameName": "Slave"
+}

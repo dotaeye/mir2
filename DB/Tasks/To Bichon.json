@@ -1,0 +1,37 @@
+{
+  "Index": 21,
+  "NpcIndex": 14,
+  "Name": "To Bichon",
+  "Group": "BichonProvince",
+  "FileName": "21",
+  "GotoMessage": "Speak to Peter in BichonWall 335:275",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "You seem more like a well-trained Archer now.",
+    "I have asked {Peter/LimeGreen} to give you some work",
+    "to do. The reward should help you in many ways,"
+  ],
+  "TaskDescription": [
+    "Speak to {MirGuide Peter/LimeGreen} Coordinates 335:275"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 4,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 20,
+  "RequiredClass": 16,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 60,
+  "ExpReward": 48,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 14
+}

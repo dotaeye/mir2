@@ -1,0 +1,50 @@
+{
+  "Index": 98,
+  "NpcIndex": 75,
+  "Name": "Monster Hunt in Wooma",
+  "Group": "WoomyonWoods",
+  "FileName": "98",
+  "GotoMessage": "Return to SubjugationLead in WoomyonWoods",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "We need to damage this threat quickly. Head to ",
+    "South-West to the {Temple/Yellow} and try weaken ",
+    "it's resolve."
+  ],
+  "TaskDescription": [
+    "Eliminate 20 {Dung/Crimson} and {WoomaSoldiers/Crimson}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [
+    "Your back, Let's hope your actions has weaken the threat."
+  ],
+  "RequiredMinLevel": 23,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 97,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 20,
+      "Message": "",
+      "MonsterName": "Dung"
+    },
+    {
+      "Count": 20,
+      "Message": "",
+      "MonsterName": "WoomaSoldier"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 8200,
+  "ExpReward": 8200,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 75
+}

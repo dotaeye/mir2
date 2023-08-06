@@ -1,0 +1,38 @@
+{
+  "Index": 61,
+  "NpcIndex": 17,
+  "Name": "Part Time Job",
+  "Group": "BichonProvince",
+  "FileName": "61",
+  "GotoMessage": "Travel to WoomyonWoods and speak to MasterShok",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "I got a message from {WoomyonWoods/Yellow} asking for ",
+    "some help. Can you go to {WoomyonWoods/Yellow} and ",
+    "help then with the trouble in {InsectCave/Yellow}? "
+  ],
+  "TaskDescription": [
+    "Please go speak to {MasterShok/LimeGreen} in",
+    "{WoomyonWoods/Yellow}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 18,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 58,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 1480,
+  "ExpReward": 1232,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 73
+}

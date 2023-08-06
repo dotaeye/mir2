@@ -1,0 +1,55 @@
+{
+  "Index": 6,
+  "NpcIndex": 5,
+  "Name": "Smith's 2nd Test",
+  "Group": "BichonProvince",
+  "FileName": "6",
+  "GotoMessage": "Return to Blacksmith Smith at 297:612",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Traveller.. I still think its to dangerous outside.",
+    "Can you do a another favour for me?"
+  ],
+  "TaskDescription": [
+    "Eliminate 10 {HookingCat's/Crimson}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 1,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 5,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 10,
+      "Message": "",
+      "MonsterName": "HookingCat"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 38,
+  "ExpReward": 150,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [
+    {
+      "Count": 1,
+      "ItemName": "BronzeWarriorSword"
+    },
+    {
+      "Count": 1,
+      "ItemName": "StrongHoaSword"
+    },
+    {
+      "Count": 1,
+      "ItemName": "StrongWoodenBow"
+    }
+  ],
+  "FinishNpcIndex": 5
+}

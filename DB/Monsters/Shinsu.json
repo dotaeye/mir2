@@ -1,0 +1,37 @@
+{
+  "Index": 10,
+  "Name": "Shinsu",
+  "Image": 79,
+  "AI": 18,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 32,
+  "Light": 5,
+  "AttackSpeed": 1500,
+  "MoveSpeed": 1500,
+  "Experience": 0,
+  "DropPath": "",
+  "Drops": [],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 8,
+      "MaxAC": 8,
+      "MinMAC": 5,
+      "MaxMAC": 5,
+      "MinDC": 7,
+      "MaxDC": 25,
+      "Accuracy": 25,
+      "Agility": 17,
+      "HP": 160
+    },
+    "Count": 260
+  },
+  "GameName": "Shinsu"
+}

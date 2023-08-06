@@ -1,0 +1,46 @@
+{
+  "Index": 76,
+  "Name": "VisceralWorm",
+  "Image": 110,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 16,
+  "Light": 0,
+  "AttackSpeed": 2300,
+  "MoveSpeed": 1000,
+  "Experience": 60,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 10,
+      "Gold": 250,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": ""
+    }
+  ],
+  "CanTame": true,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 2,
+      "MaxAC": 2,
+      "MinMAC": 1,
+      "MaxMAC": 1,
+      "MinDC": 6,
+      "MaxDC": 9,
+      "Accuracy": 12,
+      "Agility": 15,
+      "HP": 50
+    },
+    "Count": 98
+  },
+  "GameName": "VisceralWorm"
+}

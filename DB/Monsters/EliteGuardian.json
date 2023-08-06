@@ -1,0 +1,70 @@
+{
+  "Index": 147,
+  "Name": "EliteGuardian",
+  "Image": 66,
+  "AI": 15,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 50,
+  "Light": 0,
+  "AttackSpeed": 2000,
+  "MoveSpeed": 1000,
+  "Experience": 4000,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 30,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(HP)DrugLarge"
+    },
+    {
+      "Chance": 30,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(MP)DrugLarge"
+    },
+    {
+      "Chance": 100,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion"
+    },
+    {
+      "Chance": 5,
+      "Gold": 1750,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": ""
+    }
+  ],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 15,
+      "MaxAC": 15,
+      "MinMAC": 18,
+      "MaxMAC": 18,
+      "MinDC": 30,
+      "MaxDC": 55,
+      "Accuracy": 17,
+      "Agility": 15,
+      "HP": 1800
+    },
+    "Count": 1983
+  },
+  "GameName": "EliteGuardian"
+}

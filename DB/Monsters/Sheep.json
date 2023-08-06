@@ -1,0 +1,50 @@
+{
+  "Index": 34,
+  "Name": "Sheep",
+  "Image": 103,
+  "AI": 2,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 13,
+  "Light": 0,
+  "AttackSpeed": 3000,
+  "MoveSpeed": 1400,
+  "Experience": 27,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 5,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "Mutton"
+    },
+    {
+      "Chance": 10,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "Mutton"
+    }
+  ],
+  "CanTame": true,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinDC": 1,
+      "MaxDC": 3,
+      "Accuracy": 7,
+      "Agility": 10,
+      "HP": 20
+    },
+    "Count": 41
+  },
+  "GameName": "Sheep"
+}

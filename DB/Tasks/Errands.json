@@ -1,0 +1,37 @@
+{
+  "Index": 27,
+  "NpcIndex": 0,
+  "Name": "Errands",
+  "Group": "BichonProvince",
+  "FileName": "27",
+  "GotoMessage": "Speak with MongchonScout at the Tavern 290:293",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "You came right on time. {MongchonScout/LimeGreen} came ",
+    "by earlier and left a message for you. Please go ",
+    "to the {Tavern/Yellow}"
+  ],
+  "TaskDescription": [
+    "Go speak to {MongchonScout/LimeGreen} in the {Tavern/Yellow}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 9,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 26,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 1200,
+  "ExpReward": 1104,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 58
+}

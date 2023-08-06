@@ -1,0 +1,33 @@
+{
+  "Index": 16,
+  "Name": "SpittingToad",
+  "Image": 360,
+  "AI": 61,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 10,
+  "Light": 0,
+  "AttackSpeed": 2500,
+  "MoveSpeed": 1800,
+  "Experience": 0,
+  "DropPath": "",
+  "Drops": [],
+  "CanTame": false,
+  "CanPush": false,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 1,
+      "MaxAC": 3,
+      "MinDC": 4,
+      "MaxDC": 8,
+      "HP": 400
+    },
+    "Count": 416
+  },
+  "GameName": "SpittingToad"
+}

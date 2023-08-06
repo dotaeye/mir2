@@ -1,0 +1,186 @@
+{
+  "Index": 38,
+  "Name": "Yob0",
+  "Image": 8,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 12,
+  "Light": 0,
+  "AttackSpeed": 2500,
+  "MoveSpeed": 2500,
+  "Experience": 20,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 4,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "WoodenSword"
+    },
+    {
+      "Chance": 4,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "HoaSword"
+    },
+    {
+      "Chance": 4,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "WoodenBow"
+    },
+    {
+      "Chance": 4,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "Dagger"
+    },
+    {
+      "Chance": 4,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "EbonySword"
+    },
+    {
+      "Chance": 4,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "EbonyBow"
+    },
+    {
+      "Chance": 4,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "BaseDress(M)"
+    },
+    {
+      "Chance": 4,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "BaseDress(F)"
+    },
+    {
+      "Chance": 4,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "GoldNecklace"
+    },
+    {
+      "Chance": 4,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "PrecisionNecklace"
+    },
+    {
+      "Chance": 4,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "IronBracelet"
+    },
+    {
+      "Chance": 4,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "CopperRing"
+    },
+    {
+      "Chance": 4,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(MP)DrugSmall"
+    },
+    {
+      "Chance": 4,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(HP)DrugSmall"
+    },
+    {
+      "Chance": 4,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(MP)DrugSmall"
+    },
+    {
+      "Chance": 4,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(HP)DrugSmall"
+    },
+    {
+      "Chance": 4,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(HP)DrugSmall"
+    },
+    {
+      "Chance": 4,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(MP)DrugSmall"
+    },
+    {
+      "Chance": 1,
+      "Gold": 2000,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": ""
+    }
+  ],
+  "CanTame": true,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinDC": 1,
+      "MaxDC": 5,
+      "Accuracy": 7,
+      "Agility": 13,
+      "HP": 20
+    },
+    "Count": 46
+  },
+  "GameName": "Yob"
+}

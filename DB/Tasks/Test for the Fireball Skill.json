@@ -1,0 +1,58 @@
+{
+  "Index": 11,
+  "NpcIndex": 0,
+  "Name": "Test for the Fireball Skill",
+  "Group": "BichonProvince",
+  "FileName": "11",
+  "GotoMessage": "Return to MasterMage at 314:474",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "{Assistant Jane/LimeGreen} sent you? ",
+    "I can't reject anyone that she has",
+    "recommended, but I cant just accept anyone ",
+    "as my disciple. You will have to pass my test."
+  ],
+  "TaskDescription": [
+    "Eliminate 10 {Oma's/Crimson} and {RakingCat's/Crimson}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 4,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 10,
+  "RequiredClass": 2,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 10,
+      "Message": "",
+      "MonsterName": "Oma"
+    },
+    {
+      "Count": 10,
+      "Message": "",
+      "MonsterName": "RakingCat"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 45,
+  "ExpReward": 180,
+  "CreditReward": 0,
+  "FixedRewards": [
+    {
+      "Count": 1,
+      "ItemName": "OldLoafer"
+    },
+    {
+      "Count": 1,
+      "ItemName": "FireBall"
+    }
+  ],
+  "SelectRewards": [],
+  "FinishNpcIndex": 0
+}

@@ -1,0 +1,44 @@
+{
+  "Index": 322,
+  "Name": "RedEvilApe",
+  "Image": 60,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 14,
+  "CoolEye": 0,
+  "Level": 55,
+  "Light": 0,
+  "AttackSpeed": 1500,
+  "MoveSpeed": 500,
+  "Experience": 900,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 20,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": true,
+      "ItemName": "EvilApeOil"
+    }
+  ],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinMAC": 25,
+      "MaxMAC": 25,
+      "MinDC": 25,
+      "MaxDC": 65,
+      "Accuracy": 12,
+      "Agility": 25,
+      "HP": 1300
+    },
+    "Count": 1477
+  },
+  "GameName": "RedEvilApe"
+}

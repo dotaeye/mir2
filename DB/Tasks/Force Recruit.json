@@ -1,0 +1,66 @@
+{
+  "Index": 138,
+  "NpcIndex": 244,
+  "Name": "Force Recruit",
+  "Group": "WasteLands",
+  "FileName": "138",
+  "GotoMessage": "Return to the Excavenger in WasteLand 265:238",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Recently we have discovered a new area called ",
+    "{AncientRuins/Yellow}.  However,the olny way ",
+    "to go there is by going through EvilHeart. ",
+    "As you can see, I cant't go throught EvilHeart ",
+    "due to all the monsters in there. Therefore, ",
+    "I'm here trying to create a force that will ",
+    "defeat the monsters. So.. will you be able to help me ",
+    "out by killing the monsters inside of {RedCave/Yellow}? ",
+    "If are less monsters then the force will be able to ",
+    "complete their task more easily."
+  ],
+  "TaskDescription": [
+    "Eliminate 12 {GhastlyLeecher/Crimson}, {CyanoGhast/Crimson}, ",
+    "{MutatedManworm/Crimson} and {CrazyManworm/Crimson}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 45,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 12,
+      "Message": "",
+      "MonsterName": "GhastlyLeecher"
+    },
+    {
+      "Count": 12,
+      "Message": "",
+      "MonsterName": "CyanoGhast"
+    },
+    {
+      "Count": 12,
+      "Message": "",
+      "MonsterName": "MutatedManworm"
+    },
+    {
+      "Count": 12,
+      "Message": "",
+      "MonsterName": "CrazyManworm"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 60000,
+  "ExpReward": 105000,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 244
+}

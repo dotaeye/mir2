@@ -1,0 +1,99 @@
+{
+  "Index": 92,
+  "NpcIndex": 0,
+  "Name": "Deep into the Woods",
+  "Group": "TaoVillage",
+  "FileName": "92",
+  "GotoMessage": "Return to Jerry in TaoVillage",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "There's been a Monster Kill Order issued. ",
+    "Please carry out this Order."
+  ],
+  "TaskDescription": [
+    "Eliminate 4 {GangSpider/Crimson}, {RootSpider/Crimson} 5 ",
+    "{LureSpider/Crimson} and {GreatSpider's/Crimson}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 22,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 4,
+      "Message": "",
+      "MonsterName": "GangSpider"
+    },
+    {
+      "Count": 5,
+      "Message": "",
+      "MonsterName": "RootSpider"
+    },
+    {
+      "Count": 5,
+      "Message": "",
+      "MonsterName": "LureSpider"
+    },
+    {
+      "Count": 5,
+      "Message": "",
+      "MonsterName": "GreatSpider"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 7100,
+  "ExpReward": 7100,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [
+    {
+      "Count": 1,
+      "ItemName": "ThickArmour(M)"
+    },
+    {
+      "Count": 1,
+      "ItemName": "ThickArmour(F)"
+    },
+    {
+      "Count": 1,
+      "ItemName": "FireMagicRobe(M)"
+    },
+    {
+      "Count": 1,
+      "ItemName": "FireMagicRobe(F)"
+    },
+    {
+      "Count": 1,
+      "ItemName": "TaoArmour(M)"
+    },
+    {
+      "Count": 1,
+      "ItemName": "TaoArmour(F)"
+    },
+    {
+      "Count": 1,
+      "ItemName": "SpiritRobe(M)"
+    },
+    {
+      "Count": 1,
+      "ItemName": "SpiritRobe(F)"
+    },
+    {
+      "Count": 1,
+      "ItemName": "LeatherArmour(M)"
+    },
+    {
+      "Count": 1,
+      "ItemName": "LeatherArmour(F)"
+    }
+  ],
+  "FinishNpcIndex": 0
+}

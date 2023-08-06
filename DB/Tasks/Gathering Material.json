@@ -1,0 +1,42 @@
+{
+  "Index": 90,
+  "NpcIndex": 123,
+  "Name": "Gathering Material",
+  "Group": "TaoVillage",
+  "FileName": "90",
+  "GotoMessage": "Return to Jerald to TaoVillage 234:301",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Please head back to {TreePath/Yellow} and gather more ",
+    "{Materials/LightSteelBlue}."
+  ],
+  "TaskDescription": [
+    "Find 5 {AncientTree/LightSteelBlue} by killing {RootSpider's/Crimson}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 22,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 5,
+      "Message": "",
+      "ItemName": "AncientTree"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 7000,
+  "ExpReward": 7000,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 123
+}

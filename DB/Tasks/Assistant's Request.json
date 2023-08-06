@@ -1,0 +1,48 @@
+{
+  "Index": 1,
+  "NpcIndex": 3,
+  "Name": "Assistant's Request",
+  "Group": "BichonProvince",
+  "FileName": "1",
+  "GotoMessage": "Deliver Leaves to CraftsLady",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Welcome to {Border Village/Yellow} Young traveller.",
+    "Before you get started with your journey",
+    "would you please do me a quick favour? "
+  ],
+  "TaskDescription": [
+    "Transport {CannibalLeaves/LightSteelBlue} to {CraftLady/LimeGreen}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 1,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [
+    {
+      "Count": 5,
+      "Message": "",
+      "ItemName": "CannibalLeaves"
+    }
+  ],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 0,
+  "ExpReward": 10,
+  "CreditReward": 0,
+  "FixedRewards": [
+    {
+      "Count": 1,
+      "ItemName": "(HP)DrugSmall"
+    }
+  ],
+  "SelectRewards": [],
+  "FinishNpcIndex": 3
+}

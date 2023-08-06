@@ -1,0 +1,57 @@
+{
+  "Index": 257,
+  "Name": "WoomaTaurus1",
+  "Image": 34,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 60,
+  "Light": 0,
+  "AttackSpeed": 2500,
+  "MoveSpeed": 1500,
+  "Experience": 1000,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 100,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MysteryHelmet"
+    },
+    {
+      "Chance": 100,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MysteryWheel"
+    },
+    {
+      "Chance": 100,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MysteryCircle"
+    }
+  ],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MaxDC": 20,
+      "Accuracy": 20,
+      "Agility": 17,
+      "HP": 600
+    },
+    "Count": 657
+  },
+  "GameName": "WoomaTaurus"
+}

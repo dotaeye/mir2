@@ -1,0 +1,37 @@
+{
+  "Index": 418,
+  "Name": "HellKeeper",
+  "Image": 218,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 14,
+  "CoolEye": 0,
+  "Level": 60,
+  "Light": 0,
+  "AttackSpeed": 200,
+  "MoveSpeed": 1800,
+  "Experience": 25000,
+  "DropPath": "",
+  "Drops": [],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 20,
+      "MaxAC": 20,
+      "MinMAC": 32,
+      "MaxMAC": 32,
+      "MinDC": 42,
+      "MaxDC": 60,
+      "Accuracy": 18,
+      "Agility": 17,
+      "HP": 18000
+    },
+    "Count": 18241
+  },
+  "GameName": "HellKeeper"
+}

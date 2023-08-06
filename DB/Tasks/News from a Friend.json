@@ -1,0 +1,37 @@
+{
+  "Index": 72,
+  "NpcIndex": 77,
+  "Name": "News from a Friend",
+  "Group": "InsectCave",
+  "FileName": "72",
+  "GotoMessage": "Return to Helen in WoomyonWoods",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Thankyou for your assistance brave traveller. ",
+    "Please can you return to {Helen/LimeGreen} and tell her the ",
+    "news."
+  ],
+  "TaskDescription": [
+    "Speak to {Heleny/LimeGreen} in {WoomyonWood's/Yellow}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 19,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 71,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 5700,
+  "ExpReward": 5114,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 72
+}

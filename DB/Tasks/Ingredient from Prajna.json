@@ -1,0 +1,43 @@
+{
+  "Index": 134,
+  "NpcIndex": 209,
+  "Name": "Ingredient from Prajna",
+  "Group": "PrajnaIsland",
+  "FileName": "134",
+  "GotoMessage": "Deliver the Algae to MongchonWall CraftsLady",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Please can you take this {Algea/LightSteelBlue} to ",
+    "{MongchonProvince/Yellow}."
+  ],
+  "TaskDescription": [
+    "Deliver the {Algea/LightSteelBlue} to {CraftsLady/LimeGreen} in ",
+    "{MongchonProvince/Yellow}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 37,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [
+    {
+      "Count": 2,
+      "Message": "",
+      "ItemName": "Algae"
+    }
+  ],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 12000,
+  "ExpReward": 8407,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 160
+}

@@ -1,0 +1,43 @@
+{
+  "Index": 59,
+  "NpcIndex": 81,
+  "Name": "Rare Ore",
+  "Group": "BichonProvince",
+  "FileName": "59",
+  "GotoMessage": "Return to Blacksmith Bill in BichonWall",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "I'm making special armour useing {RareCopperOre/LightSteelBlue}.",
+    "You can find these from the {Zombies/Crimson} in the ",
+    "{Dead mine/Yellow}. "
+  ],
+  "TaskDescription": [
+    "Find 10 {RareCopperOre/LightSteelBlue} by hunting {Zombies/Crimson}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 18,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 10,
+      "Message": "",
+      "ItemName": "RareCopperOre"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 3000,
+  "ExpReward": 3000,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 81
+}

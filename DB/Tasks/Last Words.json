@@ -1,0 +1,62 @@
+{
+  "Index": 107,
+  "NpcIndex": 179,
+  "Name": "Last Words",
+  "Group": "DeathValley",
+  "FileName": "107",
+  "GotoMessage": "Return Necklace to Rachel in MongchonWall",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Please return my {LifeStone/LightSteelBlue} to my Daughter",
+    "{Rachel/LimeGreen}. She will know what it will mean.",
+    "Thankyou for your assistance I'm now at peace."
+  ],
+  "TaskDescription": [
+    "Please take {OldNecklace/LightSteelBlue} to {Rachel/LimeGreen}.",
+    "in {MongchonProvince/Yellow}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 24,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 106,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [
+    {
+      "Count": 1,
+      "Message": "",
+      "ItemName": "OldNecklace"
+    }
+  ],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 1781,
+  "ExpReward": 3801,
+  "CreditReward": 0,
+  "FixedRewards": [
+    {
+      "Count": 1,
+      "ItemName": "SolidBlackBoots"
+    }
+  ],
+  "SelectRewards": [
+    {
+      "Count": 1,
+      "ItemName": "ClawPendant"
+    },
+    {
+      "Count": 1,
+      "ItemName": "FireConvexLens"
+    },
+    {
+      "Count": 1,
+      "ItemName": "StrongBambooFlute"
+    }
+  ],
+  "FinishNpcIndex": 193
+}

@@ -1,0 +1,43 @@
+{
+  "Index": 68,
+  "NpcIndex": 72,
+  "Name": "Finding a Lost Item",
+  "Group": "WoomyonWoods",
+  "FileName": "68",
+  "GotoMessage": "Return the Blood back to Helen in WoomyonWoods",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Hello traveller, I have another task which suit's your",
+    "talent's.. I love my necklace in {InsectCave/Yellow}.",
+    "Can you find and bring it back to me please?"
+  ],
+  "TaskDescription": [
+    "Kill {SpiderFrog's/Crimson} and collect {BluJadeNecklace/LightSteelBlue}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 19,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 67,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 1,
+      "Message": "",
+      "ItemName": "BluJadePendant"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 3800,
+  "ExpReward": 3800,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 72
+}

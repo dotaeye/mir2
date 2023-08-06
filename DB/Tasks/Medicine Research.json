@@ -1,0 +1,44 @@
+{
+  "Index": 67,
+  "NpcIndex": 72,
+  "Name": "Medicine Research",
+  "Group": "WoomyonWoods",
+  "FileName": "67",
+  "GotoMessage": "Return the Blood back to Helen in WoomyonWoods",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "{BlueHoroBlaster/Crimson} is in {InsectCave/Yellow}. The blood of",
+    "this bug can be purified to be used as a ",
+    "medicine. Could you bring me 12 {BugBlood/LightSteelBlue}?"
+  ],
+  "TaskDescription": [
+    "Kill {BlueHoroBlaster's/Crimson} in {InsectCave/Yellow} and collect 12 ",
+    "{BugBlood/LightSteelBlue}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 19,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 12,
+      "Message": "",
+      "ItemName": "BugBlood"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 3800,
+  "ExpReward": 3800,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 72
+}

@@ -1,0 +1,51 @@
+{
+  "Index": 113,
+  "NpcIndex": 0,
+  "Name": "Insomnia",
+  "Group": "MongchonProvince",
+  "FileName": "113",
+  "GotoMessage": "Return to Jessica in MongchonWall",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Hello. There are to many Insects in ",
+    "{MongchonProvince/Yellow} these days. I can't sleep ",
+    "because of the noises at night. Could you ",
+    "hunt these insects?"
+  ],
+  "TaskDescription": [
+    "Travel to {Stone Tomb/Yellow} and Eliminate 10 ",
+    "{BlackMaggot/Crimson} and {WedgeMoth/Crimson}.",
+    " "
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 26,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 10,
+      "Message": "",
+      "MonsterName": "BlackMaggot"
+    },
+    {
+      "Count": 10,
+      "Message": "",
+      "MonsterName": "WedgeMoth"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 12500,
+  "ExpReward": 12500,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 0
+}

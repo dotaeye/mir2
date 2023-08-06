@@ -1,0 +1,44 @@
+{
+  "Index": 30,
+  "NpcIndex": 146,
+  "Name": "Lost Ring",
+  "Group": "SerpentValley",
+  "FileName": "30",
+  "GotoMessage": "Return to Blacksmith Bradly in SerpentValley",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Hello traveller. I was returning to {SerpentValley/Yellow}",
+    "from {MongchonProvince/Yellow}. But I was attacked by ",
+    "{Currish/Crimson} and dropped my bag. My priceless ",
+    "{JadeRing/LightSteelBlue} was in the bag."
+  ],
+  "TaskDescription": [
+    "Find the {JadeRing/LightSteelBlue} from {Currish/Crimson}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 10,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 29,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 1,
+      "Message": "",
+      "ItemName": "JadeRing"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 800,
+  "ExpReward": 800,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 146
+}

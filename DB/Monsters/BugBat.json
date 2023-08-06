@@ -1,0 +1,42 @@
+{
+  "Index": 166,
+  "Name": "BugBat",
+  "Image": 42,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 5,
+  "Light": 0,
+  "AttackSpeed": 2500,
+  "MoveSpeed": 1200,
+  "Experience": 2,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 30,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "BugShell"
+    }
+  ],
+  "CanTame": true,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinDC": 5,
+      "MaxDC": 22,
+      "Accuracy": 19,
+      "Agility": 5,
+      "HP": 3
+    },
+    "Count": 54
+  },
+  "GameName": "BugBat"
+}

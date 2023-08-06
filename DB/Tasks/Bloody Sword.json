@@ -1,0 +1,43 @@
+{
+  "Index": 76,
+  "NpcIndex": 146,
+  "Name": "Bloody Sword",
+  "Group": "SerpentValley",
+  "FileName": "76",
+  "GotoMessage": "Return to Blacksmith Bradly in SerpentValley",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Rumours take it.. theres a very rare Sword in the ",
+    "Mines north. Can you please bring me it?"
+  ],
+  "TaskDescription": [
+    "Kill {HiGreatGhoul/Crimson} on {SerpentDeadMines 2F/Yellow}",
+    "and retrieve the {BloodySword/LightSteelBlue}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 20,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 1,
+      "Message": "",
+      "ItemName": "RedDagger"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 4700,
+  "ExpReward": 4700,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 146
+}

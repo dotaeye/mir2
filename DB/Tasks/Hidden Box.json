@@ -1,0 +1,57 @@
+{
+  "Index": 78,
+  "NpcIndex": 170,
+  "Name": "Hidden Box",
+  "Group": "MongchonProvince",
+  "FileName": "78",
+  "GotoMessage": "",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Thankyou traveler. For returning my son's {Robe/LightSteelBlue} I have a task",
+    "if your to the challenge. My Son was looking for some treasure in ",
+    "{SerpentDeadMine/Yellow} There was a letter in his Robes saying he found",
+    "the Gold. Please return and retrieve the {StolenGold/LightSteelBlue}"
+  ],
+  "TaskDescription": [
+    "Kill {RotNdZombie/Crimson} located on {SerpentDeadMine 2F/Yellow}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 20,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 77,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 1,
+      "Message": "",
+      "ItemName": "StolenGold"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 4800,
+  "ExpReward": 4800,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [
+    {
+      "Count": 1,
+      "ItemName": "BlackCrystalRing"
+    },
+    {
+      "Count": 1,
+      "ItemName": "EyeofGoldenSnake"
+    },
+    {
+      "Count": 0,
+      "ItemName": "BlackPearlRing"
+    }
+  ],
+  "FinishNpcIndex": 170
+}

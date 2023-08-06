@@ -1,0 +1,36 @@
+{
+  "Index": 87,
+  "NpcIndex": 54,
+  "Name": "Locate the Carriage",
+  "Group": "BichonProvince",
+  "FileName": "87",
+  "GotoMessage": "Search for the Missing Carriage on the way to TaoVillage",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "The Order left day's ago.. ",
+    "He should have recieved her order by now.. "
+  ],
+  "TaskDescription": [
+    "Locate the missing Carriage."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 22,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 86,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 3500,
+  "ExpReward": 1930,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 120
+}

@@ -1,0 +1,44 @@
+{
+  "Index": 321,
+  "Name": "GreyEvilApe",
+  "Image": 59,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 14,
+  "CoolEye": 0,
+  "Level": 55,
+  "Light": 0,
+  "AttackSpeed": 1500,
+  "MoveSpeed": 500,
+  "Experience": 900,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 18,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": true,
+      "ItemName": "EvilApeHeart"
+    }
+  ],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 15,
+      "MaxAC": 15,
+      "MinDC": 25,
+      "MaxDC": 65,
+      "Accuracy": 25,
+      "Agility": 12,
+      "HP": 1300
+    },
+    "Count": 1457
+  },
+  "GameName": "GreyEvilApe"
+}

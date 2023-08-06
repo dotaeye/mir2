@@ -1,0 +1,42 @@
+{
+  "Index": 129,
+  "NpcIndex": 129,
+  "Name": "New Poison",
+  "Group": "TaoVillage",
+  "FileName": "129",
+  "GotoMessage": "Return to Janey in TaoVillage 179:296",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Please travel to the {RedValley/Yellow} and collect the",
+    "Ingredient's. "
+  ],
+  "TaskDescription": [
+    "Kill {SpiderBat/Crimson} and collect 20 {BatPoison/LightSteelBlue}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 32,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 20,
+      "Message": "",
+      "ItemName": "BatPoison"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 33000,
+  "ExpReward": 33000,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 129
+}

@@ -1,0 +1,88 @@
+{
+  "Index": 46,
+  "Name": "SpittingSpider",
+  "Image": 12,
+  "AI": 4,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 16,
+  "Light": 0,
+  "AttackSpeed": 2500,
+  "MoveSpeed": 900,
+  "Experience": 108,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 3,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SpiderTeeth"
+    },
+    {
+      "Chance": 10,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SpiderWeb"
+    },
+    {
+      "Chance": 7,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SpiderLeg"
+    },
+    {
+      "Chance": 3,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": true,
+      "ItemName": "PoisonSack"
+    },
+    {
+      "Chance": 3,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": true,
+      "ItemName": "Web"
+    },
+    {
+      "Chance": 10,
+      "Gold": 100,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": ""
+    }
+  ],
+  "CanTame": true,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 2,
+      "MaxAC": 2,
+      "MinMAC": 1,
+      "MaxMAC": 1,
+      "MinDC": 6,
+      "MaxDC": 9,
+      "MinSC": 2,
+      "MaxSC": 4,
+      "Accuracy": 8,
+      "Agility": 15,
+      "HP": 65
+    },
+    "Count": 115
+  },
+  "GameName": "SpittingSpider"
+}

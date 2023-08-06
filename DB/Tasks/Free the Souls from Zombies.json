@@ -1,0 +1,47 @@
+{
+  "Index": 74,
+  "NpcIndex": 142,
+  "Name": "Free the Souls from Zombies",
+  "Group": "SerpentValley",
+  "FileName": "74",
+  "GotoMessage": "Return to the VulnerableSon",
+  "KillMessage": " At SerpentDeadMine Entrance.",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Traveler. Please enter the {SerpentDeadMine/Yellow} ",
+    "and eliminate the threat."
+  ],
+  "TaskDescription": [
+    "Eliminate 10 {GhostZombie/Crimson} and {DarkPriestZombie/Crimson}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 0,
+  "RequiredMaxLevel": 20,
+  "RequiredQuest": 255,
+  "RequiredClass": 0,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 10,
+      "Message": "",
+      "MonsterName": "GhostZombie"
+    },
+    {
+      "Count": 10,
+      "Message": "",
+      "MonsterName": "DarkPriestZombie"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 4900,
+  "ExpReward": 4900,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 142
+}

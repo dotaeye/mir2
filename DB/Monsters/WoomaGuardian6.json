@@ -1,0 +1,37 @@
+{
+  "Index": 280,
+  "Name": "WoomaGuardian6",
+  "Image": 33,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 8,
+  "CoolEye": 0,
+  "Level": 50,
+  "Light": 0,
+  "AttackSpeed": 1800,
+  "MoveSpeed": 1200,
+  "Experience": 3000,
+  "DropPath": "",
+  "Drops": [],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 10,
+      "MaxAC": 22,
+      "MinMAC": 14,
+      "MaxMAC": 17,
+      "MinDC": 25,
+      "MaxDC": 55,
+      "Accuracy": 20,
+      "Agility": 20,
+      "HP": 2000
+    },
+    "Count": 2183
+  },
+  "GameName": "WoomaGuardian"
+}

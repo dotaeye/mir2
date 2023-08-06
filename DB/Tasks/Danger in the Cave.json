@@ -1,0 +1,45 @@
+{
+  "Index": 58,
+  "NpcIndex": 17,
+  "Name": "Danger in the Cave",
+  "Group": "BichonProvince",
+  "FileName": "58",
+  "GotoMessage": "Return BoneElites head to Kyle in BichonWall",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Hmm.. The information seems to refer to the ",
+    "{BoneElite/Crimson}. Can you help us and hunt ",
+    "this monster? We cannot leave our town since ",
+    "we are under attack as well. "
+  ],
+  "TaskDescription": [
+    "Please eliminate the {BoneElite/Crimson} and bring back his ",
+    "{Head/LightSteelBlue}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 18,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 57,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 1,
+      "Message": "",
+      "ItemName": "SkeletonHead"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 2500,
+  "ExpReward": 2500,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 17
+}

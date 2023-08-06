@@ -1,0 +1,40 @@
+{
+  "Index": 119,
+  "NpcIndex": 121,
+  "Name": "Message to BichonExaminer",
+  "Group": "TaoVillage",
+  "FileName": "119",
+  "GotoMessage": "Travel to BichonWall and talk to BichonExaminer 341:258",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Please report back to the {BichonExaminer/LimeGreen} "
+  ],
+  "TaskDescription": [
+    "Talk to {BichonExaminer/LimeGreen} in {BichonProvince/Yellow}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 27,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 118,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 2422,
+  "ExpReward": 5180,
+  "CreditReward": 0,
+  "FixedRewards": [
+    {
+      "Count": 1,
+      "ItemName": "BlackIronBangle"
+    }
+  ],
+  "SelectRewards": [],
+  "FinishNpcIndex": 27
+}

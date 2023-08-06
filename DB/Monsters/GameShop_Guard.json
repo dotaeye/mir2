@@ -1,0 +1,41 @@
+{
+  "Index": 500,
+  "Name": "GameShop_Guard",
+  "Image": 0,
+  "AI": 23,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 0,
+  "Light": 5,
+  "AttackSpeed": 750,
+  "MoveSpeed": 750,
+  "Experience": 0,
+  "DropPath": "",
+  "Drops": [],
+  "CanTame": false,
+  "CanPush": false,
+  "AutoRev": false,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 10,
+      "MaxAC": 10,
+      "MinMAC": 10,
+      "MaxMAC": 10,
+      "MinDC": 10,
+      "MaxDC": 40,
+      "MinMC": 5,
+      "MaxMC": 5,
+      "MinSC": 5,
+      "MaxSC": 5,
+      "Accuracy": 75,
+      "Agility": 50,
+      "HP": 500
+    },
+    "Count": 735
+  },
+  "GameName": "GameShop_Guard"
+}

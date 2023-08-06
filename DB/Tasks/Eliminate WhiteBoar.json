@@ -1,0 +1,42 @@
+{
+  "Index": 115,
+  "NpcIndex": 162,
+  "Name": "Eliminate WhiteBoar",
+  "Group": "MongchonProvince",
+  "FileName": "115",
+  "GotoMessage": "Return to MongchonDelegate in MongchonWall",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "How Deep have you been in {Stone Temple/Yellow}?",
+    "The {WhiteBoar/Crimson} is located on Deep Within."
+  ],
+  "TaskDescription": [
+    "Eliminate the {WhiteBoar/Crimson}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 26,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 114,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 1,
+      "Message": "",
+      "MonsterName": "WhiteBoar"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 13000,
+  "ExpReward": 13000,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 162
+}

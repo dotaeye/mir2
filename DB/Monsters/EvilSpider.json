@@ -1,0 +1,70 @@
+{
+  "Index": 148,
+  "Name": "EvilSpider",
+  "Image": 61,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 65,
+  "Light": 0,
+  "AttackSpeed": 2000,
+  "MoveSpeed": 1000,
+  "Experience": 4500,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 30,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(HP)DrugLarge"
+    },
+    {
+      "Chance": 30,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(MP)DrugLarge"
+    },
+    {
+      "Chance": 100,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "SunPotion"
+    },
+    {
+      "Chance": 5,
+      "Gold": 1750,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": ""
+    }
+  ],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 12,
+      "MaxAC": 12,
+      "MinMAC": 15,
+      "MaxMAC": 15,
+      "MinDC": 25,
+      "MaxDC": 50,
+      "Accuracy": 17,
+      "Agility": 15,
+      "HP": 1800
+    },
+    "Count": 1961
+  },
+  "GameName": "EvilSpider"
+}

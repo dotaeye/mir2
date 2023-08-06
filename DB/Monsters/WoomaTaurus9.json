@@ -1,0 +1,37 @@
+{
+  "Index": 258,
+  "Name": "WoomaTaurus9",
+  "Image": 34,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 14,
+  "CoolEye": 0,
+  "Level": 60,
+  "Light": 10,
+  "AttackSpeed": 1500,
+  "MoveSpeed": 800,
+  "Experience": 6000,
+  "DropPath": "",
+  "Drops": [],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 25,
+      "MaxAC": 25,
+      "MinMAC": 25,
+      "MaxMAC": 2,
+      "MinDC": 35,
+      "MaxDC": 70,
+      "Accuracy": 20,
+      "Agility": 30,
+      "HP": 2200
+    },
+    "Count": 2432
+  },
+  "GameName": "WoomaTaurus"
+}

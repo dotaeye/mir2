@@ -1,0 +1,44 @@
+{
+  "Index": 108,
+  "NpcIndex": 253,
+  "Name": "Antique Book",
+  "Group": "MongchonProvince",
+  "FileName": "108",
+  "GotoMessage": "Return the Book back to Collector in MongchonWall",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "I'm a fool! I've lost the Oldest Book's around.",
+    "I was visiting {SabukWall/Yellow} and fell then the",
+    "next thing i knew. I was surround by {Zombies/Crimson}."
+  ],
+  "TaskDescription": [
+    "Find the Hidden Entrance in {SabukWall/Yellow} and find ",
+    "the {BichonTales/LightSteelBlue}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 25,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 111,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 1,
+      "Message": "",
+      "ItemName": "BichonTales(3)"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 9000,
+  "ExpReward": 9000,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 253
+}

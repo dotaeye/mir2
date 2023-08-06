@@ -1,0 +1,47 @@
+{
+  "Index": 38,
+  "NpcIndex": 0,
+  "Name": "Find Ebony Fruit",
+  "Group": "SerpentValley",
+  "FileName": "38",
+  "GotoMessage": "Return to InnKeeper at 517:466",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Hello traveller. I also need some fruit to make ",
+    "this wine. Could you get me 10 {EbonyFruit/LightSteelBlue}."
+  ],
+  "TaskDescription": [
+    "Please collect 10 {EbonyFruit/LightSteelBlue}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 10,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 10,
+      "Message": "",
+      "ItemName": "Ebony(Fruit)"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 250,
+  "ExpReward": 1000,
+  "CreditReward": 0,
+  "FixedRewards": [
+    {
+      "Count": 1,
+      "ItemName": "SuperiorBronzeHelmet"
+    }
+  ],
+  "SelectRewards": [],
+  "FinishNpcIndex": 0
+}

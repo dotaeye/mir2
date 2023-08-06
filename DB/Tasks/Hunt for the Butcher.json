@@ -1,0 +1,49 @@
+{
+  "Index": 4,
+  "NpcIndex": 6,
+  "Name": "Hunt for the Butcher",
+  "Group": "BichonProvince",
+  "FileName": "4",
+  "GotoMessage": "Return to Butcher John at 293:603",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "You are the traveller {Jane/LimeGreen} recommended.",
+    "Please can you hunt {Deer/Crimson} and bring me some ",
+    "{Deer Meat/LightSteelBlue}. If you want to know more about ",
+    "butchering please press \"H\"."
+  ],
+  "TaskDescription": [
+    "Collect {Deer Meat/LightSteelBlue} by Hunting {Deer's/Crimson}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 1,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 3,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 5,
+      "Message": "",
+      "ItemName": "DeerMeat"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 20,
+  "ExpReward": 80,
+  "CreditReward": 0,
+  "FixedRewards": [
+    {
+      "Count": 1,
+      "ItemName": "OldCopperRing"
+    }
+  ],
+  "SelectRewards": [],
+  "FinishNpcIndex": 6
+}

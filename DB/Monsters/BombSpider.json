@@ -1,0 +1,33 @@
+{
+  "Index": 301,
+  "Name": "BombSpider",
+  "Image": 50,
+  "AI": 40,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 52,
+  "Light": 0,
+  "AttackSpeed": 0,
+  "MoveSpeed": 800,
+  "Experience": 7,
+  "DropPath": "",
+  "Drops": [],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinDC": 20,
+      "MaxDC": 40,
+      "Accuracy": 30,
+      "Agility": 30,
+      "HP": 10
+    },
+    "Count": 130
+  },
+  "GameName": "BombSpider"
+}

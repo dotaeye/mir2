@@ -1,0 +1,37 @@
+{
+  "Index": 435,
+  "Name": "KeelWarrior",
+  "Image": 374,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 0,
+  "Light": 0,
+  "AttackSpeed": 1800,
+  "MoveSpeed": 1500,
+  "Experience": 9500,
+  "DropPath": "",
+  "Drops": [],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 10,
+      "MaxAC": 10,
+      "MinMAC": 15,
+      "MaxMAC": 15,
+      "MinDC": 25,
+      "MaxDC": 60,
+      "Accuracy": 16,
+      "Agility": 14,
+      "HP": 2100
+    },
+    "Count": 2265
+  },
+  "GameName": "KeelWarrior"
+}

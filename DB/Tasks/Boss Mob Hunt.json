@@ -1,0 +1,49 @@
+{
+  "Index": 99,
+  "NpcIndex": 75,
+  "Name": "Boss Mob Hunt",
+  "Group": "WoomyonWoods",
+  "FileName": "99",
+  "GotoMessage": "Return to SubjugationLead in WoomyonWoods",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Travel, I have another task. ",
+    "I'm still worried by this threat. I have decided we ",
+    "should send these creatures a message."
+  ],
+  "TaskDescription": [
+    "Eliminate 20 {FlamingWooma's/Crimson} and ",
+    "{WoomaFighter's/Crimson} in {WoomaTemple/Yellow}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 23,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 98,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 20,
+      "Message": "",
+      "MonsterName": "FlamingWooma"
+    },
+    {
+      "Count": 20,
+      "Message": "",
+      "MonsterName": "WoomaFighter"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 8300,
+  "ExpReward": 8300,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 75
+}

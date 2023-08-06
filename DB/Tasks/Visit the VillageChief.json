@@ -1,0 +1,35 @@
+{
+  "Index": 125,
+  "NpcIndex": 0,
+  "Name": "Visit the VillageChief",
+  "Group": "PrajnaIsland",
+  "FileName": "125",
+  "GotoMessage": "Travel up the Stairs and speak with the VillageChief",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "The {VillageChief/LimeGreen} is looking for you. "
+  ],
+  "TaskDescription": [
+    "Speak to the {VillageChief/LimeGreen} in {Prajna Island/Yellow}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 31,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 0,
+  "ExpReward": 3912,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 219
+}

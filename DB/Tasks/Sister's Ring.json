@@ -1,0 +1,42 @@
+{
+  "Index": 47,
+  "NpcIndex": 0,
+  "Name": "Sister's Ring",
+  "Group": "BichonProvince",
+  "FileName": "47",
+  "GotoMessage": "Return to Diana in BichonWall 306:276",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Hello traveller, I have a favor tou ask you. I lost ",
+    "my sister's ring while hunting in {OmaCave/Yellow}. "
+  ],
+  "TaskDescription": [
+    "Find {OliviasRing/LightSteelBlue} in {OmaCave/Yellow}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 14,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 1,
+      "Message": "",
+      "ItemName": "OliviasRing"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 1400,
+  "ExpReward": 1400,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 0
+}

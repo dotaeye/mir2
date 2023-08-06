@@ -1,0 +1,41 @@
+{
+  "Index": 140,
+  "NpcIndex": 24,
+  "Name": "Chestnut Request",
+  "Group": "BichonProvince",
+  "FileName": "140",
+  "GotoMessage": "Return to BichonWall Board.",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "BichonWall Bounty, Has been submitted."
+  ],
+  "TaskDescription": [
+    "Collect {5 GoldChestnuts/LightSteelBlue}. "
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 10,
+  "RequiredMaxLevel": 20,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 2,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 5,
+      "Message": "",
+      "ItemName": "GoldChestnut"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 10000,
+  "ExpReward": 1500,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 24
+}

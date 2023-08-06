@@ -1,0 +1,57 @@
+{
+  "Index": 33,
+  "NpcIndex": 135,
+  "Name": "Cure the Insomnia",
+  "Group": "SerpentValley",
+  "FileName": "33",
+  "GotoMessage": "Return to Robert at 505:479",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Please help me. I recently moved here, and i see ",
+    "Snakes everywhere! I cant go to sleep knowing ",
+    "the Snakes are crawling under my bed."
+  ],
+  "TaskDescription": [
+    "Please eliminate 10 {RedSnake/Crimson} and {TigerSnake's/Crimson}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 10,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 10,
+      "Message": "",
+      "MonsterName": "TigerSnake"
+    },
+    {
+      "Count": 10,
+      "Message": "",
+      "MonsterName": "RedSnake"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 250,
+  "ExpReward": 1000,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [
+    {
+      "Count": 1,
+      "ItemName": "SolidArmour(M)"
+    },
+    {
+      "Count": 1,
+      "ItemName": "SolidArmour(F)"
+    }
+  ],
+  "FinishNpcIndex": 135
+}

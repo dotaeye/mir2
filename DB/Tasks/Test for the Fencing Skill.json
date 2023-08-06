@@ -1,0 +1,58 @@
+{
+  "Index": 8,
+  "NpcIndex": 10,
+  "Name": "Test for the Fencing Skill",
+  "Group": "BichonProvince",
+  "FileName": "8",
+  "GotoMessage": "Return to Master_Wa at 110:317",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "{Assistant Jane/LimeGreen} sent you? ",
+    "I can't reject anyone that she has recommended, ",
+    "but I cant accept just anyone as my disciple. ",
+    "You will have to pass my test."
+  ],
+  "TaskDescription": [
+    "Eliminate 10 {Oma's/Crimson} and {RakingCat's/Crimson}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 4,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 7,
+  "RequiredClass": 1,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 10,
+      "Message": "",
+      "MonsterName": "Oma"
+    },
+    {
+      "Count": 10,
+      "Message": "",
+      "MonsterName": "RakingCat"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 45,
+  "ExpReward": 180,
+  "CreditReward": 0,
+  "FixedRewards": [
+    {
+      "Count": 1,
+      "ItemName": "OldLoafer"
+    },
+    {
+      "Count": 1,
+      "ItemName": "Fencing"
+    }
+  ],
+  "SelectRewards": [],
+  "FinishNpcIndex": 10
+}

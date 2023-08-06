@@ -1,0 +1,54 @@
+{
+  "Index": 153,
+  "NpcIndex": 68,
+  "Name": "AncientOmaCavern",
+  "Group": "OmaCavern",
+  "FileName": "153",
+  "GotoMessage": "Return to CastleBichon.",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "There seem's tobe a pattern to the Scyther..",
+    "Maybe someone in {CastleBichon/Yellow} can scyther the",
+    "ancient symbols."
+  ],
+  "TaskDescription": [
+    "Return to {CastleBichon/Yellow} Enquire about the symbols."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 10,
+  "RequiredMaxLevel": 65535,
+  "RequiredQuest": 152,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [
+    {
+      "Number": 533,
+      "Message": "Enquire at the Library."
+    },
+    {
+      "Number": 534,
+      "Message": "Enquire at the Inn."
+    },
+    {
+      "Number": 535,
+      "Message": "Finally Understand how the Scyther Works."
+    },
+    {
+      "Number": 536,
+      "Message": "Return to the MysteriousStone in OmaCavern."
+    }
+  ],
+  "GoldReward": 0,
+  "ExpReward": 3900,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 68
+}

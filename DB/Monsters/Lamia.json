@@ -1,0 +1,37 @@
+{
+  "Index": 438,
+  "Name": "Lamia",
+  "Image": 376,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 0,
+  "Light": 0,
+  "AttackSpeed": 1800,
+  "MoveSpeed": 1500,
+  "Experience": 49000,
+  "DropPath": "",
+  "Drops": [],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 25,
+      "MaxAC": 25,
+      "MinMAC": 15,
+      "MaxMAC": 15,
+      "MinDC": 55,
+      "MaxDC": 125,
+      "Accuracy": 16,
+      "Agility": 14,
+      "HP": 48000
+    },
+    "Count": 48290
+  },
+  "GameName": "Lamia"
+}

@@ -1,0 +1,37 @@
+{
+  "Index": 327,
+  "Name": "EvilBigApe",
+  "Image": 58,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 52,
+  "Light": 0,
+  "AttackSpeed": 2000,
+  "MoveSpeed": 1000,
+  "Experience": 960,
+  "DropPath": "",
+  "Drops": [],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 4,
+      "MaxAC": 7,
+      "MinMAC": 5,
+      "MaxMAC": 12,
+      "MinDC": 15,
+      "MaxDC": 35,
+      "Accuracy": 17,
+      "Agility": 15,
+      "HP": 800
+    },
+    "Count": 910
+  },
+  "GameName": "EvilBigApe"
+}

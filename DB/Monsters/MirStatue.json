@@ -1,0 +1,39 @@
+{
+  "Index": 394,
+  "Name": "MirStatue",
+  "Image": 902,
+  "AI": 54,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 99,
+  "Light": 5,
+  "AttackSpeed": 4000,
+  "MoveSpeed": 800,
+  "Experience": 1000,
+  "DropPath": "",
+  "Drops": [],
+  "CanTame": false,
+  "CanPush": false,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 20,
+      "MaxAC": 20,
+      "MinMAC": 15,
+      "MaxMAC": 15,
+      "MinDC": 10,
+      "MaxDC": 50,
+      "MinMC": 10,
+      "MaxMC": 50,
+      "Accuracy": 30,
+      "Agility": 30,
+      "HP": 20000
+    },
+    "Count": 20250
+  },
+  "GameName": "MirStatue"
+}

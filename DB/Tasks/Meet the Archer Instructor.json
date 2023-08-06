@@ -1,0 +1,38 @@
+{
+  "Index": 19,
+  "NpcIndex": 3,
+  "Name": "Meet the Archer Instructor",
+  "Group": "BichonProvince",
+  "FileName": "19",
+  "GotoMessage": "Speak with the Captain at 320:477",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Hello Traveller. Have you heard about the",
+    "Archer Captain Currently protecting the",
+    "region? Rumours say they are looking for",
+    "disciples to aid in the war"
+  ],
+  "TaskDescription": [
+    "Speak with {Jerald/LimeGreen} at Coordinates 320:476"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 4,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 16,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 60,
+  "ExpReward": 48,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 14
+}

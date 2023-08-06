@@ -1,0 +1,36 @@
+{
+  "Index": 54,
+  "Name": "OmaWarrior2",
+  "Image": 18,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 50,
+  "Light": 10,
+  "AttackSpeed": 2000,
+  "MoveSpeed": 600,
+  "Experience": 10,
+  "DropPath": "",
+  "Drops": [],
+  "CanTame": false,
+  "CanPush": false,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 20,
+      "MaxAC": 20,
+      "MinMAC": 25,
+      "MaxMAC": 25,
+      "MaxDC": 20,
+      "Accuracy": 17,
+      "Agility": 20,
+      "HP": 400
+    },
+    "Count": 547
+  },
+  "GameName": "OmaWarrior"
+}

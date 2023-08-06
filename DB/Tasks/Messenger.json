@@ -1,0 +1,56 @@
+{
+  "Index": 32,
+  "NpcIndex": 136,
+  "Name": "Messenger",
+  "Group": "SerpentValley",
+  "FileName": "32",
+  "GotoMessage": "Deliver BluePill to Blacksmith Bradly",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Thankyou, I remember this Ring it used to ",
+    "belong to my grandmother. Please take this Gift ",
+    "back to {Bradly/LimeGreen} to show my gratitude."
+  ],
+  "TaskDescription": [
+    "Please take this {BluePill/LightSteelBlue} to {Bradly/LimeGreen}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 10,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 31,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [
+    {
+      "Count": 1,
+      "Message": "",
+      "ItemName": "BluePill"
+    }
+  ],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 75,
+  "ExpReward": 219,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [
+    {
+      "Count": 1,
+      "ItemName": "BlackCrystalPendant"
+    },
+    {
+      "Count": 1,
+      "ItemName": "EbonyPendant"
+    },
+    {
+      "Count": 1,
+      "ItemName": "YellowCrystalPendant"
+    }
+  ],
+  "FinishNpcIndex": 146
+}

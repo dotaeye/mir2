@@ -1,0 +1,94 @@
+{
+  "Index": 240,
+  "Name": "Dark",
+  "Image": 28,
+  "AI": 8,
+  "Effect": 0,
+  "ViewRange": 8,
+  "CoolEye": 0,
+  "Level": 26,
+  "Light": 0,
+  "AttackSpeed": 2500,
+  "MoveSpeed": 900,
+  "Experience": 240,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 15,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(HP)DrugMedium"
+    },
+    {
+      "Chance": 15,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(MP)DrugMedium"
+    },
+    {
+      "Chance": 30,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(HP)DrugMedium"
+    },
+    {
+      "Chance": 30,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(MP)DrugMedium"
+    },
+    {
+      "Chance": 50,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(HP)DrugLarge"
+    },
+    {
+      "Chance": 50,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "(MP)DrugLarge"
+    },
+    {
+      "Chance": 30,
+      "Gold": 350,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": ""
+    }
+  ],
+  "CanTame": true,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 3,
+      "MaxAC": 3,
+      "MinMAC": 2,
+      "MaxMAC": 2,
+      "MinDC": 9,
+      "MaxDC": 16,
+      "Accuracy": 15,
+      "Agility": 15,
+      "HP": 165
+    },
+    "Count": 230
+  },
+  "GameName": "Dark"
+}

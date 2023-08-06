@@ -1,0 +1,47 @@
+{
+  "Index": 101,
+  "NpcIndex": 73,
+  "Name": "Boss Mob of Woomyon",
+  "Group": "WoomyonWoods",
+  "FileName": "101",
+  "GotoMessage": "Return to MasterShok 312:73",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "The Howling oh the Howling.. Search for the ",
+    "Source and Kill the creature."
+  ],
+  "TaskDescription": [
+    "Eliminate the {OmaWarrior/Crimson}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 23,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 1,
+      "Message": "",
+      "MonsterName": "OmaWarrior"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 2050,
+  "ExpReward": 8200,
+  "CreditReward": 0,
+  "FixedRewards": [
+    {
+      "Count": 0,
+      "ItemName": "BlackIronBelt"
+    }
+  ],
+  "SelectRewards": [],
+  "FinishNpcIndex": 73
+}

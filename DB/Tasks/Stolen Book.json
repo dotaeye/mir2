@@ -1,0 +1,46 @@
+{
+  "Index": 127,
+  "NpcIndex": 125,
+  "Name": "Stolen Book",
+  "Group": "TaoVillage",
+  "FileName": "127",
+  "GotoMessage": "Return to LeadTrainer in TaoVillage",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "The {Prajna Island/Yellow} {VillageChief/LimeGreen} has asked ",
+    "for the {PrajnaHistory/LightSteelBlue} Book back..",
+    "I'm sorry to inform you We have been ransacked ",
+    "and many precious items have been stolen. ",
+    "The Monster what attacked was a {Blue BigApe/Crimson}"
+  ],
+  "TaskDescription": [
+    "Kill {EvilApeSobo/Crimson} and retrieve {PrajnaHistory/LightSteelBlue}.",
+    "Travel to {RedValley/Yellow} and Search for the Attacker."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 31,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 126,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 1,
+      "Message": "",
+      "ItemName": "PrajnaHistory"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 20000,
+  "ExpReward": 26000,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 125
+}

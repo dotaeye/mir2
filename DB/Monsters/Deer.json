@@ -1,0 +1,58 @@
+{
+  "Index": 30,
+  "Name": "Deer",
+  "Image": 4,
+  "AI": 2,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 12,
+  "Light": 0,
+  "AttackSpeed": 3000,
+  "MoveSpeed": 1400,
+  "Experience": 18,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 5,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "Venison"
+    },
+    {
+      "Chance": 10,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "Venison"
+    },
+    {
+      "Chance": 5,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": true,
+      "ItemName": "DeerMeat"
+    }
+  ],
+  "CanTame": true,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinDC": 2,
+      "MaxDC": 4,
+      "Accuracy": 4,
+      "Agility": 7,
+      "HP": 25
+    },
+    "Count": 42
+  },
+  "GameName": "Deer"
+}

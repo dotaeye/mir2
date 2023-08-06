@@ -1,0 +1,46 @@
+{
+  "Index": 136,
+  "Name": "WhiteSerpent",
+  "Image": 114,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 50,
+  "Light": 0,
+  "AttackSpeed": 1900,
+  "MoveSpeed": 1700,
+  "Experience": 360,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 5,
+      "Gold": 2000,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": ""
+    }
+  ],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 10,
+      "MaxAC": 10,
+      "MinMAC": 15,
+      "MaxMAC": 15,
+      "MinDC": 15,
+      "MaxDC": 45,
+      "Accuracy": 16,
+      "Agility": 16,
+      "HP": 275
+    },
+    "Count": 417
+  },
+  "GameName": "WhiteSerpent"
+}

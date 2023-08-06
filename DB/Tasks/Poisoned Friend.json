@@ -1,0 +1,43 @@
+{
+  "Index": 70,
+  "NpcIndex": 77,
+  "Name": "Poisoned Friend",
+  "Group": "InsectCave",
+  "FileName": "70",
+  "GotoMessage": "Find and return Soho Backpack",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "I got attacked a couple days ago, and I got ",
+    "poisoned. I bought the {Antidote/LightSteelBlue} but the mobs ",
+    "took my bag. "
+  ],
+  "TaskDescription": [
+    "Kill {KekTal's/Crimson} and find {Soho's/LimeGreen} {Antidote/LightSteelBlue}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 19,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 69,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 1,
+      "Message": "",
+      "ItemName": "Antidote"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 3800,
+  "ExpReward": 3800,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 77
+}

@@ -1,0 +1,38 @@
+{
+  "Index": 69,
+  "NpcIndex": 72,
+  "Name": "Find my Friend",
+  "Group": "WoomyonWoods",
+  "FileName": "69",
+  "GotoMessage": "Search for Helens friend Soho in InsectCave",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "My friend went to {InsectCave/Yellow} to find herbs, but",
+    "hasn't returned yet. Do you think you can go ",
+    "find {Soho/LimeGreen} in {InsectCave/Yellow}?"
+  ],
+  "TaskDescription": [
+    "Search for {Soho/LimeGreen} in the Second Floor of ",
+    "{InsectCave/Yellow}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 19,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 68,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 2850,
+  "ExpReward": 1971,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 77
+}

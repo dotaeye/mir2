@@ -1,0 +1,70 @@
+{
+  "Index": 134,
+  "Name": "Zombie51",
+  "Image": 73,
+  "AI": 26,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 25,
+  "Light": 0,
+  "AttackSpeed": 3000,
+  "MoveSpeed": 1500,
+  "Experience": 500,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 15,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": true,
+      "ItemName": "BichonTales(1)"
+    },
+    {
+      "Chance": 15,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": true,
+      "ItemName": "BichonTales(2)"
+    },
+    {
+      "Chance": 15,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": true,
+      "ItemName": "BichonTales(3)"
+    },
+    {
+      "Chance": 5,
+      "Gold": 400,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": ""
+    }
+  ],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 2,
+      "MaxAC": 2,
+      "MinMAC": 1,
+      "MaxMAC": 1,
+      "MinDC": 6,
+      "MaxDC": 17,
+      "Accuracy": 12,
+      "Agility": 15,
+      "HP": 155
+    },
+    "Count": 211
+  },
+  "GameName": "Zombie"
+}

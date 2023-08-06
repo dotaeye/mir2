@@ -1,0 +1,43 @@
+{
+  "Index": 73,
+  "NpcIndex": 72,
+  "Name": "Research Report",
+  "Group": "WoomyonWoods",
+  "FileName": "73",
+  "GotoMessage": "Deliver MobBlood to Dr.Kim in SerpentValley",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Thankyou Traveller the assistance you have ",
+    "provided. I am so happy that my Friend {Soho/LimeGreen} ",
+    "is alive and well. I have another task for you."
+  ],
+  "TaskDescription": [
+    "Deliver {MobBlood/LightSteelBlue} to {Dr.Kim/LimeGreen} in {SerpentValley/Yellow}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 19,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 72,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [
+    {
+      "Count": 2,
+      "Message": "",
+      "ItemName": "MobBlood"
+    }
+  ],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 2850,
+  "ExpReward": 1971,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 145
+}

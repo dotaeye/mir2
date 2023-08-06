@@ -1,0 +1,42 @@
+{
+  "Index": 77,
+  "Name": "SandWorm",
+  "Image": 109,
+  "AI": 35,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 17,
+  "Light": 0,
+  "AttackSpeed": 2300,
+  "MoveSpeed": 1000,
+  "Experience": 77,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 10,
+      "Gold": 250,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": ""
+    }
+  ],
+  "CanTame": true,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinDC": 1,
+      "MaxDC": 2,
+      "Accuracy": 13,
+      "Agility": 15,
+      "HP": 54
+    },
+    "Count": 85
+  },
+  "GameName": "SandWorm"
+}

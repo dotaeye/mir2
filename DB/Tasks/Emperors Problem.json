@@ -1,0 +1,53 @@
+{
+  "Index": 154,
+  "NpcIndex": 37,
+  "Name": "Emperors Problem",
+  "Group": "BichonProvince",
+  "FileName": "154",
+  "GotoMessage": "",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "Increase the Emperors Morale.",
+  "Description": [
+    "The {Emperor/LIMEGREEN} is under my protection.",
+    "The morale of the City is desire. Prove you are ",
+    "worthey",
+    " "
+  ],
+  "TaskDescription": [
+    "Spread good morale about the {Emperor/LIMEGREEN} in the ",
+    "City. And I will accompany you to give him ",
+    "the status of the current morale."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 1,
+  "RequiredMaxLevel": 65535,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [
+    {
+      "Number": 539,
+      "Message": "Spread morale of the Emperor"
+    },
+    {
+      "Number": 540,
+      "Message": "Spread morale of the Emperor"
+    },
+    {
+      "Number": 541,
+      "Message": "Spread morale of the Emperor"
+    }
+  ],
+  "GoldReward": 0,
+  "ExpReward": 550,
+  "CreditReward": 150,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 43
+}

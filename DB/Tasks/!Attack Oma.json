@@ -1,0 +1,59 @@
+{
+  "Index": 23,
+  "NpcIndex": 0,
+  "Name": "!Attack Oma",
+  "Group": "BichonProvince",
+  "FileName": "23",
+  "GotoMessage": "",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "There are creatures named {Oma/Crimson} outside",
+    "{BichonWall/Yellow} and other towns. ",
+    "They are very strong and violent. They have ",
+    "been attacking the merchants. Hey, would you ",
+    "be able to help us eliminate the danager?"
+  ],
+  "TaskDescription": [
+    "Please hunt {Oma's/Crimson} and bring back 10 ",
+    "{OmaTeeth's/LightSteelBlue}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 7,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 22,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 10,
+      "Message": "",
+      "ItemName": "OmaTeeth"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 83,
+  "ExpReward": 300,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [
+    {
+      "Count": 1,
+      "ItemName": "BronzeShortSword"
+    },
+    {
+      "Count": 1,
+      "ItemName": "BronzeHoaSword"
+    },
+    {
+      "Count": 1,
+      "ItemName": "ElkWoodenBow"
+    }
+  ],
+  "FinishNpcIndex": 0
+}

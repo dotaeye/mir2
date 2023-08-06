@@ -1,0 +1,43 @@
+{
+  "Index": 36,
+  "NpcIndex": 0,
+  "Name": "Ingredients for Snake Wine",
+  "Group": "SerpentValley",
+  "FileName": "36",
+  "GotoMessage": "Return to InnKeeper at 517:466",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "I'm sorry but we are sold out of {SnakeWine/LightSteelBlue}.",
+    "I can make you some, But you will have to bring ",
+    "me the ingredients."
+  ],
+  "TaskDescription": [
+    "Please collect 10 {SnakeBody's/LightSteelBlue} from Snakes."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 10,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 35,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 10,
+      "Message": "",
+      "ItemName": "SnakeBody"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 800,
+  "ExpReward": 800,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 0
+}

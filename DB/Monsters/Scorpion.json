@@ -1,0 +1,52 @@
+{
+  "Index": 84,
+  "Name": "Scorpion",
+  "Image": 21,
+  "AI": 9,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 18,
+  "Light": 0,
+  "AttackSpeed": 2500,
+  "MoveSpeed": 1200,
+  "Experience": 85,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 3,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "ScorpionTail"
+    },
+    {
+      "Chance": 5,
+      "Gold": 100,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": ""
+    }
+  ],
+  "CanTame": true,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 2,
+      "MaxAC": 2,
+      "MinDC": 7,
+      "MaxDC": 16,
+      "Accuracy": 10,
+      "Agility": 15,
+      "HP": 45
+    },
+    "Count": 97
+  },
+  "GameName": "Scorpion"
+}

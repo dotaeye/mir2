@@ -1,0 +1,44 @@
+{
+  "Index": 104,
+  "NpcIndex": 0,
+  "Name": "Lost Sword",
+  "Group": "MongchonProvince",
+  "FileName": "104",
+  "GotoMessage": "Return to Charleys lost sword.",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "I went to hunt in {DeathValley/Yellow}. I ran into some ",
+    "{Tongs/Crimson} I thought it was a Boss Monster. ",
+    "While retreating I dropped my beloved Sword."
+  ],
+  "TaskDescription": [
+    "Travel to {Death Valley/Yellow} and retrieve {CharleySword/LightSteelBlue} ",
+    "by killing {Tongs/Crimson}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 24,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 1,
+      "Message": "",
+      "ItemName": "CharleySword"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 9500,
+  "ExpReward": 9500,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 0
+}

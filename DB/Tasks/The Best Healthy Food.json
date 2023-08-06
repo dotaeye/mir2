@@ -1,0 +1,46 @@
+{
+  "Index": 66,
+  "NpcIndex": 73,
+  "Name": "The Best Healthy Food",
+  "Group": "WoomyonWoods",
+  "FileName": "66",
+  "GotoMessage": "Return to MasterShok in WoomyonWoods",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "I cant really see that well. My sight is getting",
+    "worse as I age. I heard my sight will get better if",
+    "I eat bug eyes. Could you get {BugEyes/LightSteelBlue} for me?",
+    "I hear that {HoroBlaster/Crimson} and {BlueHoroBlaster/Crimson} ones",
+    "are the best."
+  ],
+  "TaskDescription": [
+    "Kill {HoroBlaster/Crimson} and {BluHoroBlaster/Crimson} and Collect ",
+    "12 {BugEye/LightSteelBlue}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 19,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 62,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 12,
+      "Message": "",
+      "ItemName": "BugEye"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 3800,
+  "ExpReward": 3800,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 73
+}

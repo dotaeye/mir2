@@ -1,0 +1,41 @@
+{
+  "Index": 137,
+  "NpcIndex": 155,
+  "Name": "Rare Medicine",
+  "Group": "MongchonProvince",
+  "FileName": "137",
+  "GotoMessage": "Return to Kevin in MongchonWall at 346:334",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Is it true? Youve been to the {Ancient Layer/Yellow}? Can",
+    "you return and Collect 17 {BloodPill/LightSteelBlue} by killing ",
+    "{AncientSnakeScorpion's/Crimson}"
+  ],
+  "TaskDescription": [],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 40,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 17,
+      "Message": "",
+      "ItemName": "BloodPill"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 88500,
+  "ExpReward": 88500,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 155
+}

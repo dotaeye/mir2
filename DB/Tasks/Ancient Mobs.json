@@ -1,0 +1,40 @@
+{
+  "Index": 131,
+  "NpcIndex": 207,
+  "Name": "Ancient Mobs",
+  "Group": "PrajnaIsland",
+  "FileName": "131",
+  "GotoMessage": "Return to the Inspector in PrajnaIsland",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [],
+  "TaskDescription": [
+    "Travel South-East to {PrajnaTemple/Yellow} and Kill 30 ",
+    "{Minotaur's/Crimson}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 35,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 30,
+      "Message": "",
+      "MonsterName": "Minotaur"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 48000,
+  "ExpReward": 48000,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 207
+}

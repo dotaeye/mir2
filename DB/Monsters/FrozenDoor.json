@@ -1,0 +1,37 @@
+{
+  "Index": 404,
+  "Name": "FrozenDoor",
+  "Image": 230,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 10,
+  "CoolEye": 0,
+  "Level": 50,
+  "Light": 0,
+  "AttackSpeed": 1000,
+  "MoveSpeed": 2000,
+  "Experience": 20000,
+  "DropPath": "",
+  "Drops": [],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 20,
+      "MaxAC": 20,
+      "MinMAC": 30,
+      "MaxMAC": 30,
+      "MinDC": 20,
+      "MaxDC": 50,
+      "Accuracy": 18,
+      "Agility": 17,
+      "HP": 6000
+    },
+    "Count": 6205
+  },
+  "GameName": "FrozenDoor"
+}

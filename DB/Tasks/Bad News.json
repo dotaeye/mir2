@@ -1,0 +1,42 @@
+{
+  "Index": 94,
+  "NpcIndex": 133,
+  "Name": "Bad News",
+  "Group": "TaoVillage",
+  "FileName": "94",
+  "GotoMessage": "Return the TraineeRing to Hubert in TaoVillage 194:297",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "After searching the {CrushedBone's/LimeGreen} it's missing ",
+    "the {TraineeRing/LightSteelBlue}."
+  ],
+  "TaskDescription": [
+    "Retrieve the {TraineeRing/LightSteelBlue} by killing {VenomSpider/Crimson}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 22,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 93,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 1,
+      "Message": "",
+      "ItemName": "TraineeRing"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 7000,
+  "ExpReward": 7000,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 133
+}

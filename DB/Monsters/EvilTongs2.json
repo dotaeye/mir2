@@ -1,0 +1,46 @@
+{
+  "Index": 162,
+  "Name": "EvilTongs2",
+  "Image": 40,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 60,
+  "Light": 0,
+  "AttackSpeed": 1800,
+  "MoveSpeed": 700,
+  "Experience": 3600,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 5,
+      "Gold": 1000,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": ""
+    }
+  ],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 20,
+      "MaxAC": 20,
+      "MinMAC": 10,
+      "MaxMAC": 10,
+      "MinDC": 22,
+      "MaxDC": 45,
+      "Accuracy": 20,
+      "Agility": 17,
+      "HP": 2000
+    },
+    "Count": 2164
+  },
+  "GameName": "EvilTongs"
+}

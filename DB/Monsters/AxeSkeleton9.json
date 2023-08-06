@@ -1,0 +1,33 @@
+{
+  "Index": 89,
+  "Name": "AxeSkeleton9",
+  "Image": 24,
+  "AI": 8,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 18,
+  "Light": 0,
+  "AttackSpeed": 2500,
+  "MoveSpeed": 1500,
+  "Experience": 140,
+  "DropPath": "",
+  "Drops": [],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinDC": 10,
+      "MaxDC": 20,
+      "Accuracy": 15,
+      "Agility": 12,
+      "HP": 100
+    },
+    "Count": 157
+  },
+  "GameName": "AxeSkeleton"
+}

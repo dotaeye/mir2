@@ -1,0 +1,59 @@
+{
+  "Index": 79,
+  "Name": "GiantKeratoid1",
+  "Image": 107,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 50,
+  "Light": 5,
+  "AttackSpeed": 1800,
+  "MoveSpeed": 600,
+  "Experience": 480,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 100,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MysteryHelmet"
+    },
+    {
+      "Chance": 100,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MysteryWheel"
+    },
+    {
+      "Chance": 100,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MysteryCircle"
+    }
+  ],
+  "CanTame": false,
+  "CanPush": false,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinMAC": 100,
+      "MaxMAC": 100,
+      "MaxDC": 80,
+      "Accuracy": 17,
+      "Agility": 20,
+      "HP": 900
+    },
+    "Count": 1217
+  },
+  "GameName": "GiantKeratoid"
+}

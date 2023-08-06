@@ -1,0 +1,37 @@
+{
+  "Index": 79,
+  "NpcIndex": 145,
+  "Name": "Darkness from the Mines",
+  "Group": "SerpentValley",
+  "FileName": "79",
+  "GotoMessage": "Search for the Darkness within the SerpentDeadMines",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "There seem's to be a Dark and Evil Aura coming ",
+    "from the {Mine/Yellow}"
+  ],
+  "TaskDescription": [
+    "Investigate the source of Evil in ",
+    "{SerpentDeadMine/Yellow}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 20,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 6000,
+  "ExpReward": 5594,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 147
+}

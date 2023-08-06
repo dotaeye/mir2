@@ -1,0 +1,45 @@
+{
+  "Index": 57,
+  "NpcIndex": 138,
+  "Name": "Collect Information",
+  "Group": "BichonProvince",
+  "FileName": "57",
+  "GotoMessage": "Take CaveReport to Kyle at the South East Gate.",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "We are getting attacked by stonger monsters ",
+    "latley. We need to get some help from {Bichon/Yellow}.",
+    "Do you think you can be the messenger to ",
+    "deliver the information of these monsters to ",
+    "{Bichon/Yellow}?"
+  ],
+  "TaskDescription": [
+    "Take {CaveReport/LightSteelBlue} to {Kyle/LimeGreen}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 17,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [
+    {
+      "Count": 2,
+      "Message": "",
+      "ItemName": "CaveReport"
+    }
+  ],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 670,
+  "ExpReward": 506,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 17
+}

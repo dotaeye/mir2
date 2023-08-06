@@ -1,0 +1,41 @@
+{
+  "Index": 95,
+  "NpcIndex": 110,
+  "Name": "Letters to Parents",
+  "Group": "TaoVillage",
+  "FileName": "95",
+  "GotoMessage": "Deliver SkysLetter to Sir.Mogu in BichonWall Tavern",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "I miss my Parent's so much. Please can you help?"
+  ],
+  "TaskDescription": [
+    "Delivery {SkysLetter/LightSteelBlue} to {Sir.Mogu/LimeGreen} in {BichonWall/Yellow}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 23,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [
+    {
+      "Count": 2,
+      "Message": "",
+      "ItemName": "SkysLetter"
+    }
+  ],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 4100,
+  "ExpReward": 1930,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 56
+}

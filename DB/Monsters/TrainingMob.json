@@ -1,0 +1,33 @@
+{
+  "Index": 8,
+  "Name": "TrainingMob",
+  "Image": 123,
+  "AI": 56,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 99,
+  "Light": 5,
+  "AttackSpeed": 2500,
+  "MoveSpeed": 1200,
+  "Experience": 0,
+  "DropPath": "",
+  "Drops": [],
+  "CanTame": false,
+  "CanPush": false,
+  "AutoRev": false,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinDC": 1,
+      "MaxDC": 1,
+      "Accuracy": 15,
+      "Agility": 15,
+      "HP": 9999
+    },
+    "Count": 10031
+  },
+  "GameName": "TrainingMob"
+}

@@ -1,0 +1,43 @@
+{
+  "Index": 24,
+  "Name": "Wimaen",
+  "Image": 10005,
+  "AI": 64,
+  "Effect": 5,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 15,
+  "Light": 0,
+  "AttackSpeed": 1200,
+  "MoveSpeed": 900,
+  "Experience": 0,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 1,
+      "Gold": 10,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": ""
+    }
+  ],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 10,
+      "MaxAC": 15,
+      "MinMAC": 10,
+      "MaxMAC": 15,
+      "Agility": 15,
+      "HP": 1500
+    },
+    "Count": 1565
+  },
+  "GameName": "Wimaen"
+}

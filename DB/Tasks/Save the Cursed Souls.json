@@ -1,0 +1,43 @@
+{
+  "Index": 85,
+  "NpcIndex": 118,
+  "Name": "Save the Cursed Souls",
+  "Group": "TaoVillage",
+  "FileName": "85",
+  "GotoMessage": "Return to MasterMK in TaoVillage",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Myths and Rumours say that Collecting ",
+    "{Zombie Heart's/LightSteelBlue} for a special Ridual.",
+    "repells them from the Area."
+  ],
+  "TaskDescription": [
+    "Collect 10 {ZombiesHeart/LightSteelBlue} from {CursedPriest's/Crimson}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 22,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 10,
+      "Message": "",
+      "ItemName": "ZombiesHeart"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 7000,
+  "ExpReward": 7000,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 118
+}

@@ -1,0 +1,84 @@
+{
+  "Index": 128,
+  "NpcIndex": 125,
+  "Name": "Returning a Book",
+  "Group": "TaoVillage",
+  "FileName": "128",
+  "GotoMessage": "Return the Book to VillageChief in PrajnaIsland",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "You found the Book.. That's fantastic news. ",
+    "It dosent look like it's been damaged. "
+  ],
+  "TaskDescription": [
+    "Return the {PrajnaHistory/LightSteelBlue} Book to {VillageChief/LimeGreen}",
+    "in {PrajnaIsland/Yellow}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 31,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 127,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [
+    {
+      "Count": 1,
+      "Message": "",
+      "ItemName": "PrajnaHistory"
+    }
+  ],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 1500,
+  "ExpReward": 3912,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [
+    {
+      "Count": 1,
+      "ItemName": "FineIronArmour(M)"
+    },
+    {
+      "Count": 1,
+      "ItemName": "FineIronArmour(F)"
+    },
+    {
+      "Count": 1,
+      "ItemName": "FireRobe(M)"
+    },
+    {
+      "Count": 1,
+      "ItemName": "FireRobe(F)"
+    },
+    {
+      "Count": 1,
+      "ItemName": "YingYangRobe(M)"
+    },
+    {
+      "Count": 1,
+      "ItemName": "YingYangRobe(F)"
+    },
+    {
+      "Count": 1,
+      "ItemName": "FlamingRedArmour(M)"
+    },
+    {
+      "Count": 1,
+      "ItemName": "FlamingRedArmour(F)"
+    },
+    {
+      "Count": 1,
+      "ItemName": "HardTemperedArmour(M)"
+    },
+    {
+      "Count": 1,
+      "ItemName": "HardTemperedArmour(F)"
+    }
+  ],
+  "FinishNpcIndex": 219
+}

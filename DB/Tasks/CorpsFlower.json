@@ -1,0 +1,45 @@
+{
+  "Index": 120,
+  "NpcIndex": 20,
+  "Name": "CorpsFlower",
+  "Group": "BichonProvince",
+  "FileName": "120",
+  "GotoMessage": "Return to Samuel in BichonWall after you retrieve all CorpsFlowers",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "My Teacher asked me to find ingredients for ",
+    "medicine. You can only get them from ",
+    "{RoninGhoul/Crimson}, but I cannot get close to them. ",
+    "Could you get some {CorpsFlower/LightSteelBlue} for me?"
+  ],
+  "TaskDescription": [
+    "Travel to PrajnaIsland and Collect 10 {CorpsFlower/LightSteelBlue} by ",
+    "hunting {RoninGhoul's/Crimson}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 28,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 10,
+      "Message": "",
+      "ItemName": "CorpsFlower"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 18500,
+  "ExpReward": 18500,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 20
+}

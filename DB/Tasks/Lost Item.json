@@ -1,0 +1,70 @@
+{
+  "Index": 71,
+  "NpcIndex": 77,
+  "Name": "Lost Item",
+  "Group": "InsectCave",
+  "FileName": "71",
+  "GotoMessage": "Return the Lost Items to Soho",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "I lost my bag because of the insects in the cave.",
+    "They took all my belongings. Could you please",
+    "get my stuff back? "
+  ],
+  "TaskDescription": [
+    "Kill {VoiletKekTal/Crimson}, {KekTal/Crimson} and {BlueHoroBlaster's/Crimson} "
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 19,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 70,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 1,
+      "Message": "",
+      "ItemName": "GatheringGlove"
+    },
+    {
+      "Count": 1,
+      "Message": "",
+      "ItemName": "GatheringTool"
+    },
+    {
+      "Count": 5,
+      "Message": "",
+      "ItemName": "GreenHerb"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 950,
+  "ExpReward": 3800,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [
+    {
+      "Count": 1,
+      "ItemName": "HardSteelSword"
+    },
+    {
+      "Count": 1,
+      "ItemName": "EbonyBangle"
+    },
+    {
+      "Count": 1,
+      "ItemName": "MonkBangle"
+    },
+    {
+      "Count": 1,
+      "ItemName": "SilkShoes"
+    }
+  ],
+  "FinishNpcIndex": 77
+}

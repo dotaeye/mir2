@@ -1,0 +1,45 @@
+{
+  "Index": 60,
+  "NpcIndex": 27,
+  "Name": "Help the Farmers",
+  "Group": "BichonProvince",
+  "FileName": "60",
+  "GotoMessage": "Return to the Examiner in BichonWall",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "There is a small farm near {Bichon/Yellow}. This farm is",
+    "being attacked by insects. The reports are",
+    "saying that these insects live in {InsectCave/Yellow}.",
+    "Could you hunt them in {InsectCave/Yellow} for me?"
+  ],
+  "TaskDescription": [
+    "Follow the Path North to {WoomyonWoods/Yellow} and",
+    "Eliminate 25 {SpiderFrog's/Crimson} in {InsectCave/Yellow}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 18,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 25,
+      "Message": "",
+      "MonsterName": "SpiderFrog"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 3100,
+  "ExpReward": 3100,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 27
+}

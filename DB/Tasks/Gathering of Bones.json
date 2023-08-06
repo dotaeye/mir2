@@ -1,0 +1,41 @@
+{
+  "Index": 141,
+  "NpcIndex": 24,
+  "Name": "Gathering of Bones",
+  "Group": "BichonProvince",
+  "FileName": "141",
+  "GotoMessage": "Return to BichonWall Board.",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "BichonWall Bounty, Has been submitted."
+  ],
+  "TaskDescription": [
+    "Travel to {OmaCave/Yellow} and collect {Skeleton Bone's/LightSteelBlue}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 15,
+  "RequiredMaxLevel": 22,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 1,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 40,
+      "Message": "Gather SkeletonBones",
+      "ItemName": "SkeletonBone"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 5000,
+  "ExpReward": 6500,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 24
+}

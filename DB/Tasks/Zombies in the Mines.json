@@ -1,0 +1,76 @@
+{
+  "Index": 54,
+  "NpcIndex": 81,
+  "Name": "Zombies in the Mines",
+  "Group": "BichonProvince",
+  "FileName": "54",
+  "GotoMessage": "Return to Blacksmith Bill in BichonWall",
+  "KillMessage": "Kill Zombies in BichonDeadMines",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "The materials I need for making weapons",
+    "can be found in {DeadMineEntrance/Yellow}, but the area ",
+    "is infested with {Zombies/Crimson}. "
+  ],
+  "TaskDescription": [
+    "Eliminate {Zombie's/Crimson} in the {Mines/Yellow}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 17,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 5,
+      "Message": "",
+      "MonsterName": "Zombie5"
+    },
+    {
+      "Count": 5,
+      "Message": "",
+      "MonsterName": "Zombie2"
+    },
+    {
+      "Count": 5,
+      "Message": "",
+      "MonsterName": "Zombie3"
+    },
+    {
+      "Count": 5,
+      "Message": "",
+      "MonsterName": "Zombie4"
+    },
+    {
+      "Count": 5,
+      "Message": "",
+      "MonsterName": "Zombie1"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 675,
+  "ExpReward": 2700,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [
+    {
+      "Count": 1,
+      "ItemName": "OldNagaNecklace"
+    },
+    {
+      "Count": 1,
+      "ItemName": "AmberPendant"
+    },
+    {
+      "Count": 1,
+      "ItemName": "WornBeadofPhoenix"
+    }
+  ],
+  "FinishNpcIndex": 81
+}

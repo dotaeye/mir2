@@ -1,0 +1,44 @@
+{
+  "Index": 124,
+  "NpcIndex": 253,
+  "Name": "Skull Collector",
+  "Group": "PrajnaIsland",
+  "FileName": "124",
+  "GotoMessage": "Return to the Collector once retrieved all the Skulls",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "I need your help. I have a Order.. A strange One. ",
+    "Can you travel to the local Cave? and collect some ",
+    "{CleanSkull's/LightSteelBlue}."
+  ],
+  "TaskDescription": [
+    "Collect 20 {CleanSkull's/LightSteelBlue} by hunting {BoneArcher's/Crimson}, ",
+    "{BoneBlademan/Crimson} and {BoneSpearman/Crimson}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 29,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 20,
+      "Message": "",
+      "ItemName": "CleanSkull"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 18500,
+  "ExpReward": 18500,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 253
+}

@@ -1,0 +1,33 @@
+{
+  "Index": 110,
+  "NpcIndex": 140,
+  "Name": "Meet with Mr.Wang",
+  "Group": "MongchonProvince",
+  "FileName": "110",
+  "GotoMessage": "Travel East to SabukWall and Speak with Mr.Wang",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Please Visit {SabukWall/Yellow} and speak with {Mr.Wang/LimeGreen}."
+  ],
+  "TaskDescription": [],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 25,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 3300,
+  "ExpReward": 1658,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 164
+}

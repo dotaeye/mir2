@@ -1,0 +1,43 @@
+{
+  "Index": 687,
+  "Name": "StaminaAid(S)",
+  "Type": 13,
+  "Grade": 0,
+  "RequiredType": 0,
+  "RequiredClass": 31,
+  "RequiredGender": 3,
+  "Set": 0,
+  "Shape": 3,
+  "Weight": 3,
+  "Light": 0,
+  "RequiredAmount": 0,
+  "Image": 424,
+  "Durability": 3,
+  "Price": 1000,
+  "StackSize": 1,
+  "StartItem": false,
+  "Effect": 0,
+  "NeedIdentify": false,
+  "ShowGroupPickup": false,
+  "GlobalDropNotify": false,
+  "ClassBased": false,
+  "LevelBased": false,
+  "CanMine": false,
+  "CanFastRun": false,
+  "CanAwakening": false,
+  "Bind": 0,
+  "Unique": 1536,
+  "RandomStatsId": 255,
+  "RandomStats": null,
+  "ToolTip": "",
+  "Slots": 0,
+  "Stats": {
+    "Values": {
+      "HP": 50
+    },
+    "Count": 50
+  },
+  "IsConsumable": true,
+  "IsFishingRod": false,
+  "FriendlyName": "StaminaAid(S)"
+}

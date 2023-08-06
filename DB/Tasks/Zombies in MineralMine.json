@@ -1,0 +1,54 @@
+{
+  "Index": 118,
+  "NpcIndex": 121,
+  "Name": "Zombies in MineralMine",
+  "Group": "TaoVillage",
+  "FileName": "118",
+  "GotoMessage": "Return to CaveGuide in TaoVillage once the threat has been reduced.",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Hello Mirian, We push these {Zombie's/Crimson} back quite ",
+    "frequently. Could you render your assistance?",
+    " "
+  ],
+  "TaskDescription": [
+    "Eliminate {CursedZombie/Crimson}, {ShiZombie/Crimson} and ",
+    "{HungryZombie's/Crimson} in {MineralMines/Yellow}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 27,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 117,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 50,
+      "Message": "Eliminate the CursedZombie Threat",
+      "MonsterName": "CursedZombie"
+    },
+    {
+      "Count": 30,
+      "Message": "Reduce the ShiZombie's",
+      "MonsterName": "ShiZombie"
+    },
+    {
+      "Count": 25,
+      "Message": "Eliminate the HungryZombie Threat",
+      "MonsterName": "HungryZombie"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 15000,
+  "ExpReward": 15000,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 121
+}

@@ -1,0 +1,33 @@
+{
+  "Index": 496,
+  "Name": "DarkPriestZombie",
+  "Image": 69,
+  "AI": 24,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 25,
+  "Light": 0,
+  "AttackSpeed": 3000,
+  "MoveSpeed": 2000,
+  "Experience": 500,
+  "DropPath": "",
+  "Drops": [],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinDC": 12,
+      "MaxDC": 16,
+      "Accuracy": 13,
+      "Agility": 15,
+      "HP": 155
+    },
+    "Count": 211
+  },
+  "GameName": "DarkPriestZombie"
+}

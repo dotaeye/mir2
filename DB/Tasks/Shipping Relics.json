@@ -1,0 +1,45 @@
+{
+  "Index": 136,
+  "NpcIndex": 253,
+  "Name": "Shipping Relics",
+  "Group": "MongchonProvince",
+  "FileName": "136",
+  "GotoMessage": "Return to the Collector in MongchonWall",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "From the rumours going around you have found",
+    "the {Ancient Layer/Yellow} in {Stone Temple/Yellow} Return and ",
+    "Collect {RelicRock's/LightSteelBlue} from the Ancient Layer of ",
+    "{StoneTemple/Yellow}"
+  ],
+  "TaskDescription": [
+    "Kill {AncientRedBoars/Crimson}, {AncientBlackBoars/Crimson} and ",
+    "{AncientWhiteBoar's/Crimson} for {RelicRock's/LightSteelBlue}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 39,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 135,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 20,
+      "Message": "",
+      "ItemName": "RelicRock"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 78000,
+  "ExpReward": 78000,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 253
+}

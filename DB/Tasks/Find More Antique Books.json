@@ -1,0 +1,47 @@
+{
+  "Index": 109,
+  "NpcIndex": 253,
+  "Name": "Find More Antique Books",
+  "Group": "MongchonProvince",
+  "FileName": "109",
+  "GotoMessage": "Return the Books back to Collector in MongchonWall",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Hello Mirian, I'm still missing {Volume 1/LightSteelBlue} and {2/LightSteelBlue}, "
+  ],
+  "TaskDescription": [
+    "Please return to the {Hidden Entrance/Yellow} ",
+    "And retrieve {Volume 1/LightSteelBlue} and {2/LightSteelBlue}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 25,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 108,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 1,
+      "Message": "",
+      "ItemName": "BichonTales(1)"
+    },
+    {
+      "Count": 1,
+      "Message": "",
+      "ItemName": "BichonTales(2)"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 10000,
+  "ExpReward": 10000,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 253
+}

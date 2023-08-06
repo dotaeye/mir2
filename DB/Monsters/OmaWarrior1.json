@@ -1,0 +1,59 @@
+{
+  "Index": 53,
+  "Name": "OmaWarrior1",
+  "Image": 18,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 50,
+  "Light": 10,
+  "AttackSpeed": 1800,
+  "MoveSpeed": 600,
+  "Experience": 1000,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 100,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MysteryHelmet"
+    },
+    {
+      "Chance": 100,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MysteryWheel"
+    },
+    {
+      "Chance": 100,
+      "Gold": 0,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": "MysteryCircle"
+    }
+  ],
+  "CanTame": false,
+  "CanPush": false,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 100,
+      "MaxAC": 100,
+      "MaxDC": 80,
+      "Accuracy": 20,
+      "Agility": 17,
+      "HP": 900
+    },
+    "Count": 1217
+  },
+  "GameName": "OmaWarrior"
+}

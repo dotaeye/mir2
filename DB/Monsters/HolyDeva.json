@@ -1,0 +1,38 @@
+{
+  "Index": 12,
+  "Name": "HolyDeva",
+  "Image": 117,
+  "AI": 38,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 30,
+  "Light": 2,
+  "AttackSpeed": 2000,
+  "MoveSpeed": 800,
+  "Experience": 15,
+  "DropPath": "",
+  "Drops": [],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 30,
+      "MaxAC": 30,
+      "MinMAC": 38,
+      "MaxMAC": 38,
+      "MinDC": 23,
+      "MaxDC": 35,
+      "MinMC": 1,
+      "Accuracy": 15,
+      "Agility": 15,
+      "HP": 1200
+    },
+    "Count": 1425
+  },
+  "GameName": "HolyDeva"
+}

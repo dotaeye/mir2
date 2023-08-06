@@ -1,0 +1,41 @@
+{
+  "Index": 130,
+  "NpcIndex": 119,
+  "Name": "Wanted!",
+  "Group": "TaoVillage",
+  "FileName": "130",
+  "GotoMessage": "Return to the Investigator in TaoVillage",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Are you interested in a Bounty?"
+  ],
+  "TaskDescription": [
+    "Find and Eliminate {EvilBigApe/LightSteelBlue} in {RedValley/Yellow}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 34,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 1,
+      "Message": "",
+      "MonsterName": "EvilBigApe"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 40000,
+  "ExpReward": 40000,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 119
+}

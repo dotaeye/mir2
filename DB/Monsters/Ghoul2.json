@@ -1,0 +1,46 @@
+{
+  "Index": 120,
+  "Name": "Ghoul2",
+  "Image": 74,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 50,
+  "Light": 0,
+  "AttackSpeed": 2800,
+  "MoveSpeed": 1500,
+  "Experience": 900,
+  "DropPath": "",
+  "Drops": [
+    {
+      "Chance": 5,
+      "Gold": 2000,
+      "GroupedDrop": null,
+      "Type": 0,
+      "QuestRequired": false,
+      "ItemName": ""
+    }
+  ],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 3,
+      "MaxAC": 3,
+      "MinMAC": 3,
+      "MaxMAC": 3,
+      "MinDC": 18,
+      "MaxDC": 28,
+      "Accuracy": 15,
+      "Agility": 15,
+      "HP": 500
+    },
+    "Count": 588
+  },
+  "GameName": "Ghoul"
+}

@@ -1,0 +1,52 @@
+{
+  "Index": 122,
+  "NpcIndex": 0,
+  "Name": "Skeleton Hunt 1",
+  "Group": "PrajnaIsland",
+  "FileName": "122",
+  "GotoMessage": "Return to MirGuide Edward in PrajnaIsland",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "{Prajna Cave/Yellow} is where lots of Warriors died",
+    "fighting the monsters. A couple years ago, ",
+    "we have seen these dead Warriors brought back to ",
+    "life, but they do not remember a thing and ",
+    "attack everyone that enters the cave. ",
+    "Please help Eliminate them."
+  ],
+  "TaskDescription": [
+    "Head East to the {PrajnaStoneCave/Yellow} and Eliminate ",
+    "15 {BoneArcher's/Crimson} and 15 {BoneSpearman/Crimson}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 28,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 121,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 15,
+      "Message": "",
+      "MonsterName": "BoneArcher"
+    },
+    {
+      "Count": 15,
+      "Message": "",
+      "MonsterName": "BoneSpearman"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 19500,
+  "ExpReward": 19500,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 0
+}

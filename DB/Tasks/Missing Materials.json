@@ -1,0 +1,49 @@
+{
+  "Index": 84,
+  "NpcIndex": 126,
+  "Name": "Missing Materials",
+  "Group": "TaoVillage",
+  "FileName": "84",
+  "GotoMessage": "Return to Sam in TaoVillage with the Materials",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Have you ever heard of {TreePath/Yellow}? It's such a ",
+    "great place to gather resources. Please travel ",
+    "there and collect the materials I require."
+  ],
+  "TaskDescription": [
+    "Please collect 10 {RedThread's/LightSteelBlue} and {BlackThread's/LightSteelBlue}",
+    "by killing {VenomSpider's/Crimson} and {GreatSpider's/Crimson}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 21,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 83,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 10,
+      "Message": "",
+      "ItemName": "RedThread"
+    },
+    {
+      "Count": 10,
+      "Message": "",
+      "ItemName": "BlackThread"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 5900,
+  "ExpReward": 5900,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 126
+}

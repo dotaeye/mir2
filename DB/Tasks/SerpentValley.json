@@ -1,0 +1,38 @@
+{
+  "Index": 35,
+  "NpcIndex": 58,
+  "Name": "SerpentValley",
+  "Group": "BichonProvince",
+  "FileName": "35",
+  "GotoMessage": "Travel to SerpentValley and Speak to the InnKeeper",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Have you heard of {SnakeWine/LightSteelBlue}? This Wine is made ",
+    "with {Red Snake/Crimson} and {Striped Snakes/Crimson}. I had this ",
+    "once near the {SerpentValley/Yellow} and i still can't ",
+    "forget the taste of it."
+  ],
+  "TaskDescription": [
+    "Please go purchase some {SnakeWine/LightSteelBlue} from {Mary/LimeGreen}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 10,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 27,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 600,
+  "ExpReward": 411,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 58
+}

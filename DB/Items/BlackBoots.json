@@ -1,0 +1,43 @@
+{
+  "Index": 623,
+  "Name": "BlackBoots",
+  "Type": 10,
+  "Grade": 1,
+  "RequiredType": 0,
+  "RequiredClass": 31,
+  "RequiredGender": 3,
+  "Set": 0,
+  "Shape": 0,
+  "Weight": 3,
+  "Light": 0,
+  "RequiredAmount": 24,
+  "Image": 563,
+  "Durability": 10000,
+  "Price": 8000,
+  "StackSize": 1,
+  "StartItem": false,
+  "Effect": 0,
+  "NeedIdentify": false,
+  "ShowGroupPickup": false,
+  "GlobalDropNotify": false,
+  "ClassBased": false,
+  "LevelBased": false,
+  "CanMine": false,
+  "CanFastRun": false,
+  "CanAwakening": false,
+  "Bind": 0,
+  "Unique": 0,
+  "RandomStatsId": 8,
+  "RandomStats": null,
+  "ToolTip": "",
+  "Slots": 0,
+  "Stats": {
+    "Values": {
+      "WearWeight": 6
+    },
+    "Count": 6
+  },
+  "IsConsumable": false,
+  "IsFishingRod": false,
+  "FriendlyName": "BlackBoots"
+}

@@ -1,0 +1,35 @@
+{
+  "Index": 88,
+  "NpcIndex": 120,
+  "Name": "Zombies Attack on Carriage",
+  "Group": "TaoVillage",
+  "FileName": "88",
+  "GotoMessage": "Return to LeadTrainer at 227:269 ",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Report that the Carriage was attacked."
+  ],
+  "TaskDescription": [
+    "Return to the {LeadTrainer/LimeGreen}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 22,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 87,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 3500,
+  "ExpReward": 1930,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 125
+}

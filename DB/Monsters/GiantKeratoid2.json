@@ -1,0 +1,36 @@
+{
+  "Index": 80,
+  "Name": "GiantKeratoid2",
+  "Image": 107,
+  "AI": 0,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 50,
+  "Light": 5,
+  "AttackSpeed": 2000,
+  "MoveSpeed": 800,
+  "Experience": 10,
+  "DropPath": "",
+  "Drops": [],
+  "CanTame": false,
+  "CanPush": false,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 15,
+      "MaxAC": 15,
+      "MinMAC": 10,
+      "MaxMAC": 10,
+      "MaxDC": 40,
+      "Accuracy": 15,
+      "Agility": 20,
+      "HP": 300
+    },
+    "Count": 425
+  },
+  "GameName": "GiantKeratoid"
+}

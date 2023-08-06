@@ -1,0 +1,67 @@
+{
+  "Index": 100,
+  "NpcIndex": 75,
+  "Name": "Deadly Attack",
+  "Group": "WoomyonWoods",
+  "FileName": "100",
+  "GotoMessage": "Return to SubjagationManager in BichonWall with an update.",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "We have been receiving new report's.",
+    "There is a New type of creature in the {Temple/Yellow}."
+  ],
+  "TaskDescription": [
+    "Eliminate 30 {WoomaWarrior's/Crimson} and a ",
+    "{WoomaGaurdian/Crimson} and return his {Horn/LightSteelBlue}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 23,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 99,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 30,
+      "Message": "",
+      "MonsterName": "WoomaWarrior"
+    },
+    {
+      "Count": 1,
+      "Message": "",
+      "MonsterName": "WoomaGuardian"
+    }
+  ],
+  "ItemTasks": [
+    {
+      "Count": 1,
+      "Message": "",
+      "ItemName": "WoomasHorn"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 11000,
+  "ExpReward": 11000,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [
+    {
+      "Count": 1,
+      "ItemName": "BlueJadePendant"
+    },
+    {
+      "Count": 1,
+      "ItemName": "WizardRing"
+    },
+    {
+      "Count": 1,
+      "ItemName": "RingOfMoral"
+    }
+  ],
+  "FinishNpcIndex": 75
+}

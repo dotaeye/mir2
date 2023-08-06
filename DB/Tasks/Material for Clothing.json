@@ -1,0 +1,44 @@
+{
+  "Index": 83,
+  "NpcIndex": 136,
+  "Name": "Material for Clothing",
+  "Group": "SerpentValley",
+  "FileName": "83",
+  "GotoMessage": "Travel to TaoVillage and speak to Sam at 206:319",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Good to see you again traveler. Please can you ",
+    "take this order to {Sam/LimeGreen} the Drapery Merchant in ",
+    "{TaoVillage/Yellow}."
+  ],
+  "TaskDescription": [
+    "Head North through {WoomyonWoods/Yellow} and deliver ",
+    "the {TraineeSuit/LightSteelBlue} to {Drapery Sam/LimeGreen}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 21,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [
+    {
+      "Count": 2,
+      "Message": "",
+      "ItemName": "TraineeSuit"
+    }
+  ],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 4425,
+  "ExpReward": 2538,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 126
+}

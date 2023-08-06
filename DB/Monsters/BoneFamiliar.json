@@ -1,0 +1,37 @@
+{
+  "Index": 9,
+  "Name": "BoneFamiliar",
+  "Image": 78,
+  "AI": 23,
+  "Effect": 0,
+  "ViewRange": 7,
+  "CoolEye": 0,
+  "Level": 15,
+  "Light": 0,
+  "AttackSpeed": 1500,
+  "MoveSpeed": 1500,
+  "Experience": 0,
+  "DropPath": "",
+  "Drops": [],
+  "CanTame": false,
+  "CanPush": true,
+  "AutoRev": true,
+  "Undead": false,
+  "HasSpawnScript": false,
+  "HasDieScript": false,
+  "Stats": {
+    "Values": {
+      "MinAC": 2,
+      "MaxAC": 4,
+      "MinMAC": 3,
+      "MaxMAC": 6,
+      "MinDC": 12,
+      "MaxDC": 23,
+      "Accuracy": 20,
+      "Agility": 20,
+      "HP": 140
+    },
+    "Count": 230
+  },
+  "GameName": "BoneFamiliar"
+}

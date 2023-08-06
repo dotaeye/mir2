@@ -1,0 +1,43 @@
+{
+  "Index": 75,
+  "NpcIndex": 0,
+  "Name": "Wipe Out",
+  "Group": "SerpentValley",
+  "FileName": "75",
+  "GotoMessage": "Return to Chandler in SerpentValley",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Have you heard of the {SerpentDeadMine/Yellow}? I keep ",
+    "hearing chain's. coming from the Mine its ",
+    "driving me mad."
+  ],
+  "TaskDescription": [
+    "Eliminate 15 {ChainGhoul's/Crimson}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 20,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 15,
+      "Message": "",
+      "MonsterName": "ChainGhoul"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 4800,
+  "ExpReward": 4800,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 0
+}

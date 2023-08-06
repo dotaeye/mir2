@@ -1,0 +1,38 @@
+{
+  "Index": 24,
+  "NpcIndex": 0,
+  "Name": "Help Blacksmith Jang",
+  "Group": "BichonProvince",
+  "FileName": "24",
+  "GotoMessage": "Speak to Blacksmith Jang in WoomyonWoods",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "{Blacksmith Jang/LimeGreen}, has requested some help.",
+    "Please can you go speak to him he is located",
+    "in {WoomyonWoods/Yellow} If you follow the path North",
+    "it will lead you to {WoomyonWoods/Yellow} town."
+  ],
+  "TaskDescription": [
+    "Travel to {WoomyonWoods/Yellow} and speak to {Jang/LimeGreen}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 7,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 23,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 200,
+  "ExpReward": 120,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 0
+}

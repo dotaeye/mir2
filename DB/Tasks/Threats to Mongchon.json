@@ -1,0 +1,51 @@
+{
+  "Index": 114,
+  "NpcIndex": 162,
+  "Name": "Threats to Mongchon",
+  "Group": "MongchonProvince",
+  "FileName": "114",
+  "GotoMessage": "Return to MongchonDelegate in MongchonWall",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Welcome to {MongchonProvince/Yellow}. ",
+    "We have been getting attacked by Boar looking ",
+    "monsters. We got reports that these mobs are ",
+    "coming from the {Underground Tomb/Yellow}. Can you ",
+    "go there and eliminate the monsters?"
+  ],
+  "TaskDescription": [
+    "Eliminate 15 {BlackBoar/Crimson} and {RedBoar's/Crimson} in ",
+    "{StoneTomb/Yellow}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 26,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 15,
+      "Message": "",
+      "MonsterName": "BlackBoar"
+    },
+    {
+      "Count": 15,
+      "Message": "",
+      "MonsterName": "RedBoar"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 13500,
+  "ExpReward": 13500,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 162
+}

@@ -1,0 +1,50 @@
+{
+  "Index": 132,
+  "NpcIndex": 219,
+  "Name": "Mobs from Prajna",
+  "Group": "PrajnaIsland",
+  "FileName": "132",
+  "GotoMessage": "Return to the VillageChief in PrajnaIsland",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [],
+  "TaskDescription": [
+    "Eliminate 20 {WindMinotaur/Crimson}, {ElecMinotaur/Crimson}, ",
+    "{FireMinotaur/Crimson} and {IceMinotaur/Crimson}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 36,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 20,
+      "Message": "",
+      "MonsterName": "FireMinotaur"
+    },
+    {
+      "Count": 20,
+      "Message": "",
+      "MonsterName": "IceMinotaur"
+    },
+    {
+      "Count": 20,
+      "Message": "",
+      "MonsterName": "WindMinotaur"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 54000,
+  "ExpReward": 54000,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 219
+}

@@ -1,0 +1,47 @@
+{
+  "Index": 28,
+  "NpcIndex": 20,
+  "Name": "Find the Web",
+  "Group": "BichonProvince",
+  "FileName": "28",
+  "GotoMessage": "Return to Samuel at 324:291",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Hello traveller. You are quite famous around ",
+    "here. Could you help me as well? ",
+    "The demand for medicine has been increasing, ",
+    "and we are short on the ingredients for the ",
+    "medicine. We are especially short on {Web's/LightSteelBlue} ",
+    "which can be found from {SpittingSpiders/Crimson} could you ",
+    "please get some for me?"
+  ],
+  "TaskDescription": [
+    "Please collect 10 {Web's/LightSteelBlue} from {SpittingSpider's/Crimson}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 10,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 10,
+      "Message": "",
+      "ItemName": "Web"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 500,
+  "ExpReward": 500,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 20
+}

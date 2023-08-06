@@ -1,0 +1,71 @@
+{
+  "Index": 81,
+  "NpcIndex": 145,
+  "Name": "Dark Shadow",
+  "Group": "SerpentValley",
+  "FileName": "81",
+  "GotoMessage": "Return to Dr.Kim in SerpentValley",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Traveler Please return to the {SerpentDeadMines/Yellow} ",
+    "and complete the task which was on the ",
+    "{HiddenScroll/LightSteelBlue}. "
+  ],
+  "TaskDescription": [
+    "Eliminate {RotShamanZombie's/Crimson} and retrieve ",
+    "{HeartOfDead/LightSteelBlue} from the {HiGreatGhoul/Crimson}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 20,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 80,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 20,
+      "Message": "",
+      "MonsterName": "RotShamanZombie"
+    }
+  ],
+  "ItemTasks": [
+    {
+      "Count": 1,
+      "Message": "",
+      "ItemName": "HeartOfDead"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 4800,
+  "ExpReward": 4800,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [
+    {
+      "Count": 1,
+      "ItemName": "MartialSabre"
+    },
+    {
+      "Count": 1,
+      "ItemName": "SpearWithHook"
+    },
+    {
+      "Count": 1,
+      "ItemName": "KeenKrissSword"
+    },
+    {
+      "Count": 1,
+      "ItemName": "BlackIronCrowSwords"
+    },
+    {
+      "Count": 1,
+      "ItemName": "ToughLongBow"
+    }
+  ],
+  "FinishNpcIndex": 145
+}

@@ -1,0 +1,38 @@
+{
+  "Index": 43,
+  "NpcIndex": 0,
+  "Name": "Help Needed",
+  "Group": "BichonProvince",
+  "FileName": "43",
+  "GotoMessage": "Speak to Robert in SerpentValley",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Do you know where {SerpentValley/Yellow} is? It's a",
+    "small town northwest of here. {Robert/LimeGreen} in that",
+    "town is looking for some help. ",
+    "Are you interested?"
+  ],
+  "TaskDescription": [
+    "Speak to {Robert/LimeGreen} in {SerpentValley/Yellow}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 13,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 925,
+  "ExpReward": 672,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 135
+}

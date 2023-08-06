@@ -1,0 +1,39 @@
+{
+  "Index": 7,
+  "NpcIndex": 3,
+  "Name": "Meet the Warrior Instructor",
+  "Group": "BichonProvince",
+  "FileName": "7",
+  "GotoMessage": "Speak to Master_Wa at 110:317",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Hello young traveller. Have you heard",
+    "of the Warrior Instructor in this region?",
+    "He is the master of all Warriors. I hear",
+    "hes been looking for a new disciple lately.",
+    "It could be a rumor."
+  ],
+  "TaskDescription": [
+    "Speak with {Master_Wa/LimeGreen} at Coordinates 110:317"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 4,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 1,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 60,
+  "ExpReward": 48,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 10
+}

@@ -1,0 +1,44 @@
+{
+  "Index": 65,
+  "NpcIndex": 159,
+  "Name": "Revenge on Zombies",
+  "Group": "BichonProvince",
+  "FileName": "65",
+  "GotoMessage": "Return to Eddie in BichonWall at 298:317",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "Hello traveller, One of the {Zombies/Crimson} killed my pet ",
+    "a couple days ago. Please help me with my ",
+    "revenge on the {Zombies/Crimson}!"
+  ],
+  "TaskDescription": [
+    "Eliminate 30 {Shaman Zombies/Crimson} in ",
+    "{BichonDeadMines/Yellow}."
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 18,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [
+    {
+      "Count": 30,
+      "Message": "",
+      "MonsterName": "Zombie1"
+    }
+  ],
+  "ItemTasks": [],
+  "FlagTasks": [],
+  "GoldReward": 3000,
+  "ExpReward": 3000,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 159
+}

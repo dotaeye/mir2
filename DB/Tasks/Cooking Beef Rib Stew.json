@@ -1,0 +1,43 @@
+{
+  "Index": 96,
+  "NpcIndex": 0,
+  "Name": "Cooking Beef Rib Stew",
+  "Group": "BichonProvince",
+  "FileName": "96",
+  "GotoMessage": "Deliver BeefRib to Butcher Han in WoomyonWoods",
+  "KillMessage": "",
+  "ItemMessage": "",
+  "FlagMessage": "",
+  "Description": [
+    "The {Butcher/LimeGreen} in {WoomyonWoods/Yellow} just opened a",
+    "new store. He asked me for some help. "
+  ],
+  "TaskDescription": [
+    "Collect 10 {BeefRib/LightSteelBlue} by Killing {WoomaSoldier's/Crimson}",
+    "and deliver to the {Butcher/LimeGreen} in {WoomyonWoods/Yellow}"
+  ],
+  "ReturnDescription": [],
+  "CompletionDescription": [],
+  "RequiredMinLevel": 23,
+  "RequiredMaxLevel": 255,
+  "RequiredQuest": 0,
+  "RequiredClass": 31,
+  "Type": 0,
+  "TimeLimitInSeconds": 0,
+  "CarryItems": [],
+  "KillTasks": [],
+  "ItemTasks": [
+    {
+      "Count": 10,
+      "Message": "",
+      "ItemName": "BeefRib"
+    }
+  ],
+  "FlagTasks": [],
+  "GoldReward": 8200,
+  "ExpReward": 8200,
+  "CreditReward": 0,
+  "FixedRewards": [],
+  "SelectRewards": [],
+  "FinishNpcIndex": 70
+}
